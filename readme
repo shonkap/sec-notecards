@@ -1,0 +1,119 @@
+# Sec+ Flashcard Data Formatting & Contribution Guide
+
+This document defines the schema, formatting standards, and prompt guidelines for adding new flashcard datasets to the CompTIA Sec+ (SY0-701) application.
+
+## Overview
+
+All flashcard files must be exported as a valid raw JSON array of objects. Choose the appropriate schema below based on topic depth and metadata needs.
+
+---
+
+## JSON Schemas
+
+### Schema 1: Enhanced 3-Field Schema (Recommended)
+
+Use this format for cryptography, PKI, protocols, ports, and standards where metadata adds important context such as port numbers, recommended replacements, or operational roles.
+
+```json
+[
+  {
+    "abbreviation": "Term / Acronym / Port",
+    "protocol": "Category / Standard / Port Number",
+    "description": "Security Goal Tag | Concise definition focused on Sec+ exam objectives."
+  }
+]
+```
+
+#### Field specifications
+
+- `abbreviation` (string, required): Main term, acronym, or protocol header shown on the front of the card. Example: `AES-GCM`
+- `protocol` (string, required): Subtitle badge indicating key size, category, port, or recommendation level. Example: `Best: 256-bit Key Space`
+- `description` (string, required): Back-of-card content. It should begin with a primary security tag and include a brief 1–2 sentence definition. Example: `Confidentiality | Symmetric block cipher...`
+
+### Schema 2: Standard 2-Field Schema
+
+Use this for general vocabulary lists, basic acronym expansions, and straightforward definitions.
+
+```json
+[
+  {
+    "abbreviation": "Term / Acronym",
+    "description": "Full Expansion - Detailed definition and key security details."
+  }
+]
+```
+
+---
+
+## Content & Style Rules
+
+To keep the flashcards consistent across the app, follow these guidelines:
+
+- Security goal tags: Always prefix the description with a primary objective tag when applicable.
+  - Confidentiality
+  - Integrity
+  - Authentication
+  - Non-repudiation
+  - Key Protection
+  - DEPRECATED (required for legacy or insecure technologies such as MD5, SHA-1, WEP, DES, and SSL 3.0)
+- Brevity: Keep descriptions under 35 words so the card text renders clearly without shrinking the font.
+- CompTIA focus: Emphasize practical exam distinctions such as Salt vs. Pepper, CRL vs. OCSP Stapling, and Symmetric vs. Asymmetric key distribution.
+
+---
+
+## Prompt Template for Generating Cards
+
+Copy and paste the following prompt into an AI assistant to convert study notes or raw text into app-ready JSON:
+
+```text
+Act as a JSON data formatter for a CompTIA Sec+ flashcard app.
+Convert the provided topics into a raw JSON array matching this structure:
+
+[
+  {
+    "abbreviation": "TERM OR ACRONYM",
+    "protocol": "CATEGORY / PORT / RECOMMENDATION BADGE",
+    "description": "SECURITY TAG | Concise definition tailored to CompTIA Sec+ (max 30 words)."
+  }
+]
+
+Rules:
+1. Return ONLY valid, parseable JSON without commentary.
+2. Label deprecated protocols (e.g., MD5, SHA-1, WEP) with DEPRECATED in the description.
+3. Escape all internal quotes properly.
+
+Data to convert:
+[INSERT YOUR STUDY NOTES / TERMS HERE]
+```
+
+---
+
+## Example Card Objects
+
+```json
+[
+  {
+    "abbreviation": "OCSP Stapling",
+    "protocol": "Current Gold Standard",
+    "description": "Privacy & Speed | Web server queries the OCSP responder directly and staples the signed timestamp to the TLS handshake, eliminating CA query bottlenecks."
+  },
+  {
+    "abbreviation": "MD5",
+    "protocol": "DEPRECATED (128-bit)",
+    "description": "DEPRECATED | Legacy cryptographic hash function vulnerable to high-probability collision attacks. Replaced by SHA-256 and SHA-3."
+  }
+]
+```
+
+---
+
+## Quick Checklist
+
+Before submitting a new dataset, confirm that:
+
+- The file is valid JSON
+- It is a raw array of objects
+- Each object uses the correct schema
+- Security tags are included where relevant
+- Descriptions are concise and exam-focused
+- Deprecated technologies are clearly marked
