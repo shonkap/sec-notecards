@@ -1,0 +1,42 @@
+[
+  {
+    "abbreviation": "X.509",
+    "protocol": "Standard Certificate Spec",
+    "description": "International standard defining the format of public key certificates, specifying fields like Serial Number, Signature Algorithm, Issuer, Validity Period, and Subject."
+  },
+  {
+    "abbreviation": "SAN",
+    "protocol": "Subject Alternative Name",
+    "description": "Certificate Extension | Allows a single SSL/TLS certificate to secure multiple domain names (e.g., example.com, example.net, and sub.example.com)."
+  },
+  {
+    "abbreviation": "Wildcard Cert",
+    "protocol": "Best: Multi-subdomain single cert",
+    "description": "Certificate that covers a base domain and all first-level subdomains using an asterisk (e.g., *.example.com covers dev.example.com and mail.example.com)."
+  },
+  {
+    "abbreviation": "Self-Signed Cert",
+    "protocol": "Internal Dev / Testing Only",
+    "description": "Certificate signed by the entity creating it rather than a trusted CA. Triggers browser security warnings; never use in public production."
+  },
+  {
+    "abbreviation": "PEM",
+    "protocol": "ASCII Text Format (.pem, .crt, .cer)",
+    "description": "Base64 encoded ASCII text certificate format starting with '-----BEGIN CERTIFICATE-----'. Standard for Web/Linux servers (Apache, Nginx)."
+  },
+  {
+    "abbreviation": "DER",
+    "protocol": "Binary Format (.der, .cer)",
+    "description": "Distinguished Encoding Rules | Raw binary encoded certificate format. Common in Java environments and Windows platforms."
+  },
+  {
+    "abbreviation": "PFX / P12",
+    "protocol": "PKCS#12 Archive (.pfx, .p12)",
+    "description": "Binary archive format used to store both the Public Certificate AND Private Key in a single password-protected file. Used in Windows/IIS."
+  },
+  {
+    "abbreviation": "P7B",
+    "protocol": "PKCS#7 Format (.p7b)",
+    "description": "Base64 ASCII format that contains certificates and chain certificates, but NEVER contains the private key."
+  }
+]

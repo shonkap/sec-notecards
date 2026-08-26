@@ -1,0 +1,20 @@
+[
+  { "abbreviation": "OS", "description": "Operating System - Core software managing computer hardware, software resources, and fundamental system operations." },
+  { "abbreviation": "BIOS", "description": "Basic Input/Output System - Legacy firmware initializing hardware components during startup and providing runtime services for the OS." },
+  { "abbreviation": "UEFI", "description": "Unified Extensible Firmware Interface - Modern firmware interface replacing BIOS, offering Secure Boot, faster startup, and support for larger storage drives." },
+  { "abbreviation": "TPM", "description": "Trusted Platform Module - Dedicated cryptographic hardware chip on the motherboard storing encryption keys, passwords, and digital certificates." },
+  { "abbreviation": "HSM", "description": "Hardware Security Module - Physical computing appliance designed to securely manage, process, and safeguard enterprise cryptographic keys." },
+  { "abbreviation": "CPU", "description": "Central Processing Unit - Primary processor performing arithmetic, logical, and control operations to execute system instructions." },
+  { "abbreviation": "GPU", "description": "Graphics Processing Unit - Specialized circuit designed for rapid memory manipulation to accelerate parallel processing and graphics rendering." },
+  { "abbreviation": "RAM", "description": "Random Access Memory - Fast, volatile primary storage used by the operating system to hold active data and running program instructions." },
+  { "abbreviation": "ROM", "description": "Read-Only Memory - Non-volatile permanent storage used to retain critical startup instructions and firmware even when powered off." },
+  { "abbreviation": "SSD", "description": "Solid-State Drive - Fast, non-volatile storage device utilizing flash memory chips with no moving mechanical parts." },
+  { "abbreviation": "HDD", "description": "Hard Disk Drive - Legacy non-volatile storage device reading and writing data to spinning magnetic platters." },
+  { "abbreviation": "RAID", "description": "Redundant Array of Independent Disks - Technology combining multiple physical hard drives into a single logical unit for redundancy, performance, or both." },
+  { "abbreviation": "USB", "description": "Universal Serial Bus - Standardized hardware interface for connecting peripheral devices and transferring power or data." },
+  { "abbreviation": "UAC", "description": "User Account Control - Windows security feature prompting users for permission or admin credentials before executing high-privilege system actions." },
+  { "abbreviation": "ACL", "description": "Access Control List - Table of permissions telling an operating system or firewall which access rights users or processes have to specific objects." },
+  { "abbreviation": "NTFS", "description": "New Technology File System - Primary Windows file system featuring native journaling, access control lists (ACLs), and file-level encryption support." },
+  { "abbreviation": "EFS", "description": "Encrypting File System - Native Windows feature providing transparent file and folder level encryption directly within the NTFS file system." },
+  { "abbreviation": "SELinux", "description": "Security-Enhanced Linux - Linux kernel security module enforcing Mandatory Access Control (MAC) policies to restrict system applications and services." }
+]

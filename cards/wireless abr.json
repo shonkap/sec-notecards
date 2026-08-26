@@ -1,0 +1,16 @@
+[
+  { "abbreviation": "AP", "description": "Access Point - Networking hardware device allowing Wi-Fi devices to connect to a wired network." },
+  { "abbreviation": "WAP", "description": "Wireless Access Point - Device configured to transmit and receive RF signals for wireless device access." },
+  { "abbreviation": "SSID", "description": "Service Set Identifier - Unique technical name broadcasting and identifying a specific 802.11 wireless network." },
+  { "abbreviation": "BSSID", "description": "Basic Service Set Identifier - MAC address of the radio interface of a specific Wireless Access Point." },
+  { "abbreviation": "WPA", "description": "Wi-Fi Protected Access - Intermediate wireless security protocol created to fix severe security flaws in WEP." },
+  { "abbreviation": "WPA2", "description": "Wi-Fi Protected Access 2 - Standard wireless security protocol implementing robust AES-CCMP encryption." },
+  { "abbreviation": "WPA3", "description": "Wi-Fi Protected Access 3 - Modern wireless protocol introducing SAE authentication and enhanced key protection." },
+  { "abbreviation": "WEP", "description": "Wired Equivalent Privacy - Legacy 802.11 security protocol broken due to weak initialization vectors." },
+  { "abbreviation": "WPS", "description": "Wi-Fi Protected Setup - Insecure wireless network setup feature vulnerable to brute-force PIN calculation attacks." },
+  { "abbreviation": "PSK", "description": "Pre-Shared Key - Shared passphrase used for Wi-Fi authentication in WPA/WPA2 Personal mode." },
+  { "abbreviation": "SAE", "description": "Simultaneous Authentication of Equals - Secure key exchange protocol replacing PSK in WPA3 to defeat offline dictionary attacks." },
+  { "abbreviation": "RFID", "description": "Radio-Frequency Identification - Technology using electromagnetic fields to identify and track tags attached to objects." },
+  { "abbreviation": "NFC", "description": "Near-Field Communication - Short-range wireless standard allowing communication within 4 cm for mobile payments." },
+  { "abbreviation": "BLE", "description": "Bluetooth Low Energy - Power-conserving variant of Bluetooth designed for low-bandwidth IoT sensor applications." }
+]
