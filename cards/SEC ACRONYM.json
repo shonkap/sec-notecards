@@ -1,0 +1,1737 @@
+[
+  {
+    "abbreviation": "3DES",
+    "protocol": "Encryption / Symmetric",
+    "description": "ENCRYPTION | Triple Data Encryption Standard. Symmetric block cipher applying the DES algorithm three times. DEPRECATED."
+  },
+  {
+    "abbreviation": "AAA",
+    "protocol": "Access Control / Management",
+    "description": "ACCESS CONTROL | Authentication, Authorization, and Accounting. Framework for controlling access, enforcing policies, and tracking user activity."
+  },
+  {
+    "abbreviation": "ABAC",
+    "protocol": "Access Control",
+    "description": "ACCESS CONTROL | Attribute-based Access Control. Access decision based on attributes of the user, environment, and resource."
+  },
+  {
+    "abbreviation": "ACL",
+    "protocol": "Access Control / Networking",
+    "description": "ACCESS CONTROL | Access Control List. Rules used to permit or deny traffic or user access to resources."
+  },
+  {
+    "abbreviation": "AES",
+    "protocol": "Encryption / Symmetric",
+    "description": "ENCRYPTION | Advanced Encryption Standard. Symmetric 128, 192, or 256-bit block cipher widely used for secure data protection."
+  },
+  {
+    "abbreviation": "AES256",
+    "protocol": "Encryption / Symmetric",
+    "description": "ENCRYPTION | Advanced Encryption Standard 256-bit. Symmetric encryption using a 256-bit key length for high security."
+  },
+  {
+    "abbreviation": "AH",
+    "protocol": "IPsec Protocol / Port 50",
+    "description": "PROTOCOL | Authentication Header. IPsec protocol providing connectionless integrity and data origin authentication."
+  },
+  {
+    "abbreviation": "ALE",
+    "protocol": "Risk Management",
+    "description": "RISK | Annualized Loss Expectancy. Expected monetary loss from a risk over a one-year period ($ALE = SLE \\times ARO$)."
+  },
+  {
+    "abbreviation": "AP",
+    "protocol": "Networking / Wireless",
+    "description": "NETWORKING | Access Point. Device that allows wireless devices to connect to a wired network."
+  },
+  {
+    "abbreviation": "API",
+    "protocol": "Software Development",
+    "description": "APPLICATION | Application Programming Interface. Set of routines and protocols for building software applications and integration."
+  },
+  {
+    "abbreviation": "APT",
+    "protocol": "Threat Intelligence",
+    "description": "THREAT | Advanced Persistent Threat. Prolonged, targeted cyberattack where an intruder gains and maintains unauthorized access."
+  },
+  {
+    "abbreviation": "ARO",
+    "protocol": "Risk Management",
+    "description": "RISK | Annualized Rate of Occurrence. Estimated probability that a threat will occur within a one-year period."
+  },
+  {
+    "abbreviation": "ARP",
+    "protocol": "Networking Protocol",
+    "description": "PROTOCOL | Address Resolution Protocol. Maps an IP address to a physical MAC address on a local network."
+  },
+  {
+    "abbreviation": "ASLR",
+    "protocol": "Operating System Security",
+    "description": "OS SECURITY | Address Space Layout Randomization. Mitigates buffer overflows by randomly arranging key data areas in memory."
+  },
+  {
+    "abbreviation": "ASP",
+    "protocol": "Cloud / Business",
+    "description": "CLOUD | Application Service Provider. Provides computer-based services to customers over a network."
+  },
+  {
+    "abbreviation": "AUP",
+    "protocol": "Policy",
+    "description": "POLICY | Acceptable Use Policy. Rules that specify the permissible use of a company's computer systems."
+  },
+  {
+    "abbreviation": "AV",
+    "protocol": "Security Software / Asset Value",
+    "description": "SECURITY | Antivirus. Software designed to detect, prevent, and remove malware."
+  },
+  {
+    "abbreviation": "BAC",
+    "protocol": "Business Continuity",
+    "description": "MANAGEMENT | Business Availability Center ensuring operational availability."
+  },
+  {
+    "abbreviation": "BCP",
+    "protocol": "Business Continuity",
+    "description": "MANAGEMENT | Business Continuity Plan. Plan detailing how an organization will maintain operations during an unplanned disruption."
+  },
+  {
+    "abbreviation": "BIA",
+    "protocol": "Business Continuity",
+    "description": "MANAGEMENT | Business Impact Analysis. Evaluates critical business functions and the impact of a disruption."
+  },
+  {
+    "abbreviation": "BIOS",
+    "protocol": "Hardware / Firmware",
+    "description": "FIRMWARE | Basic Input/Output System initializing hardware during the booting process."
+  },
+  {
+    "abbreviation": "BPA",
+    "protocol": "Governance / Legal",
+    "description": "GOVERNANCE | Business Partnership Agreement. Business Partners Agreement outlining the relationship and responsibilities of partner entities."
+  },
+  {
+    "abbreviation": "BPDU",
+    "protocol": "Networking / STP",
+    "description": "NETWORKING | Bridge Protocol Data Unit used by spanning tree protocol to prevent loops."
+  },
+  {
+    "abbreviation": "BYOD",
+    "protocol": "Mobile Device Management",
+    "description": "MOBILE | Bring Your Own Device. Policy allowing employees to bring personally owned devices to the workplace."
+  },
+  {
+    "abbreviation": "CA",
+    "protocol": "Public Key Infrastructure",
+    "description": "PKI | Certificate Authority. Trusted entity that issues digital certificates."
+  },
+  {
+    "abbreviation": "CAC",
+    "protocol": "Authentication / Smart Card",
+    "description": "AUTHENTICATION | Common Access Card used for physical and logical access control in defense environments."
+  },
+  {
+    "abbreviation": "CAN",
+    "protocol": "Networking / Automotive",
+    "description": "NETWORKING | Controller Area Network. Controller AreaNetwork allowing microcontrollers and devices to communicate."
+  },
+  {
+    "abbreviation": "CAPTCHA",
+    "protocol": "Security / Bot Prevention",
+    "description": "SECURITY | Completely Automated Public Turing Test to Tell Computers and Humans Apart."
+  },
+  {
+    "abbreviation": "CAR",
+    "protocol": "Management / Reporting",
+    "description": "MANAGEMENT | Corrective Action Report detailing steps taken to resolve a security incident."
+  },
+  {
+    "abbreviation": "CBC",
+    "protocol": "Encryption Mode",
+    "description": "ENCRYPTION | Cipher Block Chaining mode where each plaintext block is XORed with the previous ciphertext block."
+  },
+  {
+    "abbreviation": "CCMP",
+    "protocol": "Wireless Security",
+    "description": "WIRELESS | Counter Mode/CBC-MAC Protocol. Encryption protocol used in WPA2 based on AES."
+  },
+  {
+    "abbreviation": "CCTV",
+    "protocol": "Physical Security",
+    "description": "PHYSICAL | Closed-circuit Television used for surveillance and video monitoring."
+  },
+  {
+    "abbreviation": "CER",
+    "protocol": "Biometrics / PKI",
+    "description": "BIOMETRICS | Crossover Error Rate. Cross-over Error Rate where false acceptance and false rejection rates are equal."
+  },
+  {
+    "abbreviation": "CERT",
+    "protocol": "Incident Response",
+    "description": "INCIDENT RESPONSE | Computer Emergency Response Team handling security incidents."
+  },
+  {
+    "abbreviation": "CFB",
+    "protocol": "Encryption Mode",
+    "description": "ENCRYPTION | Cipher Feedback mode turning a block cipher into a self-synchronizing stream cipher."
+  },
+  {
+    "abbreviation": "CHAP",
+    "protocol": "Authentication Protocol",
+    "description": "AUTHENTICATION | Challenge Handshake Authentication Protocol. Secure authentication protocol using a three-way handshake and challenge-response."
+  },
+  {
+    "abbreviation": "CIO",
+    "protocol": "Governance",
+    "description": "GOVERNANCE | Chief Information Officer responsible for enterprise IT strategy."
+  },
+  {
+    "abbreviation": "CIRT",
+    "protocol": "Incident Response",
+    "description": "INCIDENT RESPONSE | Computer Incident Response Team managing security breaches."
+  },
+  {
+    "abbreviation": "CMS",
+    "protocol": "Software / Web",
+    "description": "APPLICATION | Content Management System for creating and managing digital web content."
+  },
+  {
+    "abbreviation": "COOP",
+    "protocol": "Business Continuity",
+    "description": "MANAGEMENT | Continuity of Operations Plan focusing on sustaining essential agency functions during emergencies."
+  },
+  {
+    "abbreviation": "COPE",
+    "protocol": "Mobile Device Management",
+    "description": "MOBILE | Corporate Owned, Personally Enabled device management policy."
+  },
+  {
+    "abbreviation": "CP",
+    "protocol": "Business Continuity",
+    "description": "MANAGEMENT | Contingency Planning for unexpected disruptions and emergencies."
+  },
+  {
+    "abbreviation": "CRC",
+    "protocol": "Data Integrity",
+    "description": "INTEGRITY | Cyclical Redundancy Check used for detecting accidental data corruption."
+  },
+  {
+    "abbreviation": "CRL",
+    "protocol": "Public Key Infrastructure",
+    "description": "PKI | Certificate Revocation List containing digital certificates that have been invalidated."
+  },
+  {
+    "abbreviation": "CSIRT",
+    "protocol": "Incident Response",
+    "description": "INCIDENT RESPONSE | Computer Security Incident Response Team."
+  },
+  {
+    "abbreviation": "CSO",
+    "protocol": "Governance",
+    "description": "GOVERNANCE | Chief Security Officer responsible for overall organizational security."
+  },
+  {
+    "abbreviation": "CSP",
+    "protocol": "Cloud Computing",
+    "description": "CLOUD | Cloud Service Provider offering cloud-based infrastructure, platforms, or software."
+  },
+  {
+    "abbreviation": "CSR",
+    "protocol": "Public Key Infrastructure",
+    "description": "PKI | Certificate Signing Request sent to a CA to apply for a digital certificate."
+  },
+  {
+    "abbreviation": "CSRF",
+    "protocol": "Web Vulnerability",
+    "description": "ATTACK | Cross-site Request Forgery forcing authenticated users to execute unwanted actions."
+  },
+  {
+    "abbreviation": "CSU",
+    "protocol": "Networking Hardware",
+    "description": "NETWORKING | Channel Service Unit interfacing digital communication lines."
+  },
+  {
+    "abbreviation": "CTM",
+    "protocol": "Encryption Mode",
+    "description": "ENCRYPTION | Counter Mode. Counter-Mode turning a block cipher into a stream cipher."
+  },
+  {
+    "abbreviation": "CTO",
+    "protocol": "Governance",
+    "description": "GOVERNANCE | Chief Technology Officer overseeing technology development."
+  },
+  {
+    "abbreviation": "CTR",
+    "protocol": "Encryption Mode",
+    "description": "ENCRYPTION | Counter Mode. Counter mode of operation for block ciphers."
+  },
+  {
+    "abbreviation": "CYOD",
+    "protocol": "Mobile Device Management",
+    "description": "MOBILE | Choose Your Own Device policy allowing devices from a pre-approved list."
+  },
+  {
+    "abbreviation": "DAC",
+    "protocol": "Access Control",
+    "description": "ACCESS CONTROL | Discretionary Access Control. Access model where the owner of a resource decides who has access."
+  },
+  {
+    "abbreviation": "DBA",
+    "protocol": "Database Administration",
+    "description": "MANAGEMENT | Database Administrator responsible for database security and maintenance."
+  },
+  {
+    "abbreviation": "DDoS",
+    "protocol": "Threat / Attack",
+    "description": "ATTACK | Distributed Denial of Service coordinate attack from multiple sources overwhelming a target."
+  },
+  {
+    "abbreviation": "DEP",
+    "protocol": "Operating System Security",
+    "description": "OS SECURITY | Data Execution Prevention protecting memory from malicious code execution."
+  },
+  {
+    "abbreviation": "DER",
+    "protocol": "Encoding Format",
+    "description": "PKI | Distinguished Encoding Rules binary format for certificates."
+  },
+  {
+    "abbreviation": "DES",
+    "protocol": "Encryption / Symmetric",
+    "description": "ENCRYPTION | Data Encryption Standard. Older 56-bit symmetric block cipher. DEPRECATED."
+  },
+  {
+    "abbreviation": "DFIR",
+    "protocol": "Forensics",
+    "description": "FORENSICS | Digital Forensics and Incident Response. Digital Forensics and Investigation Response."
+  },
+  {
+    "abbreviation": "DHCP",
+    "protocol": "Networking / Port 67, 68",
+    "description": "PROTOCOL | Dynamic Host Configuration Protocol. Automatically assigns IP addresses and network parameters to devices."
+  },
+  {
+    "abbreviation": "DHE",
+    "protocol": "Encryption / Key Exchange",
+    "description": "ENCRYPTION | Diffie-Hellman Ephemeral key exchange providing forward secrecy."
+  },
+  {
+    "abbreviation": "DLL",
+    "protocol": "Software Development",
+    "description": "APPLICATION | Dynamic Link Library containing shared code and procedures."
+  },
+  {
+    "abbreviation": "DLP",
+    "protocol": "Data Protection",
+    "description": "SECURITY | Data Loss Prevention. Software tools designed to detect and prevent unauthorized data exfiltration."
+  },
+  {
+    "abbreviation": "DMZ",
+    "protocol": "Networking / Architecture",
+    "description": "ARCHITECTURE | Demilitarized Zone. Perimeter network segment hosting public-facing services isolated from the internal network."
+  },
+  {
+    "abbreviation": "DNAT",
+    "protocol": "Networking",
+    "description": "NETWORKING | Destination Network Address Translation altering destination IP addresses in packet headers."
+  },
+  {
+    "abbreviation": "DNS",
+    "protocol": "Networking / Port 53",
+    "description": "PROTOCOL | Domain Name System. Resolves human-readable domain names into IP addresses."
+  },
+  {
+    "abbreviation": "DoS",
+    "protocol": "Threat / Attack",
+    "description": "ATTACK | Denial of Service. Malicious attempt to disrupt normal traffic of a targeted server or network."
+  },
+  {
+    "abbreviation": "DRP",
+    "protocol": "Disaster Recovery",
+    "description": "MANAGEMENT | Disaster Recovery Plan. Detailed procedures for recovering IT infrastructure after a major disaster."
+  },
+  {
+    "abbreviation": "DSA",
+    "protocol": "Encryption / Asymmetric",
+    "description": "ENCRYPTION | Digital Signature Algorithm used for digital signatures."
+  },
+  {
+    "abbreviation": "DSL",
+    "protocol": "Networking",
+    "description": "NETWORKING | Digital Subscriber Line providing high-speed internet over telephone lines."
+  },
+  {
+    "abbreviation": "DSU",
+    "protocol": "Networking Hardware",
+    "description": "NETWORKING | Data Service Unit connecting digital data terminal equipment to communication lines."
+  },
+  {
+    "abbreviation": "EAP",
+    "protocol": "Authentication Framework",
+    "description": "AUTHENTICATION | Extensible Authentication Protocol. Authentication framework commonly used in wireless networks and 802.1X."
+  },
+  {
+    "abbreviation": "ECB",
+    "protocol": "Encryption Mode",
+    "description": "ENCRYPTION | Electronic Code Book mode encrypting blocks independently. DEPRECATED."
+  },
+  {
+    "abbreviation": "ECC",
+    "protocol": "Encryption / Asymmetric",
+    "description": "ENCRYPTION | Elliptic Curve Cryptography. Public-key cryptography based on elliptic curve mathematics, ideal for mobile devices."
+  },
+  {
+    "abbreviation": "ECDHE",
+    "protocol": "Encryption / Key Exchange",
+    "description": "ENCRYPTION | Elliptic Curve Diffie-Hellman Ephemeral providing high security and forward secrecy."
+  },
+  {
+    "abbreviation": "ECDSA",
+    "protocol": "Encryption / Asymmetric",
+    "description": "ENCRYPTION | Elliptic Curve Digital Signature Algorithm for secure digital signatures."
+  },
+  {
+    "abbreviation": "EFS",
+    "protocol": "Operating System Security",
+    "description": "OS SECURITY | Encrypting File System. Feature in Windows providing file-level encryption on NTFS volumes."
+  },
+  {
+    "abbreviation": "EMI",
+    "protocol": "Environmental",
+    "description": "ENVIRONMENTAL | Electromagnetic Interference affecting electrical circuits."
+  },
+  {
+    "abbreviation": "EMP",
+    "protocol": "Environmental",
+    "description": "ENVIRONMENTAL | Electro Magnetic Pulse capable of destroying electronics."
+  },
+  {
+    "abbreviation": "ERP",
+    "protocol": "Enterprise Software",
+    "description": "APPLICATION | Enterprise Resource Planning software for business process management."
+  },
+  {
+    "abbreviation": "ESN",
+    "protocol": "Hardware Identification",
+    "description": "HARDWARE | Electronic Serial Number uniquely identifying a mobile device."
+  },
+  {
+    "abbreviation": "ESP",
+    "protocol": "IPsec Protocol / Port 50",
+    "description": "PROTOCOL | Encapsulating Security Payload. IPsec protocol providing origin authenticity, integrity, and confidentiality of packet data."
+  },
+  {
+    "abbreviation": "EF",
+    "protocol": "Risk Management",
+    "description": "RISK | Exposure Factor representing percentage of asset loss during an incident."
+  },
+  {
+    "abbreviation": "FACL",
+    "protocol": "Access Control",
+    "description": "ACCESS CONTROL | File System Access Control List defining permissions on individual files."
+  },
+  {
+    "abbreviation": "FAR",
+    "protocol": "Biometrics",
+    "description": "BIOMETRICS | False Acceptance Rate where unauthorized users are incorrectly granted access."
+  },
+  {
+    "abbreviation": "FDE",
+    "protocol": "Data Protection",
+    "description": "ENCRYPTION | Full Disk Encryption. Encrypts all data on a storage drive automatically to protect against physical theft."
+  },
+  {
+    "abbreviation": "FRR",
+    "protocol": "Biometrics",
+    "description": "BIOMETRICS | False Rejection Rate where authorized users are incorrectly denied access."
+  },
+  {
+    "abbreviation": "FTP",
+    "protocol": "Protocol / Port 20, 21",
+    "description": "PROTOCOL | File Transfer Protocol. Unencrypted protocol for transferring files over a network. DEPRECATED."
+  },
+  {
+    "abbreviation": "FTPS",
+    "protocol": "Protocol / Port 989, 990",
+    "description": "PROTOCOL | File Transfer Protocol Secure. File Transfer Protocol secured using SSL/TLS."
+  },
+  {
+    "abbreviation": "GCM",
+    "protocol": "Encryption Mode",
+    "description": "ENCRYPTION | Galois/Counter Mode providing both authentication and confidentiality."
+  },
+  {
+    "abbreviation": "GPG",
+    "protocol": "Encryption Software",
+    "description": "ENCRYPTION | Gnu Privacy Guard open-source implementation of OpenPGP standards."
+  },
+  {
+    "abbreviation": "GPO",
+    "protocol": "Windows Management",
+    "description": "MANAGEMENT | Group Policy Object. Active Directory feature used to manage operating system settings and security policies."
+  },
+  {
+    "abbreviation": "GPS",
+    "protocol": "Navigation / Tracking",
+    "description": "TECHNOLOGY | Global Positioning System for satellite-based location tracking."
+  },
+  {
+    "abbreviation": "GPU",
+    "protocol": "Hardware",
+    "description": "HARDWARE | Graphics Processing Unit. Graphic Processing Unit often leveraged in password cracking and rendering."
+  },
+  {
+    "abbreviation": "GRE",
+    "protocol": "Networking Protocol",
+    "description": "PROTOCOL | Generic Routing Encapsulation tunneling protocol."
+  },
+  {
+    "abbreviation": "HA",
+    "protocol": "Architecture / Availability",
+    "description": "ARCHITECTURE | High Availability. System design ensuring a high level of operational performance and uptime."
+  },
+  {
+    "abbreviation": "HDD",
+    "protocol": "Storage Hardware",
+    "description": "HARDWARE | Hard Disk Drive magnetic data storage device."
+  },
+  {
+    "abbreviation": "HIDS",
+    "protocol": "Monitoring / IDS",
+    "description": "MONITORING | Host-based Intrusion Detection System installed on a single host computer."
+  },
+  {
+    "abbreviation": "HIPS",
+    "protocol": "Monitoring / IPS",
+    "description": "MONITORING | Host-based Intrusion Prevention System installed on a single host to block malicious actions."
+  },
+  {
+    "abbreviation": "HMAC",
+    "protocol": "Hashing / Integrity",
+    "description": "HASHING | Hash-based Message Authentication Code using a cryptographic key combined with a hash function."
+  },
+  {
+    "abbreviation": "HOTP",
+    "protocol": "Authentication",
+    "description": "AUTHENTICATION | HMAC-based One-Time Password algorithm based on a counter."
+  },
+  {
+    "abbreviation": "HSM",
+    "protocol": "Hardware Security",
+    "description": "HARDWARE | Hardware Security Module. Physical computing device that safeguards and manages digital keys."
+  },
+  {
+    "abbreviation": "HTML",
+    "protocol": "Web Standards",
+    "description": "APPLICATION | Hypertext Markup Language for creating web pages."
+  },
+  {
+    "abbreviation": "HTTP",
+    "protocol": "Protocol / Port 80",
+    "description": "PROTOCOL | Hypertext Transfer Protocol. Unencrypted protocol used for transferring web pages. DEPRECATED for secure web traffic."
+  },
+  {
+    "abbreviation": "HTTPS",
+    "protocol": "Protocol / Port 443",
+    "description": "PROTOCOL | Hypertext Transfer Protocol Secure. Secure HTTP protocol encrypted using TLS."
+  },
+  {
+    "abbreviation": "HVAC",
+    "protocol": "Physical Security / Facilities",
+    "description": "PHYSICAL | Heating, Ventilation and Air Conditioning environmental control system."
+  },
+  {
+    "abbreviation": "IaaS",
+    "protocol": "Cloud Computing",
+    "description": "CLOUD | Infrastructure as a Service. Cloud service model providing fundamental computing resources over the internet."
+  },
+  {
+    "abbreviation": "ICMP",
+    "protocol": "Networking Protocol",
+    "description": "PROTOCOL | Internet Control Message Protocol. Network layer protocol used for diagnostics and error reporting (e.g., ping)."
+  },
+  {
+    "abbreviation": "ICS",
+    "protocol": "Industrial Control Systems",
+    "description": "ICS | Industrial Control Systems controlling automated industrial processes."
+  },
+  {
+    "abbreviation": "ID",
+    "protocol": "Identification",
+    "description": "AUTHENTICATION | Identification credential or unique user identifier."
+  },
+  {
+    "abbreviation": "IDEA",
+    "protocol": "Encryption / Symmetric",
+    "description": "ENCRYPTION | International Data Encryption Algorithm symmetric block cipher."
+  },
+  {
+    "abbreviation": "IDF",
+    "protocol": "Networking / Facilities",
+    "description": "NETWORKING | Intermediate Distribution Frame connecting end user cables to the MDF."
+  },
+  {
+    "abbreviation": "IdP",
+    "protocol": "Authentication",
+    "description": "AUTHENTICATION | Identity Provider service that creates, maintains, and manages identity information."
+  },
+  {
+    "abbreviation": "IDS",
+    "protocol": "Monitoring",
+    "description": "MONITORING | Intrusion Detection System. Passive security system that detects and alerts on suspicious network activity."
+  },
+  {
+    "abbreviation": "IEEE",
+    "protocol": "Standards Organization",
+    "description": "GOVERNANCE | Institute of Electrical and Electronics Engineers. Institute of Electrical and Electronic Engineers setting technology standards."
+  },
+  {
+    "abbreviation": "IIS",
+    "protocol": "Web Server",
+    "description": "APPLICATION | Internet Information Services. Internet Information System Microsoft web server."
+  },
+  {
+    "abbreviation": "IKE",
+    "protocol": "IPsec Protocol / Port 500",
+    "description": "PROTOCOL | Internet Key Exchange used to set up a security association in IPsec."
+  },
+  {
+    "abbreviation": "IM",
+    "protocol": "Communication",
+    "description": "APPLICATION | Instant Messaging real-time text communication."
+  },
+  {
+    "abbreviation": "IMAP4",
+    "protocol": "Protocol / Port 143",
+    "description": "PROTOCOL | Internet Message Access Protocol version 4. Retrieves email from a mail server while keeping messages on the server."
+  },
+  {
+    "abbreviation": "IoT",
+    "protocol": "Technology / Devices",
+    "description": "HARDWARE | Internet of Things. Network of physical devices embedded with sensors and software connected to the internet."
+  },
+  {
+    "abbreviation": "IP",
+    "protocol": "Networking Protocol",
+    "description": "PROTOCOL | Internet Protocol. Core protocol for routing packets across interconnected networks."
+  },
+  {
+    "abbreviation": "IPSec",
+    "protocol": "Security Protocol",
+    "description": "PROTOCOL | Internet Protocol Security. Suite of protocols securing IP communications by authenticating and encrypting each packet."
+  },
+  {
+    "abbreviation": "IR",
+    "protocol": "Incident Response",
+    "description": "INCIDENT RESPONSE | Incident Response. Organized approach to addressing and managing a cyber security breach or attack."
+  },
+  {
+    "abbreviation": "IRC",
+    "protocol": "Protocol / Communication",
+    "description": "PROTOCOL | Internet Relay Chat text-based communication protocol."
+  },
+  {
+    "abbreviation": "IRP",
+    "protocol": "Incident Response",
+    "description": "INCIDENT RESPONSE | Incident Response Plan detailing procedures during security breaches."
+  },
+  {
+    "abbreviation": "ISA",
+    "protocol": "Governance",
+    "description": "GOVERNANCE | Interconnection Security Agreement between organizations connecting systems."
+  },
+  {
+    "abbreviation": "ISP",
+    "protocol": "Networking",
+    "description": "NETWORKING | Internet Service Provider. Organization that provides services for accessing and using the internet."
+  },
+  {
+    "abbreviation": "ISSO",
+    "protocol": "Governance",
+    "description": "GOVERNANCE | Information Systems Security Officer responsible for security implementation."
+  },
+  {
+    "abbreviation": "ITCP",
+    "protocol": "Business Continuity",
+    "description": "MANAGEMENT | IT Contingency Plan for restoring IT services after disruptions."
+  },
+  {
+    "abbreviation": "IV",
+    "protocol": "Encryption",
+    "description": "ENCRYPTION | Initialization Vector random value used with encryption keys to ensure uniqueness."
+  },
+  {
+    "abbreviation": "KDC",
+    "protocol": "Authentication",
+    "description": "AUTHENTICATION | Key Distribution Center part of Kerberos handling ticket issuance."
+  },
+  {
+    "abbreviation": "KEK",
+    "protocol": "Encryption",
+    "description": "ENCRYPTION | Key Encryption Key used to encrypt other cryptographic keys."
+  },
+  {
+    "abbreviation": "L2TP",
+    "protocol": "Tunneling Protocol / Port 1701",
+    "description": "PROTOCOL | Layer 2 Tunneling Protocol. Tunneling protocol used to support virtual private networks."
+  },
+  {
+    "abbreviation": "LAN",
+    "protocol": "Networking",
+    "description": "NETWORKING | Local Area Network connecting computers within a limited physical area."
+  },
+  {
+    "abbreviation": "LDAP",
+    "protocol": "Directory Services / Port 389",
+    "description": "PROTOCOL | Lightweight Directory Access Protocol. Protocol used for accessing and maintaining distributed directory information services."
+  },
+  {
+    "abbreviation": "LEAP",
+    "protocol": "Authentication Protocol",
+    "description": "AUTHENTICATION | Lightweight Extensible Authentication Protocol. DEPRECATED."
+  },
+  {
+    "abbreviation": "MaaS",
+    "protocol": "Cloud Computing",
+    "description": "CLOUD | Monitoring as a Service offering cloud-based system monitoring."
+  },
+  {
+    "abbreviation": "MAC",
+    "protocol": "Access Control / Networking",
+    "description": "ACCESS CONTROL | Mandatory Access Control / Media Access Control. Mandatory Access Control policy enforcement model or physical hardware address."
+  },
+  {
+    "abbreviation": "MAN",
+    "protocol": "Networking",
+    "description": "NETWORKING | Metropolitan Area Network spanning a physical city or town."
+  },
+  {
+    "abbreviation": "MBR",
+    "protocol": "Storage",
+    "description": "STORAGE | Master Boot Record partition table format on storage drives."
+  },
+  {
+    "abbreviation": "MD5",
+    "protocol": "Hashing Algorithm",
+    "description": "HASHING | Message Digest 5. 128-bit cryptographic hash function. DEPRECATED due to collision vulnerabilities."
+  },
+  {
+    "abbreviation": "MDF",
+    "protocol": "Networking / Facilities",
+    "description": "NETWORKING | Main Distribution Frame central wiring room for network cables."
+  },
+  {
+    "abbreviation": "MDM",
+    "protocol": "Mobile Device Management",
+    "description": "MOBILE | Mobile Device Management. Software used to secure, monitor, and manage mobile devices."
+  },
+  {
+    "abbreviation": "MFA",
+    "protocol": "Authentication",
+    "description": "AUTHENTICATION | Multifactor Authentication. Verification method requiring two or more distinct authentication factors."
+  },
+  {
+    "abbreviation": "MFD",
+    "protocol": "Hardware",
+    "description": "HARDWARE | Multi-function Device combining printing, scanning, and copying."
+  },
+  {
+    "abbreviation": "MITM",
+    "protocol": "Attack Type",
+    "description": "ATTACK | Man-in-the-Middle. Attack where the adversary secretly relays and alters communications between two parties."
+  },
+  {
+    "abbreviation": "MMS",
+    "protocol": "Communication",
+    "description": "APPLICATION | Multimedia Message Service for sending multimedia messages over mobile networks."
+  },
+  {
+    "abbreviation": "MOA",
+    "protocol": "Governance",
+    "description": "GOVERNANCE | Memorandum of Agreement outlining shared commitments between parties."
+  },
+  {
+    "abbreviation": "MOU",
+    "protocol": "Governance",
+    "description": "GOVERNANCE | Memorandum of Understanding outlining a preliminary agreement."
+  },
+  {
+    "abbreviation": "MPLS",
+    "protocol": "Networking Protocol",
+    "description": "NETWORKING | Multiprotocol Label Switching. High-performance telecommunications routing mechanism using labels rather than network addresses."
+  },
+  {
+    "abbreviation": "MSCHAP",
+    "protocol": "Authentication Protocol",
+    "description": "AUTHENTICATION | Microsoft Challenge Handshake Authentication Protocol."
+  },
+  {
+    "abbreviation": "MSP",
+    "protocol": "Business Services",
+    "description": "MANAGEMENT | Managed Service Provider delivering outsourced IT management services."
+  },
+  {
+    "abbreviation": "MTBF",
+    "protocol": "Metrics / Reliability",
+    "description": "METRICS | Mean Time Between Failures. Average time that a device functions before failing."
+  },
+  {
+    "abbreviation": "MTTF",
+    "protocol": "Metrics / Reliability",
+    "description": "METRICS | Mean Time to Failure for non-repairable hardware components."
+  },
+  {
+    "abbreviation": "MTTR",
+    "protocol": "Metrics / Recovery",
+    "description": "METRICS | Mean Time to Repair. Average time required to repair a failed device or recover from an outage."
+  },
+  {
+    "abbreviation": "MTU",
+    "protocol": "Networking",
+    "description": "NETWORKING | Maximum Transmission Unit size of largest protocol data unit that can be communicated."
+  },
+  {
+    "abbreviation": "NAC",
+    "protocol": "Network Security",
+    "description": "SECURITY | Network Access Control. Approach to computer security that unifies endpoint security technology and network access controls."
+  },
+  {
+    "abbreviation": "NAT",
+    "protocol": "Networking",
+    "description": "NETWORKING | Network Address Translation. Method of mapping IP addresses by modifying network address information in packet headers."
+  },
+  {
+    "abbreviation": "NDA",
+    "protocol": "Governance / Legal",
+    "description": "GOVERNANCE | Non-disclosure Agreement legally binding parties to secrecy."
+  },
+  {
+    "abbreviation": "NFC",
+    "protocol": "Networking / Wireless",
+    "description": "WIRELESS | Near Field Communication for short-range contactless data exchange."
+  },
+  {
+    "abbreviation": "NGAC",
+    "protocol": "Access Control",
+    "description": "ACCESS CONTROL | Next Generation Access Control policy frameworks."
+  },
+  {
+    "abbreviation": "NIDS",
+    "protocol": "Monitoring / IDS",
+    "description": "MONITORING | Network-based Intrusion Detection System monitoring traffic across an entire network segment."
+  },
+  {
+    "abbreviation": "NIPS",
+    "protocol": "Monitoring / IPS",
+    "description": "MONITORING | Network-based Intrusion Prevention System that inspects and blocks malicious network traffic inline."
+  },
+  {
+    "abbreviation": "NIST",
+    "protocol": "Standards Organization",
+    "description": "GOVERNANCE | National Institute of Standards and Technology. U.S. agency that develops cybersecurity standards, guidelines, and frameworks."
+  },
+  {
+    "abbreviation": "NTFS",
+    "protocol": "File System",
+    "description": "STORAGE | New Technology File System providing permissions and encryption in Windows."
+  },
+  {
+    "abbreviation": "NTLM",
+    "protocol": "Authentication Protocol",
+    "description": "AUTHENTICATION | New Technology LAN Manager. Suite of Microsoft security protocols used for authentication. DEPRECATED."
+  },
+  {
+    "abbreviation": "NTP",
+    "protocol": "Protocol / Port 123",
+    "description": "PROTOCOL | Network Time Protocol. Networking protocol for clock synchronization over networks."
+  },
+  {
+    "abbreviation": "OAuth",
+    "protocol": "Authentication Framework",
+    "description": "AUTHENTICATION | Open Authorization. Open standard for token-based authorization across web and mobile applications."
+  },
+  {
+    "abbreviation": "OCSP",
+    "protocol": "Public Key Infrastructure",
+    "description": "PKI | Online Certificate Status Protocol for checking certificate revocation status in real time."
+  },
+  {
+    "abbreviation": "OID",
+    "protocol": "Identifiers",
+    "description": "MANAGEMENT | Object Identifier uniquely identifying objects or policy attributes."
+  },
+  {
+    "abbreviation": "OS",
+    "protocol": "Software",
+    "description": "OS | Operating System. System software that manages computer hardware and software resources."
+  },
+  {
+    "abbreviation": "OTA",
+    "protocol": "Wireless / Updates",
+    "description": "WIRELESS | Over The Air software deployment and configuration updates."
+  },
+  {
+    "abbreviation": "OVAL",
+    "protocol": "Vulnerability Management",
+    "description": "SECURITY | Open Vulnerability Assessment Language for security state evaluation."
+  },
+  {
+    "abbreviation": "P12",
+    "protocol": "PKCS Format",
+    "description": "PKI | PKCS #12 (Public-Key Cryptography Standards #12). PKCS #12 personal exchange format file storing private keys and certificates."
+  },
+  {
+    "abbreviation": "P2P",
+    "protocol": "Networking",
+    "description": "NETWORKING | Peer to Peer decentralized network architecture."
+  },
+  {
+    "abbreviation": "PaaS",
+    "protocol": "Cloud Computing",
+    "description": "CLOUD | Platform as a Service. Cloud computing model providing a platform allowing customers to develop and manage applications."
+  },
+  {
+    "abbreviation": "PAC",
+    "protocol": "Networking / Web",
+    "description": "NETWORKING | Proxy Auto Configuration specifying how web browsers select proxy servers."
+  },
+  {
+    "abbreviation": "PAM",
+    "protocol": "Authentication / Privilege Management",
+    "description": "AUTHENTICATION | Pluggable Authentication Modules / Privileged Access Management. Pluggable Authentication Modules or Privileged Access Management."
+  },
+  {
+    "abbreviation": "PAP",
+    "protocol": "Authentication Protocol",
+    "description": "AUTHENTICATION | Password Authentication Protocol. Simple unencrypted password authentication protocol. DEPRECATED."
+  },
+  {
+    "abbreviation": "PAT",
+    "protocol": "Networking",
+    "description": "NETWORKING | Port Address Translation mapping multiple private IPs to a single public IP."
+  },
+  {
+    "abbreviation": "PBKDF2",
+    "protocol": "Encryption / Hashing",
+    "description": "ENCRYPTION | Password-based Key Derivation Function 2 used for secure password hashing."
+  },
+  {
+    "abbreviation": "PBX",
+    "protocol": "Telephony",
+    "description": "TELEPHONY | Private Branch Exchange private telephone network."
+  },
+  {
+    "abbreviation": "PCAP",
+    "protocol": "Forensics / Analysis",
+    "description": "MONITORING | Packet Capture file format for network traffic analysis."
+  },
+  {
+    "abbreviation": "PEAP",
+    "protocol": "Authentication Protocol",
+    "description": "AUTHENTICATION | Protected Extensible Authentication Protocol. Encapsulates EAP within an encrypted TLS tunnel for secure wireless authentication."
+  },
+  {
+    "abbreviation": "PED",
+    "protocol": "Mobile Devices",
+    "description": "MOBILE | Personal Electronic Device."
+  },
+  {
+    "abbreviation": "PEM",
+    "protocol": "Encoding Format",
+    "description": "PKI | Privacy-enhanced Electronic Mail Base64 encoded certificate format."
+  },
+  {
+    "abbreviation": "PFS",
+    "protocol": "Encryption",
+    "description": "ENCRYPTION | Perfect Forward Secrecy ensuring session keys are not compromised if long-term keys are breached."
+  },
+  {
+    "abbreviation": "PFX",
+    "protocol": "PKCS Format",
+    "description": "PKI | Personal Exchange Format file containing private keys and certificates."
+  },
+  {
+    "abbreviation": "PGP",
+    "protocol": "Encryption Software",
+    "description": "ENCRYPTION | Pretty Good Privacy cryptographic program used for signing and encrypting data."
+  },
+  {
+    "abbreviation": "PHI",
+    "protocol": "Data Privacy",
+    "description": "PRIVACY | Personal Health Information protected under medical privacy laws."
+  },
+  {
+    "abbreviation": "PII",
+    "protocol": "Data Privacy",
+    "description": "PRIVACY | Personally Identifiable Information that can identify an individual."
+  },
+  {
+    "abbreviation": "PIV",
+    "protocol": "Authentication",
+    "description": "AUTHENTICATION | Personal Identity Verification standard for secure credentials."
+  },
+  {
+    "abbreviation": "PKI",
+    "protocol": "Security Infrastructure",
+    "description": "PKI | Public Key Infrastructure. Framework of hardware, software, and policies needed to manage digital certificates."
+  },
+  {
+    "abbreviation": "POODLE",
+    "protocol": "Vulnerability / Exploit",
+    "description": "VULNERABILITY | Padding Oracle On Downgraded Legacy Encryption. Exploit attacking SSL 3.0 fallback vulnerabilities. DEPRECATED / VULNERABILITY."
+  },
+  {
+    "abbreviation": "POP",
+    "protocol": "Protocol / Port 110",
+    "description": "PROTOCOL | Post Office Protocol used by local email clients to retrieve email from a remote server."
+  },
+  {
+    "abbreviation": "POTS",
+    "protocol": "Telephony",
+    "description": "TELEPHONY | Plain Old Telephone Service analog voice transmission."
+  },
+  {
+    "abbreviation": "PPP",
+    "protocol": "Networking Protocol",
+    "description": "PROTOCOL | Point-to-Point Protocol establishing direct connection between nodes."
+  },
+  {
+    "abbreviation": "PPTP",
+    "protocol": "Tunneling Protocol / Port 1723",
+    "description": "PROTOCOL | Point-to-Point Tunneling Protocol. Obsolete method for implementing virtual private networks. DEPRECATED."
+  },
+  {
+    "abbreviation": "PSK",
+    "protocol": "Authentication / Wireless",
+    "description": "AUTHENTICATION | Pre-shared Key used in WPA personal wireless encryption."
+  },
+  {
+    "abbreviation": "PTZ",
+    "protocol": "Physical Security",
+    "description": "PHYSICAL | Pan-Tilt-Zoom security camera capability."
+  },
+  {
+    "abbreviation": "RA",
+    "protocol": "Public Key Infrastructure",
+    "description": "PKI | Registration Authority verifying identity requests for a Certificate Authority."
+  },
+  {
+    "abbreviation": "RAD",
+    "protocol": "Software Development",
+    "description": "APPLICATION | Rapid Application Development methodology."
+  },
+  {
+    "abbreviation": "RADIUS",
+    "protocol": "Authentication Protocol / Port 1812, 1813",
+    "description": "AUTHENTICATION | Remote Authentication Dial-in User Service. Networking protocol providing centralized AAA management."
+  },
+  {
+    "abbreviation": "RAID",
+    "protocol": "Storage Technology",
+    "description": "STORAGE | Redundant Array of Independent Disks. Data storage virtualization technology combining physical disks for redundancy."
+  },
+  {
+    "abbreviation": "RAS",
+    "protocol": "Networking",
+    "description": "NETWORKING | Remote Access Server allowing access to a private network from outside."
+  },
+  {
+    "abbreviation": "RAT",
+    "protocol": "Threat / Malware",
+    "description": "THREAT | Remote Access Trojan enabling administrative control over a target system."
+  },
+  {
+    "abbreviation": "RBAC",
+    "protocol": "Access Control",
+    "description": "ACCESS CONTROL | Role-based Access Control. Role-based or Rule-based Access Control assigning permissions based on roles or rules."
+  },
+  {
+    "abbreviation": "RC4",
+    "protocol": "Encryption / Symmetric",
+    "description": "ENCRYPTION | Rivest Cipher 4. Stream cipher vulnerable to multiple attacks, formerly used in WEP. DEPRECATED."
+  },
+  {
+    "abbreviation": "RDP",
+    "protocol": "Protocol / Port 3389",
+    "description": "PROTOCOL | Remote Desktop Protocol. Microsoft protocol providing a user interface to another computer over a network."
+  },
+  {
+    "abbreviation": "RFID",
+    "protocol": "Identification Technology",
+    "description": "HARDWARE | Radio Frequency Identification. Uses electromagnetic fields to automatically identify and track tags."
+  },
+  {
+    "abbreviation": "RIPEMD",
+    "protocol": "Hashing Algorithm",
+    "description": "HASHING | RACE Integrity Primitives Evaluation Message Digest cryptographic hash function."
+  },
+  {
+    "abbreviation": "ROI",
+    "protocol": "Business Metrics",
+    "description": "MANAGEMENT | Return on Investment financial evaluation metric."
+  },
+  {
+    "abbreviation": "RMF",
+    "protocol": "Risk Management",
+    "description": "RISK | Risk Management Framework providing structured security lifecycle steps."
+  },
+  {
+    "abbreviation": "RPO",
+    "protocol": "Disaster Recovery Metric",
+    "description": "MANAGEMENT | Recovery Point Objective. Maximum acceptable data loss measured in time before a disruption occurs."
+  },
+  {
+    "abbreviation": "RSA",
+    "protocol": "Encryption / Asymmetric",
+    "description": "ENCRYPTION | Rivest, Shamir, Adleman. Rivest, Shamir, & Adleman public-key cryptosystem widely used for secure transmission."
+  },
+  {
+    "abbreviation": "RTBH",
+    "protocol": "Networking / Mitigation",
+    "description": "NETWORKING | Remotely Triggered Black Hole filtering technique for DDoS mitigation."
+  },
+  {
+    "abbreviation": "RTO",
+    "protocol": "Disaster Recovery Metric",
+    "description": "MANAGEMENT | Recovery Time Objective. Maximum targeted duration of time for a business process to be restored."
+  },
+  {
+    "abbreviation": "RTOS",
+    "protocol": "Operating System",
+    "description": "OS | Real-time Operating System for embedded systems with strict timing constraints."
+  },
+  {
+    "abbreviation": "RTP",
+    "protocol": "Networking Protocol",
+    "description": "PROTOCOL | Real-time Transport Protocol for audio and video streaming."
+  },
+  {
+    "abbreviation": "S/MIME",
+    "protocol": "Encryption / Email",
+    "description": "ENCRYPTION | Secure/Multipurpose Internet Mail Extensions providing cryptographic security for emails."
+  },
+  {
+    "abbreviation": "SaaS",
+    "protocol": "Cloud Computing",
+    "description": "CLOUD | Software as a Service. Software distribution model in which applications are hosted by a service provider over the internet."
+  },
+  {
+    "abbreviation": "SAML",
+    "protocol": "Federation Protocol",
+    "description": "AUTHENTICATION | Security Assertion Markup Language. XML-based open standard for exchanging authentication and authorization data (SSO)."
+  },
+  {
+    "abbreviation": "SAN",
+    "protocol": "Storage / PKI",
+    "description": "STORAGE | Storage Area Network / Subject Alternative Name. Storage Area Network or Subject Alternative Name field in digital certificates."
+  },
+  {
+    "abbreviation": "SCADA",
+    "protocol": "Industrial Control Systems",
+    "description": "ICS | Supervisory Control and Data Acquisition. Control system architecture used in industrial environments to monitor and control equipment."
+  },
+  {
+    "abbreviation": "SCAP",
+    "protocol": "Security Automation",
+    "description": "SECURITY | Security Content Automation Protocol for automated vulnerability management."
+  },
+  {
+    "abbreviation": "SCEP",
+    "protocol": "Public Key Infrastructure",
+    "description": "PKI | Simple Certificate Enrollment Protocol for device certificate enrollment."
+  },
+  {
+    "abbreviation": "SCP",
+    "protocol": "Protocol / Port 22",
+    "description": "PROTOCOL | Secure Copy Protocol. Secure Copy method of transferring files between hosts using SSH."
+  },
+  {
+    "abbreviation": "SCSI",
+    "protocol": "Storage Interface",
+    "description": "HARDWARE | Small Computer System Interface for connecting peripheral devices and drives."
+  },
+  {
+    "abbreviation": "SDK",
+    "protocol": "Software Development",
+    "description": "APPLICATION | Software Development Kit providing tools for building applications."
+  },
+  {
+    "abbreviation": "SDLC",
+    "protocol": "Software Development",
+    "description": "APPLICATION | Software Development Life Cycle defining phases of software creation."
+  },
+  {
+    "abbreviation": "SDLM",
+    "protocol": "Software Development",
+    "description": "APPLICATION | Software Development Life Cycle Methodology."
+  },
+  {
+    "abbreviation": "SDN",
+    "protocol": "Networking",
+    "description": "NETWORKING | Software Defined Network separating control plane from data plane."
+  },
+  {
+    "abbreviation": "SED",
+    "protocol": "Storage Security",
+    "description": "ENCRYPTION | Self-encrypting Drive automatically encrypting all stored data."
+  },
+  {
+    "abbreviation": "SEH",
+    "protocol": "Operating System Security",
+    "description": "OS SECURITY | Structured Exception Handler in Windows operating systems."
+  },
+  {
+    "abbreviation": "SFTP",
+    "protocol": "Protocol / Port 22",
+    "description": "PROTOCOL | SSH File Transfer Protocol. Secure File Transfer Protocol providing file access and management over SSH."
+  },
+  {
+    "abbreviation": "SHA",
+    "protocol": "Hashing Algorithm",
+    "description": "HASHING | Secure Hashing Algorithm (SHA-1 DEPRECATED, SHA-2/3 recommended)."
+  },
+  {
+    "abbreviation": "SHTTP",
+    "protocol": "Protocol",
+    "description": "PROTOCOL | Secure Hypertext Transfer Protocol. DEPRECATED."
+  },
+  {
+    "abbreviation": "SIEM",
+    "protocol": "Security Monitoring",
+    "description": "MONITORING | Security Information and Event Management. Software solution providing real-time analysis of security alerts."
+  },
+  {
+    "abbreviation": "SIM",
+    "protocol": "Mobile Hardware",
+    "description": "MOBILE | Subscriber Identity Module card used in mobile devices."
+  },
+  {
+    "abbreviation": "SLA",
+    "protocol": "Management / Contract",
+    "description": "POLICY | Service Level Agreement. Contract between a service provider and customer defining expected service standards."
+  },
+  {
+    "abbreviation": "SOW",
+    "protocol": "Management / Contract",
+    "description": "POLICY | Statement of Work details the scope of a project or engagement, the deliverables, timelines, and responsibilities. It clarifies the vendor's tasks, the client's expectations, and the agreed-upon deliverables."
+  },
+  {
+    "abbreviation": "SLE",
+    "protocol": "Risk Management",
+    "description": "RISK | Single Loss Expectancy monetary value expected from a single adverse event."
+  },
+  {
+    "abbreviation": "SMB",
+    "protocol": "Protocol / Port 445",
+    "description": "PROTOCOL | Server Message Block network file sharing protocol."
+  },
+  {
+    "abbreviation": "SMS",
+    "protocol": "Communication",
+    "description": "APPLICATION | Short Message Service text messaging protocol."
+  },
+  {
+    "abbreviation": "SMTP",
+    "protocol": "Protocol / Port 25",
+    "description": "PROTOCOL | Simple Mail Transfer Protocol. Internet standard protocol for transmitting email messages."
+  },
+  {
+    "abbreviation": "SMTPS",
+    "protocol": "Protocol / Port 465, 587",
+    "description": "PROTOCOL | Simple Mail Transfer Protocol Secure encrypted over TLS."
+  },
+  {
+    "abbreviation": "SNMP",
+    "protocol": "Protocol / Port 161, 162",
+    "description": "PROTOCOL | Simple Network Management Protocol. Protocol for monitoring and managing network devices."
+  },
+  {
+    "abbreviation": "SOAP",
+    "protocol": "Web Services",
+    "description": "APPLICATION | Simple Object Access Protocol for exchanging structured information."
+  },
+  {
+    "abbreviation": "SoC",
+    "protocol": "Hardware",
+    "description": "HARDWARE | System on Chip integrating computer components onto a single IC."
+  },
+  {
+    "abbreviation": "SPF",
+    "protocol": "Email Security",
+    "description": "SECURITY | Sender Policy Framework preventing email spoofing via DNS records."
+  },
+  {
+    "abbreviation": "SPIM",
+    "protocol": "Threat / Messaging",
+    "description": "THREAT | Spam over Internet Messaging unsolicited instant messages."
+  },
+  {
+    "abbreviation": "SPoF",
+    "protocol": "Architecture / Availability",
+    "description": "ARCHITECTURE | Single Point of Failure whose breakdown halts entire system operations."
+  },
+  {
+    "abbreviation": "SQL",
+    "protocol": "Database Language",
+    "description": "APPLICATION | Structured Query Language used for managing relational databases."
+  },
+  {
+    "abbreviation": "SRTP",
+    "protocol": "Protocol / Security",
+    "description": "PROTOCOL | Secure Real-Time Transport Protocol. Secure Real-Time Protocol providing encryption and integrity for VoIP."
+  },
+  {
+    "abbreviation": "SSD",
+    "protocol": "Storage Hardware",
+    "description": "HARDWARE | Solid State Drive flash memory based data storage device."
+  },
+  {
+    "abbreviation": "SSH",
+    "protocol": "Protocol / Port 22",
+    "description": "PROTOCOL | Secure Shell. Cryptographic network protocol for operating network services securely."
+  },
+  {
+    "abbreviation": "SSID",
+    "protocol": "Wireless",
+    "description": "WIRELESS | Service Set Identifier name identifying a wireless local area network."
+  },
+  {
+    "abbreviation": "SSL",
+    "protocol": "Encryption Protocol",
+    "description": "PROTOCOL | Secure Sockets Layer. Deprecated cryptographic protocol providing communications security over Internet. DEPRECATED."
+  },
+  {
+    "abbreviation": "SSO",
+    "protocol": "Authentication",
+    "description": "AUTHENTICATION | Single Sign-On. Session and user authentication permitting one credential set to access multiple applications."
+  },
+  {
+    "abbreviation": "STP",
+    "protocol": "Networking / Cabling",
+    "description": "NETWORKING | Shielded Twisted Pair / Spanning Tree Protocol. Shielded Twisted Pair cable or Spanning Tree Protocol."
+  },
+  {
+    "abbreviation": "TACACS+",
+    "protocol": "Authentication Protocol / Port 49",
+    "description": "AUTHENTICATION | Terminal Access Controller Access-Control System Plus. Protocol providing separate AAA services, often used for router administration."
+  },
+  {
+    "abbreviation": "TCP/IP",
+    "protocol": "Networking Protocol",
+    "description": "PROTOCOL | Transmission Control Protocol/Internet Protocol foundational communication suite."
+  },
+  {
+    "abbreviation": "TGT",
+    "protocol": "Authentication",
+    "description": "AUTHENTICATION | Ticket Granting Ticket used in Kerberos authentication."
+  },
+  {
+    "abbreviation": "TKIP",
+    "protocol": "Wireless Security",
+    "description": "WIRELESS | Temporal Key Integrity Protocol. Encryption protocol used in WPA to replace WEP. DEPRECATED."
+  },
+  {
+    "abbreviation": "TLS",
+    "protocol": "Encryption Protocol / Port 443",
+    "description": "PROTOCOL | Transport Layer Security. Cryptographic protocol designed to provide communications security (successor to SSL)."
+  },
+  {
+    "abbreviation": "TOTP",
+    "protocol": "Authentication",
+    "description": "AUTHENTICATION | Time-based One-Time Password. Algorithm computing a one-time password from a shared secret key and current time."
+  },
+  {
+    "abbreviation": "TPM",
+    "protocol": "Hardware Security",
+    "description": "HARDWARE | Trusted Platform Module. Specialized cryptographic microcontroller designed to secure hardware through integrated keys."
+  },
+  {
+    "abbreviation": "TSIG",
+    "protocol": "Networking / DNS",
+    "description": "PROTOCOL | Transaction Signature for authenticating DNS messages."
+  },
+  {
+    "abbreviation": "UAT",
+    "protocol": "Software Testing",
+    "description": "APPLICATION | User Acceptance Testing phase before production deployment."
+  },
+  {
+    "abbreviation": "UAV",
+    "protocol": "Hardware / Aviation",
+    "description": "HARDWARE | Unmanned Aerial Vehicle drone systems."
+  },
+  {
+    "abbreviation": "UDP",
+    "protocol": "Networking Protocol",
+    "description": "PROTOCOL | User Datagram Protocol. Connectionless transport layer protocol focused on speed without delivery guarantees."
+  },
+  {
+    "abbreviation": "UEFI",
+    "protocol": "Hardware / Firmware",
+    "description": "FIRMWARE | Unified Extensible Firmware Interface modern replacement for BIOS."
+  },
+  {
+    "abbreviation": "UPS",
+    "protocol": "Hardware / Power",
+    "description": "HARDWARE | Uninterruptible Power Supply. Uninterruptable Power Supply providing emergency power during outages."
+  },
+  {
+    "abbreviation": "URI",
+    "protocol": "Networking",
+    "description": "PROTOCOL | Uniform Resource Identifier identifying a resource."
+  },
+  {
+    "abbreviation": "URL",
+    "protocol": "Networking",
+    "description": "PROTOCOL | Uniform Resource Locator. Universal Resource Locator web address reference."
+  },
+  {
+    "abbreviation": "USB",
+    "protocol": "Hardware Interface",
+    "description": "HARDWARE | Universal Serial Bus industry standard for cables and peripherals."
+  },
+  {
+    "abbreviation": "USB OTG",
+    "protocol": "Hardware Interface",
+    "description": "HARDWARE | USB On-The-Go. USB On The Go allowing devices to act as hosts."
+  },
+  {
+    "abbreviation": "UTM",
+    "protocol": "Security Appliance",
+    "description": "SECURITY | Unified Threat Management product providing multiple security functions in a single appliance."
+  },
+  {
+    "abbreviation": "UTP",
+    "protocol": "Networking / Cabling",
+    "description": "NETWORKING | Unshielded Twisted Pair network cabling."
+  },
+  {
+    "abbreviation": "VDE",
+    "protocol": "Virtualization",
+    "description": "VIRTUALIZATION | Virtual Desktop Environment."
+  },
+  {
+    "abbreviation": "VDI",
+    "protocol": "Virtualization",
+    "description": "VIRTUALIZATION | Virtual Desktop Infrastructure hosting desktop environments on central servers."
+  },
+  {
+    "abbreviation": "VLAN",
+    "protocol": "Networking",
+    "description": "NETWORKING | Virtual Local Area Network. Partitioned network logically grouping devices regardless of physical location."
+  },
+  {
+    "abbreviation": "VLSM",
+    "protocol": "Networking",
+    "description": "NETWORKING | Variable Length Subnet Masking for efficient IP address allocation."
+  },
+  {
+    "abbreviation": "VM",
+    "protocol": "Virtualization",
+    "description": "VIRTUALIZATION | Virtual Machine emulation of a computer system."
+  },
+  {
+    "abbreviation": "VoIP",
+    "protocol": "Networking / Communication",
+    "description": "PROTOCOL | Voice over IP. Delivery of voice communications and multimedia sessions over IP networks."
+  },
+  {
+    "abbreviation": "VPN",
+    "protocol": "Security Protocol / Networking",
+    "description": "PROTOCOL | Virtual Private Network. Extends a private network across a public network securely using tunneling and encryption."
+  },
+  {
+    "abbreviation": "VTC",
+    "protocol": "Communication",
+    "description": "APPLICATION | Video Teleconferencing systems."
+  },
+  {
+    "abbreviation": "WAF",
+    "protocol": "Web Security",
+    "description": "SECURITY | Web Application Firewall. Filters, monitors, and blocks HTTP traffic to and from a web application."
+  },
+  {
+    "abbreviation": "WAP",
+    "protocol": "Wireless",
+    "description": "WIRELESS | Wireless Access Point connecting wireless devices to a network."
+  },
+  {
+    "abbreviation": "WEP",
+    "protocol": "Wireless Security",
+    "description": "WIRELESS | Wired Equivalent Privacy. Insecure and legacy wireless encryption protocol. DEPRECATED."
+  },
+  {
+    "abbreviation": "WIDS",
+    "protocol": "Wireless Monitoring",
+    "description": "MONITORING | Wireless Intrusion Detection System monitoring radio spectrum for threats."
+  },
+  {
+    "abbreviation": "WIPS",
+    "protocol": "Wireless Monitoring",
+    "description": "MONITORING | Wireless Intrusion Prevention System monitoring radio spectrum and blocking attacks."
+  },
+  {
+    "abbreviation": "WORM",
+    "protocol": "Storage",
+    "description": "STORAGE | Write Once Read Many data storage medium preventing modification."
+  },
+  {
+    "abbreviation": "WPA",
+    "protocol": "Wireless Security",
+    "description": "WIRELESS | Wi-Fi Protected Access security standard using TKIP. DEPRECATED."
+  },
+  {
+    "abbreviation": "WPA2",
+    "protocol": "Wireless Security",
+    "description": "WIRELESS | Wi-Fi Protected Access 2. Secure wireless encryption standard using AES and CCMP."
+  },
+  {
+    "abbreviation": "WPS",
+    "protocol": "Wireless Configuration",
+    "description": "WIRELESS | Wi-Fi Protected Setup. Network security standard to create secure wireless home networks, vulnerable via PIN brute-forcing. DEPRECATED."
+  },
+  {
+    "abbreviation": "WTLS",
+    "protocol": "Wireless Security",
+    "description": "WIRELESS | Wireless Transport Layer Security for WAP devices. DEPRECATED."
+  },
+  {
+    "abbreviation": "XML",
+    "protocol": "Data Format",
+    "description": "APPLICATION | Extensible Markup Language. Markup language that defines rules for encoding documents readable by humans and machines."
+  },
+  {
+    "abbreviation": "XOR",
+    "protocol": "Logic Operation",
+    "description": "ENCRYPTION | Exclusive OR. Exclusive Or logical operation frequently used in cryptography."
+  },
+  {
+    "abbreviation": "XSRF",
+    "protocol": "Web Vulnerability",
+    "description": "ATTACK | Cross-site Request Forgery forcing authenticated users to execute unwanted actions."
+  },
+  {
+    "abbreviation": "XSS",
+    "protocol": "Web Vulnerability",
+    "description": "ATTACK | Cross-site Scripting attack injecting malicious scripts into trusted websites."
+  },
+  {
+    "abbreviation": "CASB",
+    "protocol": "Cloud Security / Architecture",
+    "description": "CLOUD | Cloud Access Security Broker. Software tool placed between enterprise users and cloud applications to enforce security policies."
+  },
+  {
+    "abbreviation": "CVE",
+    "protocol": "Vulnerability Management",
+    "description": "VULNERABILITY | Common Vulnerabilities and Exposures. Dictionary of publicly known cybersecurity vulnerabilities and exposures."
+  },
+  {
+    "abbreviation": "CVSS",
+    "protocol": "Vulnerability Management",
+    "description": "METRICS | Common Vulnerability Scoring System. Numerical scoring system for rating the severity of computer system security vulnerabilities."
+  },
+  {
+    "abbreviation": "EDR",
+    "protocol": "Endpoint Security / Monitoring",
+    "description": "MONITORING | Endpoint Detection and Response. Software that continuously monitors endpoints to detect and respond to malicious activity."
+  },
+  {
+    "abbreviation": "IAM",
+    "protocol": "Access Control / Identity",
+    "description": "ACCESS CONTROL | Identity and Access Management. Framework of policies and technologies ensuring proper user digital identities and access rights."
+  },
+  {
+    "abbreviation": "IaC",
+    "protocol": "Software Development / Infrastructure",
+    "description": "DEVOPS | Infrastructure as Code. Managing and provisioning computing infrastructure through machine-readable definition files."
+  },
+  {
+    "abbreviation": "MDR",
+    "protocol": "Managed Security Services",
+    "description": "MONITORING | Managed Detection and Response. Outsourced cybersecurity service providing continuous threat monitoring and incident response."
+  },
+  {
+    "abbreviation": "SASE",
+    "protocol": "Cloud Security / Networking",
+    "description": "ARCHITECTURE | Secure Access Service Edge. Combines WAN security and networking services into a single cloud-delivered service model."
+  },
+  {
+    "abbreviation": "SBOM",
+    "protocol": "Software Supply Chain",
+    "description": "MANAGEMENT | Software Bill of Materials. Nested inventory of ingredients and components used to build software applications."
+  },
+  {
+    "abbreviation": "SCIM",
+    "protocol": "Identity Management / Port 443",
+    "description": "PROTOCOL | System for Cross-domain Identity Management automating user provisioning across apps."
+  },
+  {
+    "abbreviation": "SOAR",
+    "protocol": "Security Automation / Incident Response",
+    "description": "AUTOMATION | Security Orchestration, Automation, and Response. Tools combining security orchestration, automated workflows, and incident response capabilities."
+  },
+  {
+    "abbreviation": "STIX",
+    "protocol": "Threat Intelligence",
+    "description": "THREAT | Structured Threat Information eXpression. Standardized language for describing cyber threat information."
+  },
+  {
+    "abbreviation": "TAXII",
+    "protocol": "Threat Intelligence",
+    "description": "PROTOCOL | Trusted Automated Exchange of Intelligence Information. Application protocol for exchanging cyber threat intelligence over HTTPS."
+  },
+  {
+    "abbreviation": "XDR",
+    "protocol": "Extended Security Monitoring",
+    "description": "MONITORING | Extended Detection and Response. Security technology that unifies threat detection and response across multiple vectors."
+  },
+  {
+    "abbreviation": "ZTNA",
+    "protocol": "Network Security / Architecture",
+    "description": "ARCHITECTURE | Zero Trust Network Access. Zero Trust Network Architecture enforcing strict identity verification for every access request."
+  },
+  {
+    "abbreviation": "MTD",
+    "protocol": "Risk Management / Business Continuity",
+    "description": "MANAGEMENT | Maximum Tolerable Downtime (or Maximum Tolerable Delay); total time a business process can be disrupted before irreparable damage occurs."
+  },
+  {
+    "abbreviation": "MTTD",
+    "protocol": "Metrics / Incident Response",
+    "description": "METRICS | Mean Time to Detect; average time elapsed between when a security issue occurs and when it is discovered."
+  },
+  {
+    "abbreviation": "CIA",
+    "protocol": "Security Principles",
+    "description": "GOVERNANCE | Confidentiality, Integrity, and Availability triad; core foundational model for security policy design."
+  },
+  {
+    "abbreviation": "IoC",
+    "protocol": "Threat Intelligence",
+    "description": "THREAT | Indicator of Compromise; forensic data serving as evidence of a potential cyber attack or system breach."
+  },
+  {
+    "abbreviation": "UEM",
+    "protocol": "Endpoint Management",
+    "description": "MOBILE | Unified Endpoint Management; comprehensive solution to provision, manage, and secure desktop and mobile endpoints from a single console."
+  },
+  {
+    "abbreviation": "UEBA",
+    "protocol": "Security Analytics / Monitoring",
+    "description": "MONITORING | User and Entity Behavior Analytics; uses machine learning to establish baselines and spot anomalous behavioral threats."
+  },
+  {
+    "abbreviation": "FIM",
+    "protocol": "Integrity Monitoring",
+    "description": "MONITORING | File Integrity Monitoring. File Integrity Management; validates operating system and application files against a cryptographic baseline to detect unauthorized changes."
+  },
+  {
+    "abbreviation": "SWG",
+    "protocol": "Network Security / Web Filtering",
+    "description": "SECURITY | Secure Web Gateway; inspects and filters web traffic to enforce company policies and prevent malware infections."
+  },
+  {
+    "abbreviation": "NGFW",
+    "protocol": "Network Security",
+    "description": "SECURITY | Next-Generation Firewall; deep packet inspection firewall adding application awareness, IDS/IPS, and threat intelligence."
+  },
+  {
+    "abbreviation": "OSINT",
+    "protocol": "Reconnaissance / Threat Intelligence",
+    "description": "THREAT | Open-Source Intelligence; gathering security intelligence legally from publicly available sources."
+  },
+  {
+    "abbreviation": "TTP",
+    "protocol": "Threat Intelligence",
+    "description": "THREAT | Tactics, Techniques, and Procedures; pattern of behaviors, methods, and strategies used by cyber threat actors."
+  },
+  {
+    "abbreviation": "DPO",
+    "protocol": "Governance / Data Privacy",
+    "description": "GOVERNANCE | Data Protection Officer; leadership role responsible for overseeing data privacy compliance and regulatory strategies."
+  },
+  {
+    "abbreviation": "GDPR",
+    "protocol": "Governance / Privacy Regulation",
+    "description": "GOVERNANCE | General Data Protection Regulation; strict European Union regulation governing personal data protection and user privacy rights."
+  },
+  {
+    "abbreviation": "DKIM",
+    "protocol": "Email Security",
+    "description": "PROTOCOL | DomainKeys Identified Mail; uses cryptographic signatures to verify that emails were sent by the domain owner."
+  },
+  {
+    "abbreviation": "DMARC",
+    "protocol": "Email Security",
+    "description": "PROTOCOL | Domain-based Message Authentication, Reporting, and Conformance. Domain Message Authentication Reporting and Conformance; email validation protocol leveraging SPF and DKIM to prevent domain spoofing."
+  },
+  {
+    "abbreviation": "AIS",
+    "protocol": "Threat Intelligence",
+    "description": "THREAT | Automated Indicator Sharing; CISA public-private ecosystem for exchanging cyber threat indicators."
+  },
+  {
+    "abbreviation": "ATT&CK",
+    "protocol": "Threat Intelligence Framework",
+    "description": "THREAT | Adversarial Tactics, Techniques, and Common Knowledge. MITRE framework cataloging adversary tactics, techniques, and common knowledge."
+  },
+  {
+    "abbreviation": "BGP",
+    "protocol": "Networking Protocol / Port 179",
+    "description": "PROTOCOL | Border Gateway Protocol; core routing protocol exchanging routing information between autonomous systems."
+  },
+  {
+    "abbreviation": "CSPM",
+    "protocol": "Cloud Security",
+    "description": "CLOUD | Cloud Security Posture Management; automates security compliance and risk identification in cloud infrastructure."
+  },
+  {
+    "abbreviation": "CWPP",
+    "protocol": "Cloud Security",
+    "description": "CLOUD | Cloud Workload Protection Platform; workload-centric security protection for VMs, containers, and serverless functions."
+  },
+  {
+    "abbreviation": "DAD",
+    "protocol": "Security Concepts",
+    "description": "THREAT | Disclosure, Alteration, and Destruction; opposite threat dimensions matching the CIA triad."
+  },
+  {
+    "abbreviation": "HIPAA",
+    "protocol": "Governance / Privacy Regulation",
+    "description": "GOVERNANCE | Health Insurance Portability and Accountability Act. US law providing data privacy and security provisions for safeguarding medical information."
+  },
+  {
+    "abbreviation": "OT",
+    "protocol": "Industrial Systems",
+    "description": "ICS | Operational Technology; hardware/software detecting or causing changes through direct monitoring of physical devices."
+  },
+  {
+    "abbreviation": "PCI DSS",
+    "protocol": "Governance / Compliance Standard",
+    "description": "GOVERNANCE | Payment Card Industry Data Security Standard. Security standard for organizations handling branded credit cards from major card schemes."
+  },
+  {
+    "abbreviation": "PUP",
+    "protocol": "Threat / Malware",
+    "description": "THREAT | Potentially Unwanted Program; software installed without explicit user consent (e.g., adware)."
+  },
+  {
+    "abbreviation": "SD-WAN",
+    "protocol": "Networking Architecture",
+    "description": "NETWORKING | Software-Defined Wide Area Network; manages WAN connections dynamically via decoupled control software."
+  },
+  {
+    "abbreviation": "SOC",
+    "protocol": "Security Operations / Auditing",
+    "description": "OPERATIONS | Security Operations Center or Service Organization Control compliance report."
+  },
+  {
+    "abbreviation": "SQLi",
+    "protocol": "Web Vulnerability",
+    "description": "ATTACK | SQL Injection; malicious code insertion technique manipulating relational database queries."
+  },
+  {
+    "abbreviation": "WPA3",
+    "protocol": "Wireless Security",
+    "description": "WIRELESS | Wi-Fi Protected Access 3. Latest Wi-Fi Protected Access standard using SAE (Simultaneous Authentication of Equals) encryption."
+  }
+]
