@@ -1,16 +1,72 @@
 [
-  { "abbreviation": "IaaS", "description": "Infrastructure as a Service - Cloud model delivering on-demand virtualized hardware, networking, and storage." },
-  { "abbreviation": "PaaS", "description": "Platform as a Service - Cloud model offering managed development environments without OS management overhead." },
-  { "abbreviation": "SaaS", "description": "Software as a Service - Fully managed cloud applications accessed directly by users over the web." },
-  { "abbreviation": "XaaS", "description": "Anything as a Service - Broad term encompassing all services delivered over the internet via cloud infrastructure." },
-  { "abbreviation": "CSP", "description": "Cloud Service Provider - Commercial vendor delivering scalable computing, storage, or software services over networks." },
-  { "abbreviation": "VDI", "description": "Virtual Desktop Infrastructure - Desktop environment hosted on centralized servers accessed remotely by thin clients." },
-  { "abbreviation": "VM", "description": "Virtual Machine - Software emulation of a physical computer system running its own guest operating system." },
-  { "abbreviation": "VMM", "description": "Virtual Machine Manager - Hypervisor software creating and managing virtual machines on physical hosts." },
-  { "abbreviation": "API", "description": "Application Programming Interface - Protocols enabling distinct software programs to communicate and exchange data." },
-  { "abbreviation": "SDK", "description": "Software Development Kit - Software toolset and libraries provided to developers to build platform applications." },
-  { "abbreviation": "IaC", "description": "Infrastructure as Code - Provisioning and managing IT infrastructure using code definitions and automated scripts." },
-  { "abbreviation": "CSPM", "description": "Cloud Security Posture Management - Automated tools checking cloud configurations against compliance baselines." },
-  { "abbreviation": "CNAPP", "description": "Cloud-Native Application Protection Platform - Integrated suite securing cloud application development and runtime environment." },
-  { "abbreviation": "CWPP", "description": "Cloud Workload Protection Platform - Agent-based security platform guarding workloads across cloud environments." }
+  {
+    "id": "archive_cloud_virt_abr__iaas",
+    "abbreviation": "IaaS",
+    "description": "Infrastructure as a Service - Cloud model delivering on-demand virtualized hardware, networking, and storage."
+  },
+  {
+    "id": "archive_cloud_virt_abr__paas",
+    "abbreviation": "PaaS",
+    "description": "Platform as a Service - Cloud model offering managed development environments without OS management overhead."
+  },
+  {
+    "id": "archive_cloud_virt_abr__saas",
+    "abbreviation": "SaaS",
+    "description": "Software as a Service - Fully managed cloud applications accessed directly by users over the web."
+  },
+  {
+    "id": "archive_cloud_virt_abr__xaas",
+    "abbreviation": "XaaS",
+    "description": "Anything as a Service - Broad term encompassing all services delivered over the internet via cloud infrastructure."
+  },
+  {
+    "id": "archive_cloud_virt_abr__csp",
+    "abbreviation": "CSP",
+    "description": "Cloud Service Provider - Commercial vendor delivering scalable computing, storage, or software services over networks."
+  },
+  {
+    "id": "archive_cloud_virt_abr__vdi",
+    "abbreviation": "VDI",
+    "description": "Virtual Desktop Infrastructure - Desktop environment hosted on centralized servers accessed remotely by thin clients."
+  },
+  {
+    "id": "archive_cloud_virt_abr__vm",
+    "abbreviation": "VM",
+    "description": "Virtual Machine - Software emulation of a physical computer system running its own guest operating system."
+  },
+  {
+    "id": "archive_cloud_virt_abr__vmm",
+    "abbreviation": "VMM",
+    "description": "Virtual Machine Manager - Hypervisor software creating and managing virtual machines on physical hosts."
+  },
+  {
+    "id": "archive_cloud_virt_abr__api",
+    "abbreviation": "API",
+    "description": "Application Programming Interface - Protocols enabling distinct software programs to communicate and exchange data."
+  },
+  {
+    "id": "archive_cloud_virt_abr__sdk",
+    "abbreviation": "SDK",
+    "description": "Software Development Kit - Software toolset and libraries provided to developers to build platform applications."
+  },
+  {
+    "id": "archive_cloud_virt_abr__iac",
+    "abbreviation": "IaC",
+    "description": "Infrastructure as Code - Provisioning and managing IT infrastructure using code definitions and automated scripts."
+  },
+  {
+    "id": "archive_cloud_virt_abr__cspm",
+    "abbreviation": "CSPM",
+    "description": "Cloud Security Posture Management - Automated tools checking cloud configurations against compliance baselines."
+  },
+  {
+    "id": "archive_cloud_virt_abr__cnapp",
+    "abbreviation": "CNAPP",
+    "description": "Cloud-Native Application Protection Platform - Integrated suite securing cloud application development and runtime environment."
+  },
+  {
+    "id": "archive_cloud_virt_abr__cwpp",
+    "abbreviation": "CWPP",
+    "description": "Cloud Workload Protection Platform - Agent-based security platform guarding workloads across cloud environments."
+  }
 ]

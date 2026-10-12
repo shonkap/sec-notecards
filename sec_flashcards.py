@@ -15,15 +15,23 @@ class FlashcardApp(tk.Tk):
         self.configure(bg="#101821")
 
         self.cards_directory = "cards"
+        self.progress_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "card_progress.json")
         self.all_cards = []
         self.active_cards = []
         self.current_index = 0
         self.flip_state = 0
+        self.progress = {}
 
         self.load_cards_from_folder()
+        self.load_progress()
         self.setup_ui()
         self.bind_shortcuts()
         self.reset_filter()
+        self.protocol("WM_DELETE_WINDOW", self.on_close)
+
+    def on_close(self):
+        self.save_progress()
+        self.destroy()
 
     def load_cards_from_folder(self):
         if not os.path.exists(self.cards_directory):
@@ -44,6 +52,31 @@ class FlashcardApp(tk.Tk):
                         self.all_cards.append((category_name, item))
             except Exception as e:
                 print(f"Error loading {filepath}: {e}")
+
+    def load_progress(self):
+        self.progress = {}
+        if os.path.exists(self.progress_path):
+            try:
+                with open(self.progress_path, "r", encoding="utf-8") as f:
+                    self.progress = json.load(f)
+            except Exception as e:
+                print(f"Error loading progress file: {e}")
+
+    def save_progress(self):
+        try:
+            with open(self.progress_path, "w", encoding="utf-8") as f:
+                json.dump(self.progress, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            print(f"Error saving progress file: {e}")
+
+    def get_card_id(self, card, category):
+        card_id = card.get("id")
+        if card_id:
+            return card_id
+        return f"{category}::{card.get('abbreviation', '')}"
+
+    def get_card_group(self, card, category):
+        return self.progress.get(self.get_card_id(card, category), "Unknown")
 
     def setup_ui(self):
         self.style = ttk.Style(self)
@@ -97,6 +130,8 @@ class FlashcardApp(tk.Tk):
             foreground=[("pressed", "#FFFFFF"), ("active", "#FFFFFF")],
             relief=[("pressed", "flat"), ("active", "flat")],
         )
+        self.style.configure("TCheckbutton", background="#1B2430", foreground="#EAF2FF")
+        self.style.map("TCheckbutton", background=[("active", "#1B2430")])
 
         header_frame = tk.Frame(self, bg="#101821")
         header_frame.pack(fill="x", padx=18, pady=(16, 8))
@@ -156,13 +191,34 @@ class FlashcardApp(tk.Tk):
             state="readonly",
             width=18,
         )
-        self.start_view_dropdown.grid(row=1, column=1, sticky="w", padx=(0, 12), pady=(4, 12))
+        self.start_view_dropdown.grid(row=1, column=1, sticky="w", padx=(0, 12), pady=(4, 6))
         self.start_view_dropdown.bind("<<ComboboxSelected>>", lambda e: self.on_start_view_change())
 
         btn_frame = ttk.Frame(controls_frame)
-        btn_frame.grid(row=1, column=2, columnspan=2, sticky="e", padx=(0, 12), pady=(4, 12))
+        btn_frame.grid(row=1, column=2, columnspan=2, sticky="e", padx=(0, 12), pady=(4, 6))
         ttk.Button(btn_frame, text="🔀 Randomize (R)", style="Secondary.TButton", command=self.shuffle_current).pack(side="left", padx=(0, 6))
         ttk.Button(btn_frame, text="🔄 Reset", style="Secondary.TButton", command=self.reset_filter).pack(side="left")
+
+        ttk.Label(controls_frame, text="Group:", background="#1B2430").grid(row=2, column=0, sticky="w", padx=(12, 6), pady=(0, 12))
+        self.group_var = tk.StringVar(value="All Groups")
+        self.group_dropdown = ttk.Combobox(
+            controls_frame,
+            textvariable=self.group_var,
+            values=["All Groups", "Known", "Questionable", "Unknown"],
+            state="readonly",
+            width=18,
+        )
+        self.group_dropdown.grid(row=2, column=1, sticky="w", padx=(0, 12), pady=(0, 12))
+        self.group_dropdown.bind("<<ComboboxSelected>>", lambda e: self.apply_filters())
+
+        self.shuffle_var = tk.BooleanVar(value=True)
+        self.shuffle_check = ttk.Checkbutton(
+            controls_frame,
+            text="Shuffle order",
+            variable=self.shuffle_var,
+            command=self.apply_filters,
+        )
+        self.shuffle_check.grid(row=2, column=2, columnspan=2, sticky="e", padx=(0, 12), pady=(0, 12))
 
         self.card_frame = tk.Frame(self, bg="#1C2A38", highlightbackground="#40516A", highlightthickness=2)
         self.card_frame.pack(fill="both", expand=True, padx=16, pady=(0, 8))
@@ -214,6 +270,13 @@ class FlashcardApp(tk.Tk):
         self.flip_hint.pack(anchor="s", pady=(6, 14))
         self.flip_hint.bind("<Button-1>", lambda e: self.flip_card())
 
+        self.progress_frame = ttk.Frame(self)
+        self.progress_frame.pack(fill="x", padx=16, pady=(0, 10))
+        ttk.Label(self.progress_frame, text="Mark this card as:", foreground="#9DB2C9", background="#101821").pack(side="left", padx=(0, 10))
+        ttk.Button(self.progress_frame, text="✅ Known (K)", style="Secondary.TButton", command=lambda: self.mark_card("Known")).pack(side="left", padx=(0, 6))
+        ttk.Button(self.progress_frame, text="❓ Questionable (Q)", style="Secondary.TButton", command=lambda: self.mark_card("Questionable")).pack(side="left", padx=(0, 6))
+        ttk.Button(self.progress_frame, text="❌ Unknown (U)", style="Secondary.TButton", command=lambda: self.mark_card("Unknown")).pack(side="left")
+
         nav_frame = ttk.Frame(self)
         nav_frame.pack(fill="x", padx=16, pady=(0, 14))
 
@@ -230,6 +293,12 @@ class FlashcardApp(tk.Tk):
         self.bind("<Up>", lambda e: self.prev_card())
         self.bind("<r>", lambda e: self.shuffle_current())
         self.bind("<R>", lambda e: self.shuffle_current())
+        self.bind("<k>", lambda e: self.mark_card("Known"))
+        self.bind("<K>", lambda e: self.mark_card("Known"))
+        self.bind("<q>", lambda e: self.mark_card("Questionable"))
+        self.bind("<Q>", lambda e: self.mark_card("Questionable"))
+        self.bind("<u>", lambda e: self.mark_card("Unknown"))
+        self.bind("<U>", lambda e: self.mark_card("Unknown"))
 
     def get_initial_flip_state(self):
         selection = self.start_view_var.get()
@@ -243,13 +312,17 @@ class FlashcardApp(tk.Tk):
         self.flip_state = self.get_initial_flip_state()
         self.update_card_display()
 
-    def apply_filters(self):
+    def compute_filtered_list(self):
         selected_cat = self.cat_var.get()
+        selected_group = self.group_var.get()
         query = self.search_var.get().strip().lower()
 
         filtered = []
         for cat, card in self.all_cards:
             if selected_cat != "All Categories" and cat != selected_cat:
+                continue
+
+            if selected_group != "All Groups" and self.get_card_group(card, cat) != selected_group:
                 continue
 
             abbr = str(card.get("abbreviation", "")).lower()
@@ -261,10 +334,36 @@ class FlashcardApp(tk.Tk):
 
             filtered.append((cat, card))
 
-        self.active_cards = filtered
+        return filtered
+
+    def apply_filters(self):
+        self.active_cards = self.compute_filtered_list()
         self.current_index = 0
+        if self.shuffle_var.get():
+            random.shuffle(self.active_cards)
         self.flip_state = self.get_initial_flip_state()
         self.update_card_display()
+
+    def mark_card(self, group):
+        if not self.active_cards:
+            return
+
+        cat, card = self.active_cards[self.current_index]
+        card_id = self.get_card_id(card, cat)
+        self.progress[card_id] = group
+        self.save_progress()
+
+        selected_group = self.group_var.get()
+        if selected_group != "All Groups" and selected_group != group:
+            del self.active_cards[self.current_index]
+            if self.active_cards:
+                self.current_index %= len(self.active_cards)
+            else:
+                self.current_index = 0
+            self.flip_state = self.get_initial_flip_state()
+            self.update_card_display()
+        else:
+            self.next_card()
 
     def shuffle_current(self):
         if self.active_cards:
@@ -276,9 +375,9 @@ class FlashcardApp(tk.Tk):
     def reset_filter(self):
         self.cat_var.set("All Categories")
         self.search_var.set("")
+        self.group_var.set("All Groups")
         self.start_view_var.set("Term / Port")
         self.apply_filters()
-        self.shuffle_current()
 
     def update_card_display(self):
         if not self.active_cards:
@@ -321,7 +420,8 @@ class FlashcardApp(tk.Tk):
             text_color = "#F7F9FC"
             self.flip_hint.config(text="Press Space or click to move to the next card")
 
-        self.category_label.config(text=f"Category: {cat}   •   {stage} view")
+        group = self.get_card_group(card, cat)
+        self.category_label.config(text=f"Category: {cat}   •   {stage} view   •   Group: {group}")
         self.card_title.config(text=card_title_text, fg=title_color)
         self.card_text.config(text=display_text, fg=text_color, font=font_spec)
         self.counter_label.config(text=f"Card {self.current_index + 1} of {len(self.active_cards)}")

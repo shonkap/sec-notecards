@@ -1,45 +1,54 @@
 [
   {
+    "id": "archive_pki_trust_arch_abr__csr",
     "abbreviation": "CSR",
     "protocol": "PKI Workflow Step 1",
     "description": "Certificate Signing Request | Document sent to a CA to apply for a digital certificate. Contains the applicant's public key and identity details; private key stays secret."
   },
   {
+    "id": "archive_pki_trust_arch_abr__crl",
     "abbreviation": "CRL",
     "protocol": "Legacy Revocation Method",
     "description": "Certificate Revocation List | A published list of revoked/invalid certificates published periodically by a CA. Main drawback: caching delays cause latency in detecting revoked certs."
   },
   {
+    "id": "archive_pki_trust_arch_abr__ocsp",
     "abbreviation": "OCSP",
     "protocol": "Best: OCSP Stapling",
     "description": "Online Certificate Status Protocol | Real-time query mechanism to check certificate revocation status. Fast alternative to CRLs, but can create privacy and performance bottlenecks."
   },
   {
+    "id": "archive_pki_trust_arch_abr__ocsp_stapling",
     "abbreviation": "OCSP Stapling",
     "protocol": "Current Gold Standard",
     "description": "Web server queries OCSP server directly and 'staples' the time-stamped OCSP response to the TLS handshake, protecting user privacy and reducing CA server load."
   },
   {
+    "id": "archive_pki_trust_arch_abr__root_ca",
     "abbreviation": "Root CA",
     "protocol": "Anchor of Trust",
     "description": "Top-level Certificate Authority. Kept offline in a secure vault to prevent compromise. Signs Intermediate CA certificates."
   },
   {
+    "id": "archive_pki_trust_arch_abr__intermediate_ca",
     "abbreviation": "Intermediate CA",
     "protocol": "Operational CA",
     "description": "Subordinate CA trusted by the Root CA to issue day-to-day end-entity certificates. If compromised, it can be revoked without invalidating the Root CA."
   },
   {
+    "id": "archive_pki_trust_arch_abr__trust_model",
     "abbreviation": "Trust Model",
     "protocol": "Single vs Hierarchical vs Web of Trust",
     "description": "Architecture determining trust paths. Hierarchical (Root -> Intermediate -> Leaf) is the standard enterprise and internet model."
   },
   {
+    "id": "archive_pki_trust_arch_abr__key_escrow",
     "abbreviation": "Key Escrow",
     "protocol": "Enterprise Recovery Control",
     "description": "Third-party storage of cryptographic keys. Ensures an organization can recover encrypted data if an employee leaves or loses their decryption key."
   },
   {
+    "id": "archive_pki_trust_arch_abr__key_pinning",
     "abbreviation": "Key Pinning",
     "protocol": "DEPRECATED (HPKP)",
     "description": "Hardcoding expected certificate keys into an app to block Man-in-the-Middle attacks. Deprecated due to high risk of accidental lockouts."

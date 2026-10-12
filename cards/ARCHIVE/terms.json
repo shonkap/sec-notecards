@@ -1,120 +1,144 @@
 [
   {
+    "id": "archive_terms__cryptography",
     "abbreviation": "Cryptography",
     "protocol": "Core Security Discipline",
     "description": "The practice and study of techniques for securing communication and data against adversaries using mathematical algorithms."
   },
   {
+    "id": "archive_terms__cryptanalysis",
     "abbreviation": "Cryptanalysis",
     "protocol": "Attacker / Auditor Technique",
     "description": "The science of analyzing and deciphering secret communications without knowing the key (codebreaking)."
   },
   {
+    "id": "archive_terms__cryptology",
     "abbreviation": "Cryptology",
     "protocol": "Overarching Field of Study",
     "description": "The overall domain that combines both cryptography (creating ciphers) and cryptanalysis (breaking ciphers)."
   },
   {
+    "id": "archive_terms__plaintext",
     "abbreviation": "Plaintext",
     "protocol": "Unencrypted Format",
     "description": "Cleartext | Original, unencrypted, human- or machine-readable data before running it through a cipher."
   },
   {
+    "id": "archive_terms__ciphertext",
     "abbreviation": "Ciphertext",
     "protocol": "Encrypted Format",
     "description": "Scrambled, unreadable data output produced after running plaintext through an encryption algorithm using a key."
   },
   {
+    "id": "archive_terms__cipher",
     "abbreviation": "Cipher",
     "protocol": "Algorithm Specification",
     "description": "The specific mathematical algorithm used to encrypt and decrypt data (e.g., AES, RSA, ChaCha20)."
   },
   {
+    "id": "archive_terms__key",
     "abbreviation": "Key",
     "protocol": "Secret Parameter",
     "description": "A secret string of bits used as input to a cipher to control the transformation between plaintext and ciphertext."
   },
   {
+    "id": "archive_terms__key_space",
     "abbreviation": "Key Space",
     "protocol": "Best: 256-bit Key Space",
     "description": "The total number of possible key combinations available for a given key length. 2^256 key space resists brute-force."
   },
   {
+    "id": "archive_terms__entropy",
     "abbreviation": "Entropy",
     "protocol": "Randomness Measure",
     "description": "The measure of randomness or unpredictability in data or key generation. Essential for generating secure keys and nonces."
   },
   {
+    "id": "archive_terms__salt",
     "abbreviation": "Salt",
     "protocol": "Best: Unique Salt per Password",
     "description": "Password Protection | Random data appended to a password before hashing to block Rainbow Table attacks."
   },
   {
+    "id": "archive_terms__pepper",
     "abbreviation": "Pepper",
     "protocol": "Best: Application-Level Secret",
     "description": "Password Protection | Secret key combined with a password before hashing, stored separately from the password database."
   },
   {
+    "id": "archive_terms__iv",
     "abbreviation": "IV",
     "protocol": "Initialization Vector",
     "description": "Random seed value combined with a key so that encrypting identical plaintexts results in different ciphertexts."
   },
   {
+    "id": "archive_terms__nonce",
     "abbreviation": "Nonce",
     "protocol": "Number Used Once",
     "description": "A unique random or pseudo-random value used only once per communication session to prevent replay attacks."
   },
   {
+    "id": "archive_terms__obfuscation",
     "abbreviation": "Obfuscation",
     "protocol": "Security by Obscurity (Not True Encryption)",
     "description": "Making code or data complex/unreadable to humans (e.g., Base64, XORing). Provides zero cryptographic defense on its own."
   },
   {
+    "id": "archive_terms__steganography",
     "abbreviation": "Steganography",
     "protocol": "Concealment Technique",
     "description": "Hiding secret data inside an ordinary file format (e.g., embedding secret messages inside image pixels or audio tracks)."
   },
   {
+    "id": "archive_terms__diffusion",
     "abbreviation": "Diffusion",
     "protocol": "Cipher Design Principle",
     "description": "Property where changing one bit in the plaintext flips roughly half of the ciphertext bits, masking statistical patterns."
   },
   {
+    "id": "archive_terms__confusion",
     "abbreviation": "Confusion",
     "protocol": "Cipher Design Principle",
     "description": "Property where the mathematical relationship between the encryption key and ciphertext is as complex as possible."
   },
   {
+    "id": "archive_terms__collision",
     "abbreviation": "Collision",
     "protocol": "Hash Flaw / Vulnerability",
     "description": "Integrity Flaw | Occurs when two completely different inputs generate the exact same hash value."
   },
   {
+    "id": "archive_terms__pfs",
     "abbreviation": "PFS",
     "protocol": "Best: Ephemeral Keys (ECDHE)",
     "description": "Perfect Forward Secrecy | Ensures compromise of a long-term private key does not compromise past session keys."
   },
   {
+    "id": "archive_terms__ephemeral_key",
     "abbreviation": "Ephemeral Key",
     "protocol": "Best: ECDHE / DHE",
     "description": "A temporary key generated for a single session and discarded immediately after use."
   },
   {
+    "id": "archive_terms__key_stretching",
     "abbreviation": "Key Stretching",
     "protocol": "Best: Argon2 / PBKDF2 / bcrypt",
     "description": "Password Hardening | Running a password through thousands of hash iterations to slow down offline brute-force cracking."
   },
   {
+    "id": "archive_terms__work_factor",
     "abbreviation": "Work Factor",
     "protocol": "Cost Factor / Iteration Count",
     "description": "The time and computational resources required to perform a cryptographic calculation or password crack."
   },
   {
+    "id": "archive_terms__homomorphic_encryption",
     "abbreviation": "Homomorphic Encryption",
     "protocol": "Emerging Cloud Privacy Tech",
     "description": "Advanced encryption that allows mathematical operations to be run on ciphertext directly without decrypting it first."
   },
   {
+    "id": "archive_terms__pqc",
     "abbreviation": "PQC",
     "protocol": "Best: Lattice-Based Cryptography",
     "description": "Post-Quantum Cryptography | Algorithms designed to resist decryption attacks from future quantum supercomputers."

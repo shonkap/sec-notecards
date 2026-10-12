@@ -1,315 +1,378 @@
 [
   {
+    "id": "archive_encryption__symmetric_encryption",
     "abbreviation": "Symmetric Encryption",
     "protocol": "Best: AES-256 / AES-GCM",
     "description": "Confidentiality | Uses a single shared secret key to encrypt and decrypt. Fast; ideal for bulk data."
   },
   {
+    "id": "archive_encryption__asymmetric_encryption",
     "abbreviation": "Asymmetric Encryption",
     "protocol": "Best: ECC (ECDSA / ECDH)",
     "description": "Confidentiality, Key Exchange, Signatures | Uses public/private key pairs. Slower than symmetric; used for trust and key exchange."
   },
   {
+    "id": "archive_encryption__aes",
     "abbreviation": "AES",
     "protocol": "Best: AES-256-GCM",
     "description": "Confidentiality | Modern standard symmetric block cipher. AES-256 offers maximum security margin; GCM adds integrity."
   },
   {
+    "id": "archive_encryption__aes_128",
     "abbreviation": "AES-128",
     "protocol": "Best: AES-256",
     "description": "Confidentiality | Secure, but AES-256 is preferred for top-secret data and post-quantum preparation."
   },
   {
+    "id": "archive_encryption__aes_192",
     "abbreviation": "AES-192",
     "protocol": "Best: AES-256",
     "description": "Confidentiality | Mid-tier AES size. Most implementations standardize directly on AES-128 or AES-256."
   },
   {
+    "id": "archive_encryption__aes_256",
     "abbreviation": "AES-256",
     "protocol": "Current Gold Standard",
     "description": "Confidentiality | Highest standard symmetric key size. Required for top-secret classified data."
   },
   {
+    "id": "archive_encryption__aes_gcm",
     "abbreviation": "AES-GCM",
     "protocol": "Current Gold Standard",
     "description": "Confidentiality + Integrity | Authenticated Encryption (AEAD). The gold standard for modern TLS and bulk data protection."
   },
   {
+    "id": "archive_encryption__cbc",
     "abbreviation": "CBC",
     "protocol": "Best: GCM mode",
     "description": "Confidentiality | Legacy block cipher mode. Vulnerable to padding oracle attacks; GCM is preferred."
   },
   {
+    "id": "archive_encryption__ecb",
     "abbreviation": "ECB",
     "protocol": "Best: GCM or CTR mode",
     "description": "Confidentiality (INSECURE) | Electronic Codebook. Encrypts identical blocks identically, exposing data patterns. Never use."
   },
   {
+    "id": "archive_encryption__ctr",
     "abbreviation": "CTR",
     "protocol": "Best: GCM mode",
     "description": "Confidentiality | Turns block cipher into stream cipher using a counter. Good, but GCM is better because GCM includes integrity."
   },
   {
+    "id": "archive_encryption__gcm",
     "abbreviation": "GCM",
     "protocol": "Current Gold Standard",
     "description": "Confidentiality + Integrity | Parallelizable AEAD block mode. Standard for TLS 1.3 and IPsec."
   },
   {
+    "id": "archive_encryption__des",
     "abbreviation": "DES",
     "protocol": "Best: AES-256",
     "description": "DEPRECATED | Legacy 56-bit symmetric cipher. Broken and easily brute-forced in hours."
   },
   {
+    "id": "archive_encryption__3des",
     "abbreviation": "3DES",
     "protocol": "Best: AES-256",
     "description": "DEPRECATED | Applies DES three times. Slow and vulnerable to Sweet32 attack; officially retired."
   },
   {
+    "id": "archive_encryption__rc4",
     "abbreviation": "RC4",
     "protocol": "Best: ChaCha20 or AES",
     "description": "DEPRECATED | Legacy stream cipher once used in WEP/SSL. Has severe keystream bias vulnerabilities."
   },
   {
+    "id": "archive_encryption__chacha20",
     "abbreviation": "ChaCha20",
     "protocol": "Best Mobile/IoT Stream Cipher",
     "description": "Confidentiality | Modern stream cipher optimized for systems without hardware AES acceleration."
   },
   {
+    "id": "archive_encryption__chacha20_poly1305",
     "abbreviation": "ChaCha20-Poly1305",
     "protocol": "Current Gold Standard (Mobile)",
     "description": "Confidentiality + Integrity | High-speed AEAD cipher combination. Excellent alternative to AES-GCM on mobile."
   },
   {
+    "id": "archive_encryption__rsa",
     "abbreviation": "RSA",
     "protocol": "Best: ECC / EdDSA",
     "description": "Confidentiality, Key Exchange, Signatures | Classic asymmetric cipher. Secure at 2048+ bits, but ECC is faster with smaller keys."
   },
   {
+    "id": "archive_encryption__ecc",
     "abbreviation": "ECC",
     "protocol": "Current Gold Standard",
     "description": "Confidentiality, Key Exchange, Signatures | Modern asymmetric standard. 256-bit ECC matches 3072-bit RSA security."
   },
   {
+    "id": "archive_encryption__ecdsa",
     "abbreviation": "ECDSA",
     "protocol": "Current Gold Standard",
     "description": "Integrity, Authentication, Non-repudiation | ECC-based digital signatures. Fast and lightweight."
   },
   {
+    "id": "archive_encryption__eddsa",
     "abbreviation": "EdDSA",
     "protocol": "Modern High-Speed Standard",
     "description": "Integrity, Authentication, Non-repudiation | Edwards-curve signature algorithm. Faster and safer against side-channel attacks than ECDSA."
   },
   {
+    "id": "archive_encryption__dh",
     "abbreviation": "DH",
     "protocol": "Best: ECDHE",
     "description": "Key Exchange | Classic Diffie-Hellman key exchange over insecure channels. Plain DH lacks forward secrecy unless using ephemeral keys."
   },
   {
+    "id": "archive_encryption__ecdh",
     "abbreviation": "ECDH",
     "protocol": "Best: ECDHE",
     "description": "Key Exchange | Elliptic Curve Diffie-Hellman. Fast key agreement; ephemeral version (ECDHE) provides Perfect Forward Secrecy."
   },
   {
+    "id": "archive_encryption__hashing",
     "abbreviation": "Hashing",
     "protocol": "Best: SHA-256 / SHA-3",
     "description": "Integrity | One-way transformation to fixed output. Cannot be decrypted; used for checksums and signatures."
   },
   {
+    "id": "archive_encryption__sha_2",
     "abbreviation": "SHA-2",
     "protocol": "Current Gold Standard",
     "description": "Integrity | Secure hash family (SHA-256, SHA-384, SHA-512). Primary hash standard across modern security."
   },
   {
+    "id": "archive_encryption__sha_256",
     "abbreviation": "SHA-256",
     "protocol": "Current Gold Standard",
     "description": "Integrity | 256-bit hash algorithm. Standard for digital certificates, software checksums, and TLS."
   },
   {
+    "id": "archive_encryption__sha_384",
     "abbreviation": "SHA-384",
     "protocol": "Current High-Security Standard",
     "description": "Integrity | 384-bit hash algorithm used in high-assurance and government environments."
   },
   {
+    "id": "archive_encryption__sha_512",
     "abbreviation": "SHA-512",
     "protocol": "Current High-Security Standard",
     "description": "Integrity | 512-bit hash algorithm offering maximum collision resistance in the SHA-2 family."
   },
   {
+    "id": "archive_encryption__md5",
     "abbreviation": "MD5",
     "protocol": "Best: SHA-256",
     "description": "DEPRECATED | 128-bit legacy hash. High collision risk (two files produce same hash); completely broken."
   },
   {
+    "id": "archive_encryption__sha_1",
     "abbreviation": "SHA-1",
     "protocol": "Best: SHA-256",
     "description": "DEPRECATED | 160-bit legacy hash. Proven collision vulnerabilities; banned in modern PKI."
   },
   {
+    "id": "archive_encryption__argon2",
     "abbreviation": "Argon2",
     "protocol": "Current Gold Standard",
     "description": "Password Hashing | Modern password hash algorithm. Memory-hard to defeat GPU/ASIC cracking rigs."
   },
   {
+    "id": "archive_encryption__bcrypt",
     "abbreviation": "bcrypt",
     "protocol": "Best: Argon2 (or bcrypt)",
     "description": "Password Hashing | Blowfish-based KDF using configurable cost factors to slow down offline dictionary attacks."
   },
   {
+    "id": "archive_encryption__scrypt",
     "abbreviation": "scrypt",
     "protocol": "Best: Argon2",
     "description": "Password Hashing | Memory-intensive KDF designed to stop hardware-accelerated password cracking."
   },
   {
+    "id": "archive_encryption__pbkdf2",
     "abbreviation": "PBKDF2",
     "protocol": "Best: Argon2",
     "description": "Password Hashing | Key derivation function using thousands of HMAC iterations. Older standard; Argon2 is preferred."
   },
   {
+    "id": "archive_encryption__hmac",
     "abbreviation": "HMAC",
     "protocol": "Current Gold Standard (Auth/Integrity)",
     "description": "Integrity + Authentication | Combines a secret key with a hash (e.g., HMAC-SHA256). Proves data origin and non-tampering."
   },
   {
+    "id": "archive_encryption__digital_signature",
     "abbreviation": "Digital Signature",
     "protocol": "Best: ECDSA / EdDSA",
     "description": "Integrity, Authentication, Non-repudiation | Sign with private key, verify with public key."
   },
   {
+    "id": "archive_encryption__confidentiality",
     "abbreviation": "Confidentiality",
     "protocol": "Control: Encryption (AES-GCM)",
     "description": "CIA Triad | Ensures data cannot be read by unauthorized parties."
   },
   {
+    "id": "archive_encryption__integrity",
     "abbreviation": "Integrity",
     "protocol": "Control: Hashes / HMACs",
     "description": "CIA Triad | Ensures data has not been modified or tampered with in transit or storage."
   },
   {
+    "id": "archive_encryption__authentication",
     "abbreviation": "Authentication",
     "protocol": "Control: Certificates / MFA / HMAC",
     "description": "Security Goal | Verifies the claimed identity of a user, service, or packet origin."
   },
   {
+    "id": "archive_encryption__non_repudiation",
     "abbreviation": "Non-repudiation",
     "protocol": "Control: Digital Signatures",
     "description": "Security Goal | Prevents a sender from denying they sent a message or signed a transaction."
   },
   {
+    "id": "archive_encryption__pki",
     "abbreviation": "PKI",
     "protocol": "Standard: X.509 Hierarchy",
     "description": "Framework | Complete ecosystem of CAs, keys, and certificates managing asymmetric trust."
   },
   {
+    "id": "archive_encryption__ca",
     "abbreviation": "CA",
     "protocol": "Standard: Trusted Root CA",
     "description": "PKI Component | Trusted third-party authority that signs and issues X.509 certificates."
   },
   {
+    "id": "archive_encryption__digital_certificate",
     "abbreviation": "Digital Certificate",
     "protocol": "Standard: X.509 v3",
     "description": "PKI Component | Electronic document signed by CA binding an identity to a public key."
   },
   {
+    "id": "archive_encryption__public_key",
     "abbreviation": "Public Key",
     "protocol": "Standard: ECC 256-bit or RSA 3072-bit",
     "description": "Asymmetric Cryptography | Shared key used to ENCRYPT data or VERIFY a digital signature."
   },
   {
+    "id": "archive_encryption__private_key",
     "abbreviation": "Private Key",
     "description": "Asymmetric Cryptography | Secret key kept hidden. Used to DECRYPT data or CREATE a digital signature.",
     "protocol": "Standard: Protect with HSM / KMS"
   },
   {
+    "id": "archive_encryption__tls",
     "abbreviation": "TLS",
     "protocol": "Best: TLS 1.3",
     "description": "Protocol | Standard cryptographic protocol providing network encryption, integrity, and authentication."
   },
   {
+    "id": "archive_encryption__tls_1_3",
     "abbreviation": "TLS 1.3",
     "protocol": "Current Gold Standard",
     "description": "Protocol | Eliminates weak ciphers, forces forward secrecy, and speeds up handshake times."
   },
   {
+    "id": "archive_encryption__tls_1_2",
     "abbreviation": "TLS 1.2",
     "protocol": "Best: Upgrade to TLS 1.3",
     "description": "Protocol | Supported legacy TLS version. Secure only when configured with strong cipher suites."
   },
   {
+    "id": "archive_encryption__ssl",
     "abbreviation": "SSL",
     "protocol": "Best: TLS 1.3",
     "description": "DEPRECATED | Obsolete predecessor to TLS. SSL 2.0 and 3.0 are severely vulnerable (e.g., POODLE)."
   },
   {
+    "id": "archive_encryption__ssl_2_0",
     "abbreviation": "SSL 2.0",
     "protocol": "Best: TLS 1.3",
     "description": "DEPRECATED | Insecure 1995 protocol. Prohibited everywhere."
   },
   {
+    "id": "archive_encryption__ssl_3_0",
     "abbreviation": "SSL 3.0",
     "protocol": "Best: TLS 1.3",
     "description": "DEPRECATED | Insecure 1996 protocol vulnerable to POODLE attack. Banned across all modern systems."
   },
   {
+    "id": "archive_encryption__ipsec",
     "abbreviation": "IPsec",
     "protocol": "Best: ESP in Tunnel Mode",
     "description": "Protocol Suite | Network Layer (L3) VPN suite providing encryption, integrity, and authentication."
   },
   {
+    "id": "archive_encryption__ah",
     "abbreviation": "AH",
     "protocol": "Best: ESP (includes encryption)",
     "description": "IPsec Protocol | Provides integrity and authentication ONLY. Does NOT encrypt data."
   },
   {
+    "id": "archive_encryption__esp",
     "abbreviation": "ESP",
     "protocol": "Current Gold Standard (VPN)",
     "description": "IPsec Protocol | Provides encryption (confidentiality) plus authentication and integrity."
   },
   {
+    "id": "archive_encryption__wep",
     "abbreviation": "WEP",
     "protocol": "Best: WPA3",
     "description": "DEPRECATED | 802.11 wireless protocol broken by 24-bit IV vulnerabilities. Cracked in minutes."
   },
   {
+    "id": "archive_encryption__wpa",
     "abbreviation": "WPA",
     "protocol": "Best: WPA3",
     "description": "DEPRECATED | Interim wireless fix for WEP using TKIP. Obsolete."
   },
   {
+    "id": "archive_encryption__wpa2",
     "abbreviation": "WPA2",
     "protocol": "Best: WPA3",
     "description": "Wi-Fi Security | Secure standard using AES with CCMP, but vulnerable to offline dictionary attacks if using PSK."
   },
   {
+    "id": "archive_encryption__wpa3",
     "abbreviation": "WPA3",
     "protocol": "Current Gold Standard",
     "description": "Wi-Fi Security | Modern standard using SAE to eliminate offline dictionary attacks."
   },
   {
+    "id": "archive_encryption__sae",
     "abbreviation": "SAE",
     "protocol": "Current Gold Standard (WPA3 Personal)",
     "description": "WPA3 Feature | Dragonfly key exchange replacing PSK in WPA3 to defeat password guessing."
   },
   {
+    "id": "archive_encryption__ccmp",
     "abbreviation": "CCMP",
     "protocol": "Best: GCMP-256 (in WPA3)",
     "description": "Wi-Fi Protocol | AES cipher mode used in WPA2. Replaced by GCMP in modern enterprise WPA3 setups."
   },
   {
+    "id": "archive_encryption__encryption",
     "abbreviation": "Encryption",
     "protocol": "Standard: AES / ChaCha20",
     "description": "Cryptographic Process | Converts plaintext to ciphertext to protect confidentiality."
   },
   {
+    "id": "archive_encryption__plaintext",
     "abbreviation": "Plaintext",
     "protocol": "Format: Unencrypted",
     "description": "Data Format | Readable original data before encryption."
   },
   {
+    "id": "archive_encryption__ciphertext",
     "abbreviation": "Ciphertext",
     "protocol": "Format: Encrypted",
     "description": "Data Format | Unreadable scrambled data output produced by encryption."
   },
   {
+    "id": "archive_encryption__key_exchange",
     "abbreviation": "Key Exchange",
     "protocol": "Best: ECDHE",
     "description": "Cryptographic Process | Protocol allowing parties to establish shared keys securely over open networks."

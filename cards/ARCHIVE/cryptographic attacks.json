@@ -1,30 +1,36 @@
 [
   {
+    "id": "archive_cryptographic_attacks__birthday_attack",
     "abbreviation": "Birthday Attack",
     "protocol": "Hash Collision Attack",
     "description": "Cryptographic attack based on the birthday paradox, targeting hash functions to find two different inputs that yield the exact same hash (collision)."
   },
   {
+    "id": "archive_cryptographic_attacks__downgrade_attack",
     "abbreviation": "Downgrade Attack",
     "protocol": "Legacy Exploitation (e.g., POODLE)",
     "description": "Forces a system to abandon a secure connection (like TLS 1.3) and fall back to an older, vulnerable protocol version (like SSL 3.0 or TLS 1.0)."
   },
   {
+    "id": "archive_cryptographic_attacks__replay_attack",
     "abbreviation": "Replay Attack",
     "protocol": "Mitigation: Nonce / Timestamps",
     "description": "Attacker intercepts network traffic (like authentication tokens or encrypted sessions) and retransmits it later to masquerade as an authorized user."
   },
   {
+    "id": "archive_cryptographic_attacks__rainbow_table_attack",
     "abbreviation": "Rainbow Table Attack",
     "protocol": "Mitigation: Password Salting",
     "description": "Precomputed table of candidate passwords and their corresponding hashes used to rapidly crack leaked password databases."
   },
   {
+    "id": "archive_cryptographic_attacks__length_extension_attack",
     "abbreviation": "Length Extension Attack",
     "protocol": "Mitigation: HMAC / SHA-3",
     "description": "Attack against weak hash functions (MD5, SHA-1) where an attacker can append data to the end of a message and calculate a valid hash without knowing the secret key."
   },
   {
+    "id": "archive_cryptographic_attacks__collision_attack",
     "abbreviation": "Collision Attack",
     "protocol": "Hash Vulnerability Exploitation",
     "description": "Attacker intentionally crafts two distinct files that hash to the exact same value, breaking integrity validation."

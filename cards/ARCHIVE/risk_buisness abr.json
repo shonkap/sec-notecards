@@ -1,16 +1,72 @@
 [
-  { "abbreviation": "BIA", "description": "Business Impact Analysis - Systematic process assessing operational and financial impacts resulting from system disruptions or disasters." },
-  { "abbreviation": "BCP", "description": "Business Continuity Plan - Comprehensive plan outlining procedures to keep critical business operations running during and after a major disruption." },
-  { "abbreviation": "DRP", "description": "Disaster Recovery Plan - Technical plan detailing restoring IT infrastructure, systems, and data following an emergency or disaster." },
-  { "abbreviation": "COOP", "description": "Continuity of Operations Planning - U.S. government/defense terminology for business continuity planning to sustain essential functions." },
-  { "abbreviation": "RTO", "description": "Recovery Time Objective - Maximum acceptable duration system downtime can last before unacceptable business damage occurs." },
-  { "abbreviation": "RPO", "description": "Recovery Point Objective - Maximum acceptable period of data loss measured in time, dictating data backup frequency." },
-  { "abbreviation": "MTTR", "description": "Mean Time to Repair/Recover - Average time required to repair, troubleshoot, and restore a failed system component to operation." },
-  { "abbreviation": "MTBF", "description": "Mean Time Between Failures - Average expected operational time between inherent system failures for repairable components." },
-  { "abbreviation": "MTTF", "description": "Mean Time to Failure - Expected lifespan or average operational duration of a non-repairable system component before complete failure." },
-  { "abbreviation": "SLE", "description": "Single Loss Expectancy - Estimated financial loss incurred each time a specific asset threat event occurs (SLE = Asset Value × Exposure Factor)." },
-  { "abbreviation": "ARO", "description": "Annualized Rate of Occurrence - Estimated frequency or probability that a specific risk threat event will occur within a single year." },
-  { "abbreviation": "ALE", "description": "Annualized Loss Expectancy - Total expected annual financial loss for a risk (ALE = Single Loss Expectancy × Annualized Rate of Occurrence)." },
-  { "abbreviation": "ROI", "description": "Return on Investment - Performance metric calculating the financial gain or efficiency of an investment relative to its cost." },
-  { "abbreviation": "TCO", "description": "Total Cost of Ownership - Comprehensive evaluation of all direct and indirect costs associated with purchasing, operating, and maintaining an asset over its lifecycle." }
+  {
+    "id": "archive_risk_buisness_abr__bia",
+    "abbreviation": "BIA",
+    "description": "Business Impact Analysis - Systematic process assessing operational and financial impacts resulting from system disruptions or disasters."
+  },
+  {
+    "id": "archive_risk_buisness_abr__bcp",
+    "abbreviation": "BCP",
+    "description": "Business Continuity Plan - Comprehensive plan outlining procedures to keep critical business operations running during and after a major disruption."
+  },
+  {
+    "id": "archive_risk_buisness_abr__drp",
+    "abbreviation": "DRP",
+    "description": "Disaster Recovery Plan - Technical plan detailing restoring IT infrastructure, systems, and data following an emergency or disaster."
+  },
+  {
+    "id": "archive_risk_buisness_abr__coop",
+    "abbreviation": "COOP",
+    "description": "Continuity of Operations Planning - U.S. government/defense terminology for business continuity planning to sustain essential functions."
+  },
+  {
+    "id": "archive_risk_buisness_abr__rto",
+    "abbreviation": "RTO",
+    "description": "Recovery Time Objective - Maximum acceptable duration system downtime can last before unacceptable business damage occurs."
+  },
+  {
+    "id": "archive_risk_buisness_abr__rpo",
+    "abbreviation": "RPO",
+    "description": "Recovery Point Objective - Maximum acceptable period of data loss measured in time, dictating data backup frequency."
+  },
+  {
+    "id": "archive_risk_buisness_abr__mttr",
+    "abbreviation": "MTTR",
+    "description": "Mean Time to Repair/Recover - Average time required to repair, troubleshoot, and restore a failed system component to operation."
+  },
+  {
+    "id": "archive_risk_buisness_abr__mtbf",
+    "abbreviation": "MTBF",
+    "description": "Mean Time Between Failures - Average expected operational time between inherent system failures for repairable components."
+  },
+  {
+    "id": "archive_risk_buisness_abr__mttf",
+    "abbreviation": "MTTF",
+    "description": "Mean Time to Failure - Expected lifespan or average operational duration of a non-repairable system component before complete failure."
+  },
+  {
+    "id": "archive_risk_buisness_abr__sle",
+    "abbreviation": "SLE",
+    "description": "Single Loss Expectancy - Estimated financial loss incurred each time a specific asset threat event occurs (SLE = Asset Value × Exposure Factor)."
+  },
+  {
+    "id": "archive_risk_buisness_abr__aro",
+    "abbreviation": "ARO",
+    "description": "Annualized Rate of Occurrence - Estimated frequency or probability that a specific risk threat event will occur within a single year."
+  },
+  {
+    "id": "archive_risk_buisness_abr__ale",
+    "abbreviation": "ALE",
+    "description": "Annualized Loss Expectancy - Total expected annual financial loss for a risk (ALE = Single Loss Expectancy × Annualized Rate of Occurrence)."
+  },
+  {
+    "id": "archive_risk_buisness_abr__roi",
+    "abbreviation": "ROI",
+    "description": "Return on Investment - Performance metric calculating the financial gain or efficiency of an investment relative to its cost."
+  },
+  {
+    "id": "archive_risk_buisness_abr__tco",
+    "abbreviation": "TCO",
+    "description": "Total Cost of Ownership - Comprehensive evaluation of all direct and indirect costs associated with purchasing, operating, and maintaining an asset over its lifecycle."
+  }
 ]

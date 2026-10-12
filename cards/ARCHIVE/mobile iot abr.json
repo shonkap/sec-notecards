@@ -1,14 +1,62 @@
 [
-  { "abbreviation": "BYOD", "description": "Bring Your Own Device - Enterprise policy allowing employees to use personal mobile devices for work, requiring containerization and security controls." },
-  { "abbreviation": "CYOD", "description": "Choose Your Own Device - Enterprise policy where employees select a mobile device from a company-approved list, but purchase and own it themselves." },
-  { "abbreviation": "COPE", "description": "Corporate-Owned, Personally Enabled - Organization owns and manages the mobile device, but allows employees to use it for limited personal tasks." },
-  { "abbreviation": "MDM", "description": "Mobile Device Management - Security software deployed to remotely provision, monitor, enforce encryption, and wipe corporate mobile hardware." },
-  { "abbreviation": "MAM", "description": "Mobile Application Management - Software focusing strictly on securing and controlling corporate apps and data on a device without managing the whole OS." },
-  { "abbreviation": "UEM", "description": "Unified Endpoint Management - Comprehensive platform combining traditional PC management with mobile device management into a single control panel." },
-  { "abbreviation": "IoT", "description": "Internet of Things - Network of physical smart devices (sensors, appliances) connected to the internet, often lacking strong built-in security features." },
-  { "abbreviation": "OT", "description": "Operational Technology - Hardware and software that monitors or controls physical devices, processes, and infrastructure operations in real time." },
-  { "abbreviation": "ICS", "description": "Industrial Control System - Integrated hardware/software controls used to monitor and operate industrial production lines and critical infrastructure." },
-  { "abbreviation": "SCADA", "description": "Supervisory Control and Data Acquisition - Specialized high-level architecture that monitors and controls large-scale industrial operations across large geographical areas." },
-  { "abbreviation": "IIoT", "description": "Industrial Internet of Things - Connected sensors and instruments integrated into industrial applications to improve operational efficiency and telemetry." },
-  { "abbreviation": "UAV", "description": "Unmanned Aerial Vehicle - Drones and autonomous aircraft requiring secured wireless command-and-control communication links." }
+  {
+    "id": "archive_mobile_iot_abr__byod",
+    "abbreviation": "BYOD",
+    "description": "Bring Your Own Device - Enterprise policy allowing employees to use personal mobile devices for work, requiring containerization and security controls."
+  },
+  {
+    "id": "archive_mobile_iot_abr__cyod",
+    "abbreviation": "CYOD",
+    "description": "Choose Your Own Device - Enterprise policy where employees select a mobile device from a company-approved list, but purchase and own it themselves."
+  },
+  {
+    "id": "archive_mobile_iot_abr__cope",
+    "abbreviation": "COPE",
+    "description": "Corporate-Owned, Personally Enabled - Organization owns and manages the mobile device, but allows employees to use it for limited personal tasks."
+  },
+  {
+    "id": "archive_mobile_iot_abr__mdm",
+    "abbreviation": "MDM",
+    "description": "Mobile Device Management - Security software deployed to remotely provision, monitor, enforce encryption, and wipe corporate mobile hardware."
+  },
+  {
+    "id": "archive_mobile_iot_abr__mam",
+    "abbreviation": "MAM",
+    "description": "Mobile Application Management - Software focusing strictly on securing and controlling corporate apps and data on a device without managing the whole OS."
+  },
+  {
+    "id": "archive_mobile_iot_abr__uem",
+    "abbreviation": "UEM",
+    "description": "Unified Endpoint Management - Comprehensive platform combining traditional PC management with mobile device management into a single control panel."
+  },
+  {
+    "id": "archive_mobile_iot_abr__iot",
+    "abbreviation": "IoT",
+    "description": "Internet of Things - Network of physical smart devices (sensors, appliances) connected to the internet, often lacking strong built-in security features."
+  },
+  {
+    "id": "archive_mobile_iot_abr__ot",
+    "abbreviation": "OT",
+    "description": "Operational Technology - Hardware and software that monitors or controls physical devices, processes, and infrastructure operations in real time."
+  },
+  {
+    "id": "archive_mobile_iot_abr__ics",
+    "abbreviation": "ICS",
+    "description": "Industrial Control System - Integrated hardware/software controls used to monitor and operate industrial production lines and critical infrastructure."
+  },
+  {
+    "id": "archive_mobile_iot_abr__scada",
+    "abbreviation": "SCADA",
+    "description": "Supervisory Control and Data Acquisition - Specialized high-level architecture that monitors and controls large-scale industrial operations across large geographical areas."
+  },
+  {
+    "id": "archive_mobile_iot_abr__iiot",
+    "abbreviation": "IIoT",
+    "description": "Industrial Internet of Things - Connected sensors and instruments integrated into industrial applications to improve operational efficiency and telemetry."
+  },
+  {
+    "id": "archive_mobile_iot_abr__uav",
+    "abbreviation": "UAV",
+    "description": "Unmanned Aerial Vehicle - Drones and autonomous aircraft requiring secured wireless command-and-control communication links."
+  }
 ]

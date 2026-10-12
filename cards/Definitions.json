@@ -1,0 +1,86 @@
+[
+  {
+    "id": "definitions__detective",
+    "abbreviation": "Detective",
+    "protocol": "Security Control Type",
+    "description": "CONTROL TYPE | Identifies and alerts on security incidents during or after they occur, relying on monitoring and review rather than prevention. Examples: IDS, SIEM alerts, log monitoring, security audits, CCTV review."
+  },
+  {
+    "id": "definitions__corrective",
+    "abbreviation": "Corrective",
+    "protocol": "Security Control Type",
+    "description": "CONTROL TYPE | Acts after an incident to limit its impact and restore systems or data to their normal state. Examples: restoring from backups, patch management, IPS blocking active attacks, disaster recovery procedures."
+  },
+  {
+    "id": "definitions__compensating",
+    "abbreviation": "Compensating",
+    "protocol": "Security Control Type",
+    "description": "CONTROL TYPE | An alternative safeguard used when the primary control is too costly or impractical to implement, providing similar protection through other means. Example: extra logging and monitoring on a legacy system that cannot be patched or encrypted."
+  },
+  {
+    "id": "definitions__directive",
+    "abbreviation": "Directive",
+    "protocol": "Security Control Type",
+    "description": "CONTROL TYPE | Specifies acceptable behavior and directs personnel toward secure practices through policy rather than technical enforcement. Examples: acceptable use policies, security awareness training, warning signage."
+  },
+  {
+    "id": "definitions__managerial",
+    "abbreviation": "Managerial",
+    "protocol": "Security Control Category",
+    "description": "CONTROL CATEGORY | Administrative controls implemented through policies, procedures, and governance to manage organizational risk. Examples: risk assessments, security policies, security awareness programs, vendor due diligence."
+  },
+  {
+    "id": "definitions__operational",
+    "abbreviation": "Operational",
+    "protocol": "Security Control Category",
+    "description": "CONTROL CATEGORY | Controls carried out primarily by people (rather than systems) as part of day-to-day operations to maintain security. Examples: security guards, incident response procedures, configuration management, user training."
+  },
+  {
+    "id": "definitions__technical",
+    "abbreviation": "Technical",
+    "protocol": "Security Control Category",
+    "description": "CONTROL CATEGORY | Controls implemented through technology and systems to enforce security requirements. Examples: firewalls, encryption, access control lists, multifactor authentication, IDS/IPS."
+  },
+  {
+    "id": "definitions__zero_trust_control_plane",
+    "abbreviation": "Control Plane",
+    "protocol": "Zero Trust Architecture",
+    "description": "ZERO TRUST | The policy-decision layer of a Zero Trust architecture; it evaluates every access request before granting entry rather than trusting anything by default. Uses adaptive identity, which continuously verifies a subject using contextual signals (location, device posture, behavior, risk score) instead of a single one-time login, alongside threat scope reduction and policy-driven access control enforced by the policy engine and policy administrator."
+  },
+  {
+    "id": "definitions__adaptive_identity",
+    "abbreviation": "Adaptive Identity",
+    "protocol": "Zero Trust Architecture / Control Plane",
+    "description": "ZERO TRUST | Control Plane component that evaluates real-time risk indicators—such as user behavior, device health/posture, geographic location, and connection type—rather than relying solely on static credentials."
+  },
+  {
+    "id": "definitions__policy_driven_access_control",
+    "abbreviation": "Policy-Driven Access Control",
+    "protocol": "Zero Trust Architecture / Control Plane",
+    "description": "ZERO TRUST | Control Plane component that grants or denies access using explicit rules mapped to roles, context, and risk instead of trusting an internal network segment."
+  },
+  {
+    "id": "definitions__policy_engine",
+    "abbreviation": "Policy Engine (PE)",
+    "protocol": "Zero Trust Architecture / Control Plane",
+    "description": "ZERO TRUST | Control Plane component acting as the \"judge\" that analyzes the incoming access request against security policies and context data to make the core allow/deny decision."
+  },
+  {
+    "id": "definitions__policy_administrator",
+    "abbreviation": "Policy Administrator (PA)",
+    "protocol": "Zero Trust Architecture / Control Plane",
+    "description": "ZERO TRUST | Control Plane component acting as the \"bailiff\" that executes the Policy Engine's decision, coordinates connections, and issues session tokens."
+  },
+  {
+    "id": "definitions__policy_enforcement_point",
+    "abbreviation": "Policy Enforcement Point (PEP)",
+    "protocol": "Zero Trust Architecture / Data Plane",
+    "description": "ZERO TRUST | Data Plane component that intercepts traffic and enforces the decision handed down by the control plane (Policy Engine and Policy Administrator)."
+  },
+  {
+    "id": "definitions__threat_scope_reduction",
+    "abbreviation": "Threat-Scope Reduction",
+    "protocol": "Zero Trust Architecture / Control Plane",
+    "description": "ZERO TRUST | Control Plane principle that minimizes the attack surface and \"blast radius\" via micro-segmentation, least-privilege access, and the assumption that a breach has already occurred (assume breach)."
+  }
+]

@@ -1,15 +1,67 @@
 [
-  { "abbreviation": "CVE", "description": "Common Vulnerabilities and Exposures - Standardized public dictionary tracking publicly disclosed cybersecurity flaws." },
-  { "abbreviation": "CVSS", "description": "Common Vulnerability Scoring System - Industry framework scoring vulnerability severity ratings from 0.0 to 10.0." },
-  { "abbreviation": "CWE", "description": "Common Weakness Enumeration - Categorization system identifying underlying software and hardware design flaws." },
-  { "abbreviation": "NVD", "description": "National Vulnerability Database - US government repository of standards-based vulnerability management data." },
-  { "abbreviation": "SAST", "description": "Static Application Security Testing - White-box security testing analyzing source code for vulnerabilities without executing it." },
-  { "abbreviation": "DAST", "description": "Dynamic Application Security Testing - Black-box testing assessing running applications from the outside for vulnerabilities." },
-  { "abbreviation": "IAST", "description": "Interactive Application Security Testing - Hybrid testing tool combining SAST and DAST methods from inside the runtime environment." },
-  { "abbreviation": "RASP", "description": "Runtime Application Self-Protection - Security technology built directly into application runtimes to block malicious inputs." },
-  { "abbreviation": "SBOM", "description": "Software Bill of Materials - Formal inventory listing components, modules, and dependencies included in software." },
-  { "abbreviation": "VAPT", "description": "Vulnerability Assessment and Penetration Testing - Combined process identifying weaknesses and actively exploiting them." },
-  { "abbreviation": "PT", "description": "Penetration Testing - Authorized simulated cyberattack against an organization to evaluate security posture." },
-  { "abbreviation": "BAS", "description": "Breach and Attack Simulation - Automated tools continuously executing simulated cyberattacks against security controls." },
-  { "abbreviation": "FOSS", "description": "Free and Open-Source Software - Software distributed with open licensing allowing anyone to inspect, modify, and use code." }
+  {
+    "id": "archive_vulnrability_managment_abr__cve",
+    "abbreviation": "CVE",
+    "description": "Common Vulnerabilities and Exposures - Standardized public dictionary tracking publicly disclosed cybersecurity flaws."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__cvss",
+    "abbreviation": "CVSS",
+    "description": "Common Vulnerability Scoring System - Industry framework scoring vulnerability severity ratings from 0.0 to 10.0."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__cwe",
+    "abbreviation": "CWE",
+    "description": "Common Weakness Enumeration - Categorization system identifying underlying software and hardware design flaws."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__nvd",
+    "abbreviation": "NVD",
+    "description": "National Vulnerability Database - US government repository of standards-based vulnerability management data."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__sast",
+    "abbreviation": "SAST",
+    "description": "Static Application Security Testing - White-box security testing analyzing source code for vulnerabilities without executing it."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__dast",
+    "abbreviation": "DAST",
+    "description": "Dynamic Application Security Testing - Black-box testing assessing running applications from the outside for vulnerabilities."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__iast",
+    "abbreviation": "IAST",
+    "description": "Interactive Application Security Testing - Hybrid testing tool combining SAST and DAST methods from inside the runtime environment."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__rasp",
+    "abbreviation": "RASP",
+    "description": "Runtime Application Self-Protection - Security technology built directly into application runtimes to block malicious inputs."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__sbom",
+    "abbreviation": "SBOM",
+    "description": "Software Bill of Materials - Formal inventory listing components, modules, and dependencies included in software."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__vapt",
+    "abbreviation": "VAPT",
+    "description": "Vulnerability Assessment and Penetration Testing - Combined process identifying weaknesses and actively exploiting them."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__pt",
+    "abbreviation": "PT",
+    "description": "Penetration Testing - Authorized simulated cyberattack against an organization to evaluate security posture."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__bas",
+    "abbreviation": "BAS",
+    "description": "Breach and Attack Simulation - Automated tools continuously executing simulated cyberattacks against security controls."
+  },
+  {
+    "id": "archive_vulnrability_managment_abr__foss",
+    "abbreviation": "FOSS",
+    "description": "Free and Open-Source Software - Software distributed with open licensing allowing anyone to inspect, modify, and use code."
+  }
 ]

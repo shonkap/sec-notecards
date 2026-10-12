@@ -1,25 +1,117 @@
 [
-  { "abbreviation": "APT", "description": "Advanced Persistent Threat - Stealthy threat actor (often state-sponsored) executing prolonged targeted cyber campaigns." },
-  { "abbreviation": "DoS", "description": "Denial of Service - Cyber attack attempting to render a computer system or network resource unavailable to legitimate users." },
-  { "abbreviation": "DDoS", "description": "Distributed Denial of Service - DoS attack flooding a target system simultaneously using multiple botnet endpoints." },
-  { "abbreviation": "MITM", "description": "Man-in-the-Middle - Interception attack where an adversary secretly relays and alters communications between two targets." },
-  { "abbreviation": "MITB", "description": "Man-in-the-Browser - Trojan attack intercepting web browser calls to modify financial web transactions." },
-  { "abbreviation": "RAT", "description": "Remote Access Trojan - Malware offering covert administrative control and backdoor access over a host system." },
-  { "abbreviation": "C2", "description": "Command and Control - Infrastructure used by attackers to issue remote commands to compromised host endpoints." },
-  { "abbreviation": "CSE", "description": "Client-Side Execution - Code execution occurring locally within client browsers or user applications." },
-  { "abbreviation": "XSS", "description": "Cross-Site Scripting - Vulnerability allowing attackers to inject malicious scripts into web pages viewed by users." },
-  { "abbreviation": "CSRF", "description": "Cross-Site Request Forgery - Web attack tricking authenticated users into submitting unwanted commands." },
-  { "abbreviation": "SQLi", "description": "SQL Injection - Vulnerability allowing unauthorized database SQL queries via unsanitized application user input." },
-  { "abbreviation": "SSRF", "description": "Server-Side Request Forgery - Attack forcing a vulnerable web server to issue requests to arbitrary internal resources." },
-  { "abbreviation": "RCE", "description": "Remote Code Execution - Flaw enabling execution of arbitrary commands on a remote target system." },
-  { "abbreviation": "LFI", "description": "Local File Inclusion - Vulnerability allowing attackers to force a web app to read local server system files." },
-  { "abbreviation": "RFI", "description": "Remote File Inclusion - Vulnerability allowing attackers to execute malicious code stored on a remote external server." },
-  { "abbreviation": "OSINT", "description": "Open-Source Intelligence - Intelligence collected ethically from publicly accessible internet and domain sources." },
-  { "abbreviation": "TTP", "description": "Tactics, Techniques, and Procedures - Analysis framework describing threat actor behavior patterns and operational methods." },
-  { "abbreviation": "IoC", "description": "Indicator of Compromise - Forensic artifact (file hash, IP address) indicating a system breach has occurred." },
-  { "abbreviation": "IoA", "description": "Indicator of Attack - Forensics telemetry focusing on real-time activity pointing to an attack in progress." },
-  { "abbreviation": "ATO", "description": "Account Takeover - Cybercrime attack where an unauthorized party illegally gains access to a user account." },
-  { "abbreviation": "BEC", "description": "Business Email Compromise - Social engineering email scam targeting organization executives or financial teams." },
-  { "abbreviation": "SE", "description": "Social Engineering - Psychological manipulation coercing victims to perform actions or divulge confidential information." },
-  { "abbreviation": "TOCTOU", "description": "Time-of-Check to Time-of-Use - Software race condition vulnerability occurring between permission checking and system execution." }
+  {
+    "id": "archive_attack_threats_abr__apt",
+    "abbreviation": "APT",
+    "description": "Advanced Persistent Threat - Stealthy threat actor (often state-sponsored) executing prolonged targeted cyber campaigns."
+  },
+  {
+    "id": "archive_attack_threats_abr__dos",
+    "abbreviation": "DoS",
+    "description": "Denial of Service - Cyber attack attempting to render a computer system or network resource unavailable to legitimate users."
+  },
+  {
+    "id": "archive_attack_threats_abr__ddos",
+    "abbreviation": "DDoS",
+    "description": "Distributed Denial of Service - DoS attack flooding a target system simultaneously using multiple botnet endpoints."
+  },
+  {
+    "id": "archive_attack_threats_abr__mitm",
+    "abbreviation": "MITM",
+    "description": "Man-in-the-Middle - Interception attack where an adversary secretly relays and alters communications between two targets."
+  },
+  {
+    "id": "archive_attack_threats_abr__mitb",
+    "abbreviation": "MITB",
+    "description": "Man-in-the-Browser - Trojan attack intercepting web browser calls to modify financial web transactions."
+  },
+  {
+    "id": "archive_attack_threats_abr__rat",
+    "abbreviation": "RAT",
+    "description": "Remote Access Trojan - Malware offering covert administrative control and backdoor access over a host system."
+  },
+  {
+    "id": "archive_attack_threats_abr__c2",
+    "abbreviation": "C2",
+    "description": "Command and Control - Infrastructure used by attackers to issue remote commands to compromised host endpoints."
+  },
+  {
+    "id": "archive_attack_threats_abr__cse",
+    "abbreviation": "CSE",
+    "description": "Client-Side Execution - Code execution occurring locally within client browsers or user applications."
+  },
+  {
+    "id": "archive_attack_threats_abr__xss",
+    "abbreviation": "XSS",
+    "description": "Cross-Site Scripting - Vulnerability allowing attackers to inject malicious scripts into web pages viewed by users."
+  },
+  {
+    "id": "archive_attack_threats_abr__csrf",
+    "abbreviation": "CSRF",
+    "description": "Cross-Site Request Forgery - Web attack tricking authenticated users into submitting unwanted commands."
+  },
+  {
+    "id": "archive_attack_threats_abr__sqli",
+    "abbreviation": "SQLi",
+    "description": "SQL Injection - Vulnerability allowing unauthorized database SQL queries via unsanitized application user input."
+  },
+  {
+    "id": "archive_attack_threats_abr__ssrf",
+    "abbreviation": "SSRF",
+    "description": "Server-Side Request Forgery - Attack forcing a vulnerable web server to issue requests to arbitrary internal resources."
+  },
+  {
+    "id": "archive_attack_threats_abr__rce",
+    "abbreviation": "RCE",
+    "description": "Remote Code Execution - Flaw enabling execution of arbitrary commands on a remote target system."
+  },
+  {
+    "id": "archive_attack_threats_abr__lfi",
+    "abbreviation": "LFI",
+    "description": "Local File Inclusion - Vulnerability allowing attackers to force a web app to read local server system files."
+  },
+  {
+    "id": "archive_attack_threats_abr__rfi",
+    "abbreviation": "RFI",
+    "description": "Remote File Inclusion - Vulnerability allowing attackers to execute malicious code stored on a remote external server."
+  },
+  {
+    "id": "archive_attack_threats_abr__osint",
+    "abbreviation": "OSINT",
+    "description": "Open-Source Intelligence - Intelligence collected ethically from publicly accessible internet and domain sources."
+  },
+  {
+    "id": "archive_attack_threats_abr__ttp",
+    "abbreviation": "TTP",
+    "description": "Tactics, Techniques, and Procedures - Analysis framework describing threat actor behavior patterns and operational methods."
+  },
+  {
+    "id": "archive_attack_threats_abr__ioc",
+    "abbreviation": "IoC",
+    "description": "Indicator of Compromise - Forensic artifact (file hash, IP address) indicating a system breach has occurred."
+  },
+  {
+    "id": "archive_attack_threats_abr__ioa",
+    "abbreviation": "IoA",
+    "description": "Indicator of Attack - Forensics telemetry focusing on real-time activity pointing to an attack in progress."
+  },
+  {
+    "id": "archive_attack_threats_abr__ato",
+    "abbreviation": "ATO",
+    "description": "Account Takeover - Cybercrime attack where an unauthorized party illegally gains access to a user account."
+  },
+  {
+    "id": "archive_attack_threats_abr__bec",
+    "abbreviation": "BEC",
+    "description": "Business Email Compromise - Social engineering email scam targeting organization executives or financial teams."
+  },
+  {
+    "id": "archive_attack_threats_abr__se",
+    "abbreviation": "SE",
+    "description": "Social Engineering - Psychological manipulation coercing victims to perform actions or divulge confidential information."
+  },
+  {
+    "id": "archive_attack_threats_abr__toctou",
+    "abbreviation": "TOCTOU",
+    "description": "Time-of-Check to Time-of-Use - Software race condition vulnerability occurring between permission checking and system execution."
+  }
 ]

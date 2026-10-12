@@ -1,1735 +1,2082 @@
 [
   {
+    "id": "sec_acronym__3des",
     "abbreviation": "3DES",
     "protocol": "Encryption / Symmetric",
     "description": "ENCRYPTION | Triple Data Encryption Standard. Symmetric block cipher applying the DES algorithm three times. DEPRECATED."
   },
   {
+    "id": "sec_acronym__aaa",
     "abbreviation": "AAA",
     "protocol": "Access Control / Management",
     "description": "ACCESS CONTROL | Authentication, Authorization, and Accounting. Framework for controlling access, enforcing policies, and tracking user activity."
   },
   {
+    "id": "sec_acronym__abac",
     "abbreviation": "ABAC",
     "protocol": "Access Control",
     "description": "ACCESS CONTROL | Attribute-based Access Control. Access decision based on attributes of the user, environment, and resource."
   },
   {
+    "id": "sec_acronym__acl",
     "abbreviation": "ACL",
     "protocol": "Access Control / Networking",
     "description": "ACCESS CONTROL | Access Control List. Rules used to permit or deny traffic or user access to resources."
   },
   {
+    "id": "sec_acronym__aes",
     "abbreviation": "AES",
     "protocol": "Encryption / Symmetric",
     "description": "ENCRYPTION | Advanced Encryption Standard. Symmetric 128, 192, or 256-bit block cipher widely used for secure data protection."
   },
   {
+    "id": "sec_acronym__aes256",
     "abbreviation": "AES256",
     "protocol": "Encryption / Symmetric",
     "description": "ENCRYPTION | Advanced Encryption Standard 256-bit. Symmetric encryption using a 256-bit key length for high security."
   },
   {
+    "id": "sec_acronym__ah",
     "abbreviation": "AH",
     "protocol": "IPsec Protocol / Port 50",
     "description": "PROTOCOL | Authentication Header. IPsec protocol providing connectionless integrity and data origin authentication."
   },
   {
+    "id": "sec_acronym__ale",
     "abbreviation": "ALE",
     "protocol": "Risk Management",
     "description": "RISK | Annualized Loss Expectancy. Expected monetary loss from a risk over a one-year period ($ALE = SLE \\times ARO$)."
   },
   {
+    "id": "sec_acronym__ap",
     "abbreviation": "AP",
     "protocol": "Networking / Wireless",
     "description": "NETWORKING | Access Point. Device that allows wireless devices to connect to a wired network."
   },
   {
+    "id": "sec_acronym__api",
     "abbreviation": "API",
     "protocol": "Software Development",
     "description": "APPLICATION | Application Programming Interface. Set of routines and protocols for building software applications and integration."
   },
   {
+    "id": "sec_acronym__apt",
     "abbreviation": "APT",
     "protocol": "Threat Intelligence",
     "description": "THREAT | Advanced Persistent Threat. Prolonged, targeted cyberattack where an intruder gains and maintains unauthorized access."
   },
   {
+    "id": "sec_acronym__aro",
     "abbreviation": "ARO",
     "protocol": "Risk Management",
     "description": "RISK | Annualized Rate of Occurrence. Estimated probability that a threat will occur within a one-year period."
   },
   {
+    "id": "sec_acronym__arp",
     "abbreviation": "ARP",
     "protocol": "Networking Protocol",
     "description": "PROTOCOL | Address Resolution Protocol. Maps an IP address to a physical MAC address on a local network."
   },
   {
+    "id": "sec_acronym__aslr",
     "abbreviation": "ASLR",
     "protocol": "Operating System Security",
     "description": "OS SECURITY | Address Space Layout Randomization. Mitigates buffer overflows by randomly arranging key data areas in memory."
   },
   {
+    "id": "sec_acronym__asp",
     "abbreviation": "ASP",
     "protocol": "Cloud / Business",
     "description": "CLOUD | Application Service Provider. Provides computer-based services to customers over a network."
   },
   {
+    "id": "sec_acronym__aup",
     "abbreviation": "AUP",
     "protocol": "Policy",
     "description": "POLICY | Acceptable Use Policy. Rules that specify the permissible use of a company's computer systems."
   },
   {
+    "id": "sec_acronym__av",
     "abbreviation": "AV",
     "protocol": "Security Software / Asset Value",
     "description": "SECURITY | Antivirus. Software designed to detect, prevent, and remove malware."
   },
   {
+    "id": "sec_acronym__bac",
     "abbreviation": "BAC",
     "protocol": "Business Continuity",
     "description": "MANAGEMENT | Business Availability Center ensuring operational availability."
   },
   {
+    "id": "sec_acronym__bcp",
     "abbreviation": "BCP",
     "protocol": "Business Continuity",
     "description": "MANAGEMENT | Business Continuity Plan. Plan detailing how an organization will maintain operations during an unplanned disruption."
   },
   {
+    "id": "sec_acronym__bia",
     "abbreviation": "BIA",
     "protocol": "Business Continuity",
     "description": "MANAGEMENT | Business Impact Analysis. Evaluates critical business functions and the impact of a disruption."
   },
   {
+    "id": "sec_acronym__bios",
     "abbreviation": "BIOS",
     "protocol": "Hardware / Firmware",
     "description": "FIRMWARE | Basic Input/Output System initializing hardware during the booting process."
   },
   {
+    "id": "sec_acronym__bpa",
     "abbreviation": "BPA",
     "protocol": "Governance / Legal",
     "description": "GOVERNANCE | Business Partnership Agreement. Business Partners Agreement outlining the relationship and responsibilities of partner entities."
   },
   {
+    "id": "sec_acronym__bpdu",
     "abbreviation": "BPDU",
     "protocol": "Networking / STP",
     "description": "NETWORKING | Bridge Protocol Data Unit used by spanning tree protocol to prevent loops."
   },
   {
+    "id": "sec_acronym__byod",
     "abbreviation": "BYOD",
     "protocol": "Mobile Device Management",
     "description": "MOBILE | Bring Your Own Device. Policy allowing employees to bring personally owned devices to the workplace."
   },
   {
+    "id": "sec_acronym__ca",
     "abbreviation": "CA",
     "protocol": "Public Key Infrastructure",
     "description": "PKI | Certificate Authority. Trusted entity that issues digital certificates."
   },
   {
+    "id": "sec_acronym__cac",
     "abbreviation": "CAC",
     "protocol": "Authentication / Smart Card",
     "description": "AUTHENTICATION | Common Access Card used for physical and logical access control in defense environments."
   },
   {
+    "id": "sec_acronym__can",
     "abbreviation": "CAN",
     "protocol": "Networking / Automotive",
     "description": "NETWORKING | Controller Area Network. Controller AreaNetwork allowing microcontrollers and devices to communicate."
   },
   {
+    "id": "sec_acronym__captcha",
     "abbreviation": "CAPTCHA",
     "protocol": "Security / Bot Prevention",
     "description": "SECURITY | Completely Automated Public Turing Test to Tell Computers and Humans Apart."
   },
   {
+    "id": "sec_acronym__car",
     "abbreviation": "CAR",
     "protocol": "Management / Reporting",
     "description": "MANAGEMENT | Corrective Action Report detailing steps taken to resolve a security incident."
   },
   {
+    "id": "sec_acronym__cbc",
     "abbreviation": "CBC",
     "protocol": "Encryption Mode",
     "description": "ENCRYPTION | Cipher Block Chaining mode where each plaintext block is XORed with the previous ciphertext block."
   },
   {
+    "id": "sec_acronym__ccmp",
     "abbreviation": "CCMP",
     "protocol": "Wireless Security",
     "description": "WIRELESS | Counter Mode/CBC-MAC Protocol. Encryption protocol used in WPA2 based on AES."
   },
   {
+    "id": "sec_acronym__cctv",
     "abbreviation": "CCTV",
     "protocol": "Physical Security",
     "description": "PHYSICAL | Closed-circuit Television used for surveillance and video monitoring."
   },
   {
+    "id": "sec_acronym__cer",
     "abbreviation": "CER",
     "protocol": "Biometrics / PKI",
     "description": "BIOMETRICS | Crossover Error Rate. Cross-over Error Rate where false acceptance and false rejection rates are equal."
   },
   {
+    "id": "sec_acronym__cert",
     "abbreviation": "CERT",
     "protocol": "Incident Response",
     "description": "INCIDENT RESPONSE | Computer Emergency Response Team handling security incidents."
   },
   {
+    "id": "sec_acronym__cfb",
     "abbreviation": "CFB",
     "protocol": "Encryption Mode",
     "description": "ENCRYPTION | Cipher Feedback mode turning a block cipher into a self-synchronizing stream cipher."
   },
   {
+    "id": "sec_acronym__chap",
     "abbreviation": "CHAP",
     "protocol": "Authentication Protocol",
     "description": "AUTHENTICATION | Challenge Handshake Authentication Protocol. Secure authentication protocol using a three-way handshake and challenge-response."
   },
   {
+    "id": "sec_acronym__cio",
     "abbreviation": "CIO",
     "protocol": "Governance",
     "description": "GOVERNANCE | Chief Information Officer responsible for enterprise IT strategy."
   },
   {
+    "id": "sec_acronym__cirt",
     "abbreviation": "CIRT",
     "protocol": "Incident Response",
     "description": "INCIDENT RESPONSE | Computer Incident Response Team managing security breaches."
   },
   {
+    "id": "sec_acronym__cms",
     "abbreviation": "CMS",
     "protocol": "Software / Web",
     "description": "APPLICATION | Content Management System for creating and managing digital web content."
   },
   {
+    "id": "sec_acronym__coop",
     "abbreviation": "COOP",
     "protocol": "Business Continuity",
     "description": "MANAGEMENT | Continuity of Operations Plan focusing on sustaining essential agency functions during emergencies."
   },
   {
+    "id": "sec_acronym__cope",
     "abbreviation": "COPE",
     "protocol": "Mobile Device Management",
     "description": "MOBILE | Corporate Owned, Personally Enabled device management policy."
   },
   {
+    "id": "sec_acronym__cp",
     "abbreviation": "CP",
     "protocol": "Business Continuity",
     "description": "MANAGEMENT | Contingency Planning for unexpected disruptions and emergencies."
   },
   {
+    "id": "sec_acronym__crc",
     "abbreviation": "CRC",
     "protocol": "Data Integrity",
     "description": "INTEGRITY | Cyclical Redundancy Check used for detecting accidental data corruption."
   },
   {
+    "id": "sec_acronym__crl",
     "abbreviation": "CRL",
     "protocol": "Public Key Infrastructure",
     "description": "PKI | Certificate Revocation List containing digital certificates that have been invalidated."
   },
   {
+    "id": "sec_acronym__csirt",
     "abbreviation": "CSIRT",
     "protocol": "Incident Response",
     "description": "INCIDENT RESPONSE | Computer Security Incident Response Team."
   },
   {
+    "id": "sec_acronym__cso",
     "abbreviation": "CSO",
     "protocol": "Governance",
     "description": "GOVERNANCE | Chief Security Officer responsible for overall organizational security."
   },
   {
+    "id": "sec_acronym__csp",
     "abbreviation": "CSP",
     "protocol": "Cloud Computing",
     "description": "CLOUD | Cloud Service Provider offering cloud-based infrastructure, platforms, or software."
   },
   {
+    "id": "sec_acronym__csr",
     "abbreviation": "CSR",
     "protocol": "Public Key Infrastructure",
     "description": "PKI | Certificate Signing Request sent to a CA to apply for a digital certificate."
   },
   {
+    "id": "sec_acronym__csrf",
     "abbreviation": "CSRF",
     "protocol": "Web Vulnerability",
     "description": "ATTACK | Cross-site Request Forgery forcing authenticated users to execute unwanted actions."
   },
   {
+    "id": "sec_acronym__csu",
     "abbreviation": "CSU",
     "protocol": "Networking Hardware",
     "description": "NETWORKING | Channel Service Unit interfacing digital communication lines."
   },
   {
+    "id": "sec_acronym__ctm",
     "abbreviation": "CTM",
     "protocol": "Encryption Mode",
     "description": "ENCRYPTION | Counter Mode. Counter-Mode turning a block cipher into a stream cipher."
   },
   {
+    "id": "sec_acronym__cto",
     "abbreviation": "CTO",
     "protocol": "Governance",
     "description": "GOVERNANCE | Chief Technology Officer overseeing technology development."
   },
   {
+    "id": "sec_acronym__ctr",
     "abbreviation": "CTR",
     "protocol": "Encryption Mode",
     "description": "ENCRYPTION | Counter Mode. Counter mode of operation for block ciphers."
   },
   {
+    "id": "sec_acronym__cyod",
     "abbreviation": "CYOD",
     "protocol": "Mobile Device Management",
     "description": "MOBILE | Choose Your Own Device policy allowing devices from a pre-approved list."
   },
   {
+    "id": "sec_acronym__dac",
     "abbreviation": "DAC",
     "protocol": "Access Control",
     "description": "ACCESS CONTROL | Discretionary Access Control. Access model where the owner of a resource decides who has access."
   },
   {
+    "id": "sec_acronym__dba",
     "abbreviation": "DBA",
     "protocol": "Database Administration",
     "description": "MANAGEMENT | Database Administrator responsible for database security and maintenance."
   },
   {
+    "id": "sec_acronym__ddos",
     "abbreviation": "DDoS",
     "protocol": "Threat / Attack",
     "description": "ATTACK | Distributed Denial of Service coordinate attack from multiple sources overwhelming a target."
   },
   {
+    "id": "sec_acronym__dep",
     "abbreviation": "DEP",
     "protocol": "Operating System Security",
     "description": "OS SECURITY | Data Execution Prevention protecting memory from malicious code execution."
   },
   {
+    "id": "sec_acronym__der",
     "abbreviation": "DER",
     "protocol": "Encoding Format",
     "description": "PKI | Distinguished Encoding Rules binary format for certificates."
   },
   {
+    "id": "sec_acronym__des",
     "abbreviation": "DES",
     "protocol": "Encryption / Symmetric",
     "description": "ENCRYPTION | Data Encryption Standard. Older 56-bit symmetric block cipher. DEPRECATED."
   },
   {
+    "id": "sec_acronym__dfir",
     "abbreviation": "DFIR",
     "protocol": "Forensics",
     "description": "FORENSICS | Digital Forensics and Incident Response. Digital Forensics and Investigation Response."
   },
   {
+    "id": "sec_acronym__dhcp",
     "abbreviation": "DHCP",
     "protocol": "Networking / Port 67, 68",
     "description": "PROTOCOL | Dynamic Host Configuration Protocol. Automatically assigns IP addresses and network parameters to devices."
   },
   {
+    "id": "sec_acronym__dhe",
     "abbreviation": "DHE",
     "protocol": "Encryption / Key Exchange",
     "description": "ENCRYPTION | Diffie-Hellman Ephemeral key exchange providing forward secrecy."
   },
   {
+    "id": "sec_acronym__dll",
     "abbreviation": "DLL",
     "protocol": "Software Development",
     "description": "APPLICATION | Dynamic Link Library containing shared code and procedures."
   },
   {
+    "id": "sec_acronym__dlp",
     "abbreviation": "DLP",
     "protocol": "Data Protection",
     "description": "SECURITY | Data Loss Prevention. Software tools designed to detect and prevent unauthorized data exfiltration."
   },
   {
+    "id": "sec_acronym__dmz",
     "abbreviation": "DMZ",
     "protocol": "Networking / Architecture",
     "description": "ARCHITECTURE | Demilitarized Zone. Perimeter network segment hosting public-facing services isolated from the internal network."
   },
   {
+    "id": "sec_acronym__dnat",
     "abbreviation": "DNAT",
     "protocol": "Networking",
     "description": "NETWORKING | Destination Network Address Translation altering destination IP addresses in packet headers."
   },
   {
+    "id": "sec_acronym__dns",
     "abbreviation": "DNS",
     "protocol": "Networking / Port 53",
     "description": "PROTOCOL | Domain Name System. Resolves human-readable domain names into IP addresses."
   },
   {
+    "id": "sec_acronym__dos",
     "abbreviation": "DoS",
     "protocol": "Threat / Attack",
     "description": "ATTACK | Denial of Service. Malicious attempt to disrupt normal traffic of a targeted server or network."
   },
   {
+    "id": "sec_acronym__drp",
     "abbreviation": "DRP",
     "protocol": "Disaster Recovery",
     "description": "MANAGEMENT | Disaster Recovery Plan. Detailed procedures for recovering IT infrastructure after a major disaster."
   },
   {
+    "id": "sec_acronym__dsa",
     "abbreviation": "DSA",
     "protocol": "Encryption / Asymmetric",
     "description": "ENCRYPTION | Digital Signature Algorithm used for digital signatures."
   },
   {
+    "id": "sec_acronym__dsl",
     "abbreviation": "DSL",
     "protocol": "Networking",
     "description": "NETWORKING | Digital Subscriber Line providing high-speed internet over telephone lines."
   },
   {
+    "id": "sec_acronym__dsu",
     "abbreviation": "DSU",
     "protocol": "Networking Hardware",
     "description": "NETWORKING | Data Service Unit connecting digital data terminal equipment to communication lines."
   },
   {
+    "id": "sec_acronym__eap",
     "abbreviation": "EAP",
     "protocol": "Authentication Framework",
     "description": "AUTHENTICATION | Extensible Authentication Protocol. Authentication framework commonly used in wireless networks and 802.1X."
   },
   {
+    "id": "sec_acronym__ecb",
     "abbreviation": "ECB",
     "protocol": "Encryption Mode",
     "description": "ENCRYPTION | Electronic Code Book mode encrypting blocks independently. DEPRECATED."
   },
   {
+    "id": "sec_acronym__ecc",
     "abbreviation": "ECC",
     "protocol": "Encryption / Asymmetric",
     "description": "ENCRYPTION | Elliptic Curve Cryptography. Public-key cryptography based on elliptic curve mathematics, ideal for mobile devices."
   },
   {
+    "id": "sec_acronym__ecdhe",
     "abbreviation": "ECDHE",
     "protocol": "Encryption / Key Exchange",
     "description": "ENCRYPTION | Elliptic Curve Diffie-Hellman Ephemeral providing high security and forward secrecy."
   },
   {
+    "id": "sec_acronym__ecdsa",
     "abbreviation": "ECDSA",
     "protocol": "Encryption / Asymmetric",
     "description": "ENCRYPTION | Elliptic Curve Digital Signature Algorithm for secure digital signatures."
   },
   {
+    "id": "sec_acronym__efs",
     "abbreviation": "EFS",
     "protocol": "Operating System Security",
     "description": "OS SECURITY | Encrypting File System. Feature in Windows providing file-level encryption on NTFS volumes."
   },
   {
+    "id": "sec_acronym__emi",
     "abbreviation": "EMI",
     "protocol": "Environmental",
     "description": "ENVIRONMENTAL | Electromagnetic Interference affecting electrical circuits."
   },
   {
+    "id": "sec_acronym__emp",
     "abbreviation": "EMP",
     "protocol": "Environmental",
     "description": "ENVIRONMENTAL | Electro Magnetic Pulse capable of destroying electronics."
   },
   {
+    "id": "sec_acronym__erp",
     "abbreviation": "ERP",
     "protocol": "Enterprise Software",
     "description": "APPLICATION | Enterprise Resource Planning software for business process management."
   },
   {
+    "id": "sec_acronym__esn",
     "abbreviation": "ESN",
     "protocol": "Hardware Identification",
     "description": "HARDWARE | Electronic Serial Number uniquely identifying a mobile device."
   },
   {
+    "id": "sec_acronym__esp",
     "abbreviation": "ESP",
     "protocol": "IPsec Protocol / Port 50",
     "description": "PROTOCOL | Encapsulating Security Payload. IPsec protocol providing origin authenticity, integrity, and confidentiality of packet data."
   },
   {
+    "id": "sec_acronym__ef",
     "abbreviation": "EF",
     "protocol": "Risk Management",
     "description": "RISK | Exposure Factor representing percentage of asset loss during an incident."
   },
   {
+    "id": "sec_acronym__facl",
     "abbreviation": "FACL",
     "protocol": "Access Control",
     "description": "ACCESS CONTROL | File System Access Control List defining permissions on individual files."
   },
   {
+    "id": "sec_acronym__far",
     "abbreviation": "FAR",
     "protocol": "Biometrics",
     "description": "BIOMETRICS | False Acceptance Rate where unauthorized users are incorrectly granted access."
   },
   {
+    "id": "sec_acronym__fde",
     "abbreviation": "FDE",
     "protocol": "Data Protection",
     "description": "ENCRYPTION | Full Disk Encryption. Encrypts all data on a storage drive automatically to protect against physical theft."
   },
   {
+    "id": "sec_acronym__frr",
     "abbreviation": "FRR",
     "protocol": "Biometrics",
     "description": "BIOMETRICS | False Rejection Rate where authorized users are incorrectly denied access."
   },
   {
+    "id": "sec_acronym__ftp",
     "abbreviation": "FTP",
     "protocol": "Protocol / Port 20, 21",
     "description": "PROTOCOL | File Transfer Protocol. Unencrypted protocol for transferring files over a network. DEPRECATED."
   },
   {
+    "id": "sec_acronym__ftps",
     "abbreviation": "FTPS",
     "protocol": "Protocol / Port 989, 990",
     "description": "PROTOCOL | File Transfer Protocol Secure. File Transfer Protocol secured using SSL/TLS."
   },
   {
+    "id": "sec_acronym__gcm",
     "abbreviation": "GCM",
     "protocol": "Encryption Mode",
     "description": "ENCRYPTION | Galois/Counter Mode providing both authentication and confidentiality."
   },
   {
+    "id": "sec_acronym__gpg",
     "abbreviation": "GPG",
     "protocol": "Encryption Software",
-    "description": "ENCRYPTION | Gnu Privacy Guard open-source implementation of OpenPGP standards."
+    "description": "ENCRYPTION | Gnu Privacy Guard open-source implementation of OpenPGP standards. secure data communication and storage"
   },
   {
+    "id": "sec_acronym__gpo",
     "abbreviation": "GPO",
     "protocol": "Windows Management",
     "description": "MANAGEMENT | Group Policy Object. Active Directory feature used to manage operating system settings and security policies."
   },
   {
+    "id": "sec_acronym__gps",
     "abbreviation": "GPS",
     "protocol": "Navigation / Tracking",
     "description": "TECHNOLOGY | Global Positioning System for satellite-based location tracking."
   },
   {
+    "id": "sec_acronym__gpu",
     "abbreviation": "GPU",
     "protocol": "Hardware",
     "description": "HARDWARE | Graphics Processing Unit. Graphic Processing Unit often leveraged in password cracking and rendering."
   },
   {
+    "id": "sec_acronym__gre",
     "abbreviation": "GRE",
     "protocol": "Networking Protocol",
     "description": "PROTOCOL | Generic Routing Encapsulation tunneling protocol."
   },
   {
+    "id": "sec_acronym__ha",
     "abbreviation": "HA",
     "protocol": "Architecture / Availability",
     "description": "ARCHITECTURE | High Availability. System design ensuring a high level of operational performance and uptime."
   },
   {
+    "id": "sec_acronym__hdd",
     "abbreviation": "HDD",
     "protocol": "Storage Hardware",
     "description": "HARDWARE | Hard Disk Drive magnetic data storage device."
   },
   {
+    "id": "sec_acronym__hids",
     "abbreviation": "HIDS",
     "protocol": "Monitoring / IDS",
     "description": "MONITORING | Host-based Intrusion Detection System installed on a single host computer."
   },
   {
+    "id": "sec_acronym__hips",
     "abbreviation": "HIPS",
     "protocol": "Monitoring / IPS",
     "description": "MONITORING | Host-based Intrusion Prevention System installed on a single host to block malicious actions."
   },
   {
+    "id": "sec_acronym__hmac",
     "abbreviation": "HMAC",
     "protocol": "Hashing / Integrity",
     "description": "HASHING | Hash-based Message Authentication Code using a cryptographic key combined with a hash function."
   },
   {
+    "id": "sec_acronym__hotp",
     "abbreviation": "HOTP",
     "protocol": "Authentication",
     "description": "AUTHENTICATION | HMAC-based One-Time Password algorithm based on a counter."
   },
   {
+    "id": "sec_acronym__hsm",
     "abbreviation": "HSM",
     "protocol": "Hardware Security",
     "description": "HARDWARE | Hardware Security Module. Physical computing device that safeguards and manages digital keys."
   },
   {
+    "id": "sec_acronym__html",
     "abbreviation": "HTML",
     "protocol": "Web Standards",
     "description": "APPLICATION | Hypertext Markup Language for creating web pages."
   },
   {
+    "id": "sec_acronym__http",
     "abbreviation": "HTTP",
     "protocol": "Protocol / Port 80",
     "description": "PROTOCOL | Hypertext Transfer Protocol. Unencrypted protocol used for transferring web pages. DEPRECATED for secure web traffic."
   },
   {
+    "id": "sec_acronym__https",
     "abbreviation": "HTTPS",
     "protocol": "Protocol / Port 443",
     "description": "PROTOCOL | Hypertext Transfer Protocol Secure. Secure HTTP protocol encrypted using TLS."
   },
   {
+    "id": "sec_acronym__hvac",
     "abbreviation": "HVAC",
     "protocol": "Physical Security / Facilities",
     "description": "PHYSICAL | Heating, Ventilation and Air Conditioning environmental control system."
   },
   {
+    "id": "sec_acronym__iaas",
     "abbreviation": "IaaS",
     "protocol": "Cloud Computing",
     "description": "CLOUD | Infrastructure as a Service. Cloud service model providing fundamental computing resources over the internet."
   },
   {
+    "id": "sec_acronym__icmp",
     "abbreviation": "ICMP",
     "protocol": "Networking Protocol",
     "description": "PROTOCOL | Internet Control Message Protocol. Network layer protocol used for diagnostics and error reporting (e.g., ping)."
   },
   {
+    "id": "sec_acronym__ics",
     "abbreviation": "ICS",
     "protocol": "Industrial Control Systems",
     "description": "ICS | Industrial Control Systems controlling automated industrial processes."
   },
   {
+    "id": "sec_acronym__id",
     "abbreviation": "ID",
     "protocol": "Identification",
     "description": "AUTHENTICATION | Identification credential or unique user identifier."
   },
   {
+    "id": "sec_acronym__idea",
     "abbreviation": "IDEA",
     "protocol": "Encryption / Symmetric",
     "description": "ENCRYPTION | International Data Encryption Algorithm symmetric block cipher."
   },
   {
+    "id": "sec_acronym__idf",
     "abbreviation": "IDF",
     "protocol": "Networking / Facilities",
     "description": "NETWORKING | Intermediate Distribution Frame connecting end user cables to the MDF."
   },
   {
+    "id": "sec_acronym__idp",
     "abbreviation": "IdP",
     "protocol": "Authentication",
     "description": "AUTHENTICATION | Identity Provider service that creates, maintains, and manages identity information."
   },
   {
+    "id": "sec_acronym__ids",
     "abbreviation": "IDS",
     "protocol": "Monitoring",
     "description": "MONITORING | Intrusion Detection System. Passive security system that detects and alerts on suspicious network activity."
   },
   {
+    "id": "sec_acronym__ieee",
     "abbreviation": "IEEE",
     "protocol": "Standards Organization",
     "description": "GOVERNANCE | Institute of Electrical and Electronics Engineers. Institute of Electrical and Electronic Engineers setting technology standards."
   },
   {
+    "id": "sec_acronym__iis",
     "abbreviation": "IIS",
     "protocol": "Web Server",
     "description": "APPLICATION | Internet Information Services. Internet Information System Microsoft web server."
   },
   {
+    "id": "sec_acronym__ike",
     "abbreviation": "IKE",
     "protocol": "IPsec Protocol / Port 500",
     "description": "PROTOCOL | Internet Key Exchange used to set up a security association in IPsec."
   },
   {
+    "id": "sec_acronym__im",
     "abbreviation": "IM",
     "protocol": "Communication",
     "description": "APPLICATION | Instant Messaging real-time text communication."
   },
   {
+    "id": "sec_acronym__imap4",
     "abbreviation": "IMAP4",
     "protocol": "Protocol / Port 143",
     "description": "PROTOCOL | Internet Message Access Protocol version 4. Retrieves email from a mail server while keeping messages on the server."
   },
   {
+    "id": "sec_acronym__iot",
     "abbreviation": "IoT",
     "protocol": "Technology / Devices",
     "description": "HARDWARE | Internet of Things. Network of physical devices embedded with sensors and software connected to the internet."
   },
   {
+    "id": "sec_acronym__ip",
     "abbreviation": "IP",
     "protocol": "Networking Protocol",
     "description": "PROTOCOL | Internet Protocol. Core protocol for routing packets across interconnected networks."
   },
   {
+    "id": "sec_acronym__ipsec",
     "abbreviation": "IPSec",
     "protocol": "Security Protocol",
     "description": "PROTOCOL | Internet Protocol Security. Suite of protocols securing IP communications by authenticating and encrypting each packet."
   },
   {
+    "id": "sec_acronym__ir",
     "abbreviation": "IR",
     "protocol": "Incident Response",
     "description": "INCIDENT RESPONSE | Incident Response. Organized approach to addressing and managing a cyber security breach or attack."
   },
   {
+    "id": "sec_acronym__irc",
     "abbreviation": "IRC",
     "protocol": "Protocol / Communication",
     "description": "PROTOCOL | Internet Relay Chat text-based communication protocol."
   },
   {
+    "id": "sec_acronym__irp",
     "abbreviation": "IRP",
     "protocol": "Incident Response",
     "description": "INCIDENT RESPONSE | Incident Response Plan detailing procedures during security breaches."
   },
   {
+    "id": "sec_acronym__isa",
     "abbreviation": "ISA",
     "protocol": "Governance",
     "description": "GOVERNANCE | Interconnection Security Agreement between organizations connecting systems."
   },
   {
+    "id": "sec_acronym__isp",
     "abbreviation": "ISP",
     "protocol": "Networking",
     "description": "NETWORKING | Internet Service Provider. Organization that provides services for accessing and using the internet."
   },
   {
+    "id": "sec_acronym__isso",
     "abbreviation": "ISSO",
     "protocol": "Governance",
     "description": "GOVERNANCE | Information Systems Security Officer responsible for security implementation."
   },
   {
+    "id": "sec_acronym__itcp",
     "abbreviation": "ITCP",
     "protocol": "Business Continuity",
     "description": "MANAGEMENT | IT Contingency Plan for restoring IT services after disruptions."
   },
   {
+    "id": "sec_acronym__iv",
     "abbreviation": "IV",
     "protocol": "Encryption",
     "description": "ENCRYPTION | Initialization Vector random value used with encryption keys to ensure uniqueness."
   },
   {
+    "id": "sec_acronym__kdc",
     "abbreviation": "KDC",
     "protocol": "Authentication",
     "description": "AUTHENTICATION | Key Distribution Center part of Kerberos handling ticket issuance."
   },
   {
+    "id": "sec_acronym__kek",
     "abbreviation": "KEK",
     "protocol": "Encryption",
     "description": "ENCRYPTION | Key Encryption Key used to encrypt other cryptographic keys."
   },
   {
+    "id": "sec_acronym__l2tp",
     "abbreviation": "L2TP",
     "protocol": "Tunneling Protocol / Port 1701",
     "description": "PROTOCOL | Layer 2 Tunneling Protocol. Tunneling protocol used to support virtual private networks."
   },
   {
+    "id": "sec_acronym__lan",
     "abbreviation": "LAN",
     "protocol": "Networking",
     "description": "NETWORKING | Local Area Network connecting computers within a limited physical area."
   },
   {
+    "id": "sec_acronym__ldap",
     "abbreviation": "LDAP",
     "protocol": "Directory Services / Port 389",
     "description": "PROTOCOL | Lightweight Directory Access Protocol. Protocol used for accessing and maintaining distributed directory information services."
   },
   {
+    "id": "sec_acronym__leap",
     "abbreviation": "LEAP",
     "protocol": "Authentication Protocol",
     "description": "AUTHENTICATION | Lightweight Extensible Authentication Protocol. DEPRECATED."
   },
   {
+    "id": "sec_acronym__maas",
     "abbreviation": "MaaS",
     "protocol": "Cloud Computing",
     "description": "CLOUD | Monitoring as a Service offering cloud-based system monitoring."
   },
   {
+    "id": "sec_acronym__mac",
     "abbreviation": "MAC",
     "protocol": "Access Control / Networking",
-    "description": "ACCESS CONTROL | Mandatory Access Control / Media Access Control. Mandatory Access Control policy enforcement model or physical hardware address."
+    "description": "ACCESS CONTROL | Mandatory Access Control / Media Access Control. Mandatory Access Control policy enforcement model enforces access rights based on matching user clearance levels with data security classifications or physical hardware address."
   },
   {
+    "id": "sec_acronym__man",
     "abbreviation": "MAN",
     "protocol": "Networking",
     "description": "NETWORKING | Metropolitan Area Network spanning a physical city or town."
   },
   {
+    "id": "sec_acronym__mbr",
     "abbreviation": "MBR",
     "protocol": "Storage",
     "description": "STORAGE | Master Boot Record partition table format on storage drives."
   },
   {
+    "id": "sec_acronym__md5",
     "abbreviation": "MD5",
     "protocol": "Hashing Algorithm",
     "description": "HASHING | Message Digest 5. 128-bit cryptographic hash function. DEPRECATED due to collision vulnerabilities."
   },
   {
+    "id": "sec_acronym__mdf",
     "abbreviation": "MDF",
     "protocol": "Networking / Facilities",
     "description": "NETWORKING | Main Distribution Frame central wiring room for network cables."
   },
   {
+    "id": "sec_acronym__mdm",
     "abbreviation": "MDM",
     "protocol": "Mobile Device Management",
     "description": "MOBILE | Mobile Device Management. Software used to secure, monitor, and manage mobile devices."
   },
   {
+    "id": "sec_acronym__mfa",
     "abbreviation": "MFA",
     "protocol": "Authentication",
     "description": "AUTHENTICATION | Multifactor Authentication. Verification method requiring two or more distinct authentication factors."
   },
   {
+    "id": "sec_acronym__mfd",
     "abbreviation": "MFD",
     "protocol": "Hardware",
     "description": "HARDWARE | Multi-function Device combining printing, scanning, and copying."
   },
   {
+    "id": "sec_acronym__mitm",
     "abbreviation": "MITM",
     "protocol": "Attack Type",
     "description": "ATTACK | Man-in-the-Middle. Attack where the adversary secretly relays and alters communications between two parties."
   },
   {
+    "id": "sec_acronym__mms",
     "abbreviation": "MMS",
     "protocol": "Communication",
     "description": "APPLICATION | Multimedia Message Service for sending multimedia messages over mobile networks."
   },
   {
+    "id": "sec_acronym__moa",
     "abbreviation": "MOA",
     "protocol": "Governance",
     "description": "GOVERNANCE | Memorandum of Agreement outlining shared commitments between parties."
   },
   {
+    "id": "sec_acronym__mou",
     "abbreviation": "MOU",
     "protocol": "Governance",
     "description": "GOVERNANCE | Memorandum of Understanding outlining a preliminary agreement."
   },
   {
+    "id": "sec_acronym__mpls",
     "abbreviation": "MPLS",
     "protocol": "Networking Protocol",
     "description": "NETWORKING | Multiprotocol Label Switching. High-performance telecommunications routing mechanism using labels rather than network addresses."
   },
   {
+    "id": "sec_acronym__mschap",
     "abbreviation": "MSCHAP",
     "protocol": "Authentication Protocol",
     "description": "AUTHENTICATION | Microsoft Challenge Handshake Authentication Protocol."
   },
   {
+    "id": "sec_acronym__msp",
     "abbreviation": "MSP",
     "protocol": "Business Services",
     "description": "MANAGEMENT | Managed Service Provider delivering outsourced IT management services."
   },
   {
+    "id": "sec_acronym__mtbf",
     "abbreviation": "MTBF",
     "protocol": "Metrics / Reliability",
     "description": "METRICS | Mean Time Between Failures. Average time that a device functions before failing."
   },
   {
+    "id": "sec_acronym__mttf",
     "abbreviation": "MTTF",
     "protocol": "Metrics / Reliability",
     "description": "METRICS | Mean Time to Failure for non-repairable hardware components."
   },
   {
+    "id": "sec_acronym__mttr",
     "abbreviation": "MTTR",
     "protocol": "Metrics / Recovery",
     "description": "METRICS | Mean Time to Repair. Average time required to repair a failed device or recover from an outage."
   },
   {
+    "id": "sec_acronym__mtu",
     "abbreviation": "MTU",
     "protocol": "Networking",
     "description": "NETWORKING | Maximum Transmission Unit size of largest protocol data unit that can be communicated."
   },
   {
+    "id": "sec_acronym__nac",
     "abbreviation": "NAC",
     "protocol": "Network Security",
     "description": "SECURITY | Network Access Control. Approach to computer security that unifies endpoint security technology and network access controls."
   },
   {
+    "id": "sec_acronym__nat",
     "abbreviation": "NAT",
     "protocol": "Networking",
     "description": "NETWORKING | Network Address Translation. Method of mapping IP addresses by modifying network address information in packet headers."
   },
   {
+    "id": "sec_acronym__nda",
     "abbreviation": "NDA",
     "protocol": "Governance / Legal",
     "description": "GOVERNANCE | Non-disclosure Agreement legally binding parties to secrecy."
   },
   {
+    "id": "sec_acronym__nfc",
     "abbreviation": "NFC",
     "protocol": "Networking / Wireless",
     "description": "WIRELESS | Near Field Communication for short-range contactless data exchange."
   },
   {
+    "id": "sec_acronym__ngac",
     "abbreviation": "NGAC",
     "protocol": "Access Control",
     "description": "ACCESS CONTROL | Next Generation Access Control policy frameworks."
   },
   {
+    "id": "sec_acronym__nids",
     "abbreviation": "NIDS",
     "protocol": "Monitoring / IDS",
     "description": "MONITORING | Network-based Intrusion Detection System monitoring traffic across an entire network segment."
   },
   {
+    "id": "sec_acronym__nips",
     "abbreviation": "NIPS",
     "protocol": "Monitoring / IPS",
     "description": "MONITORING | Network-based Intrusion Prevention System that inspects and blocks malicious network traffic inline."
   },
   {
+    "id": "sec_acronym__nist",
     "abbreviation": "NIST",
     "protocol": "Standards Organization",
     "description": "GOVERNANCE | National Institute of Standards and Technology. U.S. agency that develops cybersecurity standards, guidelines, and frameworks."
   },
   {
+    "id": "sec_acronym__ntfs",
     "abbreviation": "NTFS",
     "protocol": "File System",
     "description": "STORAGE | New Technology File System providing permissions and encryption in Windows."
   },
   {
+    "id": "sec_acronym__ntlm",
     "abbreviation": "NTLM",
     "protocol": "Authentication Protocol",
     "description": "AUTHENTICATION | New Technology LAN Manager. Suite of Microsoft security protocols used for authentication. DEPRECATED."
   },
   {
+    "id": "sec_acronym__ntp",
     "abbreviation": "NTP",
     "protocol": "Protocol / Port 123",
     "description": "PROTOCOL | Network Time Protocol. Networking protocol for clock synchronization over networks."
   },
   {
+    "id": "sec_acronym__oauth",
     "abbreviation": "OAuth",
     "protocol": "Authentication Framework",
     "description": "AUTHENTICATION | Open Authorization. Open standard for token-based authorization across web and mobile applications."
   },
   {
+    "id": "sec_acronym__ocsp",
     "abbreviation": "OCSP",
     "protocol": "Public Key Infrastructure",
     "description": "PKI | Online Certificate Status Protocol for checking certificate revocation status in real time."
   },
   {
+    "id": "sec_acronym__oid",
     "abbreviation": "OID",
     "protocol": "Identifiers",
     "description": "MANAGEMENT | Object Identifier uniquely identifying objects or policy attributes."
   },
   {
+    "id": "sec_acronym__os",
     "abbreviation": "OS",
     "protocol": "Software",
     "description": "OS | Operating System. System software that manages computer hardware and software resources."
   },
   {
+    "id": "sec_acronym__ota",
     "abbreviation": "OTA",
     "protocol": "Wireless / Updates",
     "description": "WIRELESS | Over The Air software deployment and configuration updates."
   },
   {
+    "id": "sec_acronym__oval",
     "abbreviation": "OVAL",
     "protocol": "Vulnerability Management",
     "description": "SECURITY | Open Vulnerability Assessment Language for security state evaluation."
   },
   {
+    "id": "sec_acronym__p12",
     "abbreviation": "P12",
     "protocol": "PKCS Format",
     "description": "PKI | PKCS #12 (Public-Key Cryptography Standards #12). PKCS #12 personal exchange format file storing private keys and certificates."
   },
   {
+    "id": "sec_acronym__p2p",
     "abbreviation": "P2P",
     "protocol": "Networking",
     "description": "NETWORKING | Peer to Peer decentralized network architecture."
   },
   {
+    "id": "sec_acronym__paas",
     "abbreviation": "PaaS",
     "protocol": "Cloud Computing",
     "description": "CLOUD | Platform as a Service. Cloud computing model providing a platform allowing customers to develop and manage applications."
   },
   {
+    "id": "sec_acronym__pac",
     "abbreviation": "PAC",
     "protocol": "Networking / Web",
     "description": "NETWORKING | Proxy Auto Configuration specifying how web browsers select proxy servers."
   },
   {
+    "id": "sec_acronym__pam",
     "abbreviation": "PAM",
     "protocol": "Authentication / Privilege Management",
     "description": "AUTHENTICATION | Pluggable Authentication Modules / Privileged Access Management. Pluggable Authentication Modules or Privileged Access Management."
   },
   {
+    "id": "sec_acronym__pap",
     "abbreviation": "PAP",
     "protocol": "Authentication Protocol",
     "description": "AUTHENTICATION | Password Authentication Protocol. Simple unencrypted password authentication protocol. DEPRECATED."
   },
   {
+    "id": "sec_acronym__pat",
     "abbreviation": "PAT",
     "protocol": "Networking",
     "description": "NETWORKING | Port Address Translation mapping multiple private IPs to a single public IP."
   },
   {
+    "id": "sec_acronym__pbkdf2",
     "abbreviation": "PBKDF2",
     "protocol": "Encryption / Hashing",
     "description": "ENCRYPTION | Password-based Key Derivation Function 2 used for secure password hashing."
   },
   {
+    "id": "sec_acronym__pbx",
     "abbreviation": "PBX",
     "protocol": "Telephony",
     "description": "TELEPHONY | Private Branch Exchange private telephone network."
   },
   {
+    "id": "sec_acronym__pcap",
     "abbreviation": "PCAP",
     "protocol": "Forensics / Analysis",
     "description": "MONITORING | Packet Capture file format for network traffic analysis."
   },
   {
+    "id": "sec_acronym__peap",
     "abbreviation": "PEAP",
     "protocol": "Authentication Protocol",
     "description": "AUTHENTICATION | Protected Extensible Authentication Protocol. Encapsulates EAP within an encrypted TLS tunnel for secure wireless authentication."
   },
   {
+    "id": "sec_acronym__ped",
     "abbreviation": "PED",
     "protocol": "Mobile Devices",
     "description": "MOBILE | Personal Electronic Device."
   },
   {
+    "id": "sec_acronym__pem",
     "abbreviation": "PEM",
     "protocol": "Encoding Format",
     "description": "PKI | Privacy-enhanced Electronic Mail Base64 encoded certificate format."
   },
   {
+    "id": "sec_acronym__pfs",
     "abbreviation": "PFS",
     "protocol": "Encryption",
     "description": "ENCRYPTION | Perfect Forward Secrecy ensuring session keys are not compromised if long-term keys are breached."
   },
   {
+    "id": "sec_acronym__pfx",
     "abbreviation": "PFX",
     "protocol": "PKCS Format",
     "description": "PKI | Personal Exchange Format file containing private keys and certificates."
   },
   {
+    "id": "sec_acronym__pgp",
     "abbreviation": "PGP",
     "protocol": "Encryption Software",
     "description": "ENCRYPTION | Pretty Good Privacy cryptographic program used for signing and encrypting data."
   },
   {
+    "id": "sec_acronym__phi",
     "abbreviation": "PHI",
     "protocol": "Data Privacy",
     "description": "PRIVACY | Personal Health Information protected under medical privacy laws."
   },
   {
+    "id": "sec_acronym__pii",
     "abbreviation": "PII",
     "protocol": "Data Privacy",
     "description": "PRIVACY | Personally Identifiable Information that can identify an individual."
   },
   {
+    "id": "sec_acronym__piv",
     "abbreviation": "PIV",
     "protocol": "Authentication",
     "description": "AUTHENTICATION | Personal Identity Verification standard for secure credentials."
   },
   {
+    "id": "sec_acronym__pki",
     "abbreviation": "PKI",
     "protocol": "Security Infrastructure",
     "description": "PKI | Public Key Infrastructure. Framework of hardware, software, and policies needed to manage digital certificates."
   },
   {
+    "id": "sec_acronym__poodle",
     "abbreviation": "POODLE",
     "protocol": "Vulnerability / Exploit",
     "description": "VULNERABILITY | Padding Oracle On Downgraded Legacy Encryption. Exploit attacking SSL 3.0 fallback vulnerabilities. DEPRECATED / VULNERABILITY."
   },
   {
+    "id": "sec_acronym__pop",
     "abbreviation": "POP",
     "protocol": "Protocol / Port 110",
     "description": "PROTOCOL | Post Office Protocol used by local email clients to retrieve email from a remote server."
   },
   {
+    "id": "sec_acronym__pots",
     "abbreviation": "POTS",
     "protocol": "Telephony",
     "description": "TELEPHONY | Plain Old Telephone Service analog voice transmission."
   },
   {
+    "id": "sec_acronym__ppp",
     "abbreviation": "PPP",
     "protocol": "Networking Protocol",
     "description": "PROTOCOL | Point-to-Point Protocol establishing direct connection between nodes."
   },
   {
+    "id": "sec_acronym__pptp",
     "abbreviation": "PPTP",
     "protocol": "Tunneling Protocol / Port 1723",
     "description": "PROTOCOL | Point-to-Point Tunneling Protocol. Obsolete method for implementing virtual private networks. DEPRECATED."
   },
   {
+    "id": "sec_acronym__psk",
     "abbreviation": "PSK",
     "protocol": "Authentication / Wireless",
     "description": "AUTHENTICATION | Pre-shared Key used in WPA personal wireless encryption."
   },
   {
+    "id": "sec_acronym__ptz",
     "abbreviation": "PTZ",
     "protocol": "Physical Security",
     "description": "PHYSICAL | Pan-Tilt-Zoom security camera capability."
   },
   {
+    "id": "sec_acronym__ra",
     "abbreviation": "RA",
     "protocol": "Public Key Infrastructure",
     "description": "PKI | Registration Authority verifying identity requests for a Certificate Authority."
   },
   {
+    "id": "sec_acronym__rad",
     "abbreviation": "RAD",
     "protocol": "Software Development",
     "description": "APPLICATION | Rapid Application Development methodology."
   },
   {
+    "id": "sec_acronym__radius",
     "abbreviation": "RADIUS",
     "protocol": "Authentication Protocol / Port 1812, 1813",
     "description": "AUTHENTICATION | Remote Authentication Dial-in User Service. Networking protocol providing centralized AAA management."
   },
   {
+    "id": "sec_acronym__raid",
     "abbreviation": "RAID",
     "protocol": "Storage Technology",
     "description": "STORAGE | Redundant Array of Independent Disks. Data storage virtualization technology combining physical disks for redundancy."
   },
   {
+    "id": "sec_acronym__ras",
     "abbreviation": "RAS",
     "protocol": "Networking",
     "description": "NETWORKING | Remote Access Server allowing access to a private network from outside."
   },
   {
+    "id": "sec_acronym__rat",
     "abbreviation": "RAT",
     "protocol": "Threat / Malware",
     "description": "THREAT | Remote Access Trojan enabling administrative control over a target system."
   },
   {
+    "id": "sec_acronym__rbac",
     "abbreviation": "RBAC",
     "protocol": "Access Control",
     "description": "ACCESS CONTROL | Role-based Access Control. Role-based or Rule-based Access Control assigning permissions based on roles or rules."
   },
   {
+    "id": "sec_acronym__rc4",
     "abbreviation": "RC4",
     "protocol": "Encryption / Symmetric",
     "description": "ENCRYPTION | Rivest Cipher 4. Stream cipher vulnerable to multiple attacks, formerly used in WEP. DEPRECATED."
   },
   {
+    "id": "sec_acronym__rdp",
     "abbreviation": "RDP",
     "protocol": "Protocol / Port 3389",
     "description": "PROTOCOL | Remote Desktop Protocol. Microsoft protocol providing a user interface to another computer over a network."
   },
   {
+    "id": "sec_acronym__rfid",
     "abbreviation": "RFID",
     "protocol": "Identification Technology",
     "description": "HARDWARE | Radio Frequency Identification. Uses electromagnetic fields to automatically identify and track tags."
   },
   {
+    "id": "sec_acronym__ripemd",
     "abbreviation": "RIPEMD",
     "protocol": "Hashing Algorithm",
     "description": "HASHING | RACE Integrity Primitives Evaluation Message Digest cryptographic hash function."
   },
   {
+    "id": "sec_acronym__roi",
     "abbreviation": "ROI",
     "protocol": "Business Metrics",
     "description": "MANAGEMENT | Return on Investment financial evaluation metric."
   },
   {
+    "id": "sec_acronym__rmf",
     "abbreviation": "RMF",
     "protocol": "Risk Management",
     "description": "RISK | Risk Management Framework providing structured security lifecycle steps."
   },
   {
+    "id": "sec_acronym__rpo",
     "abbreviation": "RPO",
     "protocol": "Disaster Recovery Metric",
     "description": "MANAGEMENT | Recovery Point Objective. Maximum acceptable data loss measured in time before a disruption occurs."
   },
   {
+    "id": "sec_acronym__rsa",
     "abbreviation": "RSA",
     "protocol": "Encryption / Asymmetric",
     "description": "ENCRYPTION | Rivest, Shamir, Adleman. Rivest, Shamir, & Adleman public-key cryptosystem widely used for secure transmission."
   },
   {
+    "id": "sec_acronym__rtbh",
     "abbreviation": "RTBH",
     "protocol": "Networking / Mitigation",
     "description": "NETWORKING | Remotely Triggered Black Hole filtering technique for DDoS mitigation."
   },
   {
+    "id": "sec_acronym__rto",
     "abbreviation": "RTO",
     "protocol": "Disaster Recovery Metric",
     "description": "MANAGEMENT | Recovery Time Objective. Maximum targeted duration of time for a business process to be restored."
   },
   {
+    "id": "sec_acronym__rtos",
     "abbreviation": "RTOS",
     "protocol": "Operating System",
     "description": "OS | Real-time Operating System for embedded systems with strict timing constraints."
   },
   {
+    "id": "sec_acronym__rtp",
     "abbreviation": "RTP",
     "protocol": "Networking Protocol",
     "description": "PROTOCOL | Real-time Transport Protocol for audio and video streaming."
   },
   {
+    "id": "sec_acronym__s_mime",
     "abbreviation": "S/MIME",
     "protocol": "Encryption / Email",
     "description": "ENCRYPTION | Secure/Multipurpose Internet Mail Extensions providing cryptographic security for emails."
   },
   {
+    "id": "sec_acronym__saas",
     "abbreviation": "SaaS",
     "protocol": "Cloud Computing",
     "description": "CLOUD | Software as a Service. Software distribution model in which applications are hosted by a service provider over the internet."
   },
   {
+    "id": "sec_acronym__saml",
     "abbreviation": "SAML",
     "protocol": "Federation Protocol",
     "description": "AUTHENTICATION | Security Assertion Markup Language. XML-based open standard for exchanging authentication and authorization data (SSO)."
   },
   {
+    "id": "sec_acronym__san",
     "abbreviation": "SAN",
     "protocol": "Storage / PKI",
     "description": "STORAGE | Storage Area Network / Subject Alternative Name. Storage Area Network or Subject Alternative Name field in digital certificates."
   },
   {
+    "id": "sec_acronym__scada",
     "abbreviation": "SCADA",
     "protocol": "Industrial Control Systems",
     "description": "ICS | Supervisory Control and Data Acquisition. Control system architecture used in industrial environments to monitor and control equipment."
   },
   {
+    "id": "sec_acronym__scap",
     "abbreviation": "SCAP",
     "protocol": "Security Automation",
     "description": "SECURITY | Security Content Automation Protocol for automated vulnerability management."
   },
   {
+    "id": "sec_acronym__scep",
     "abbreviation": "SCEP",
     "protocol": "Public Key Infrastructure",
     "description": "PKI | Simple Certificate Enrollment Protocol for device certificate enrollment."
   },
   {
+    "id": "sec_acronym__scp",
     "abbreviation": "SCP",
     "protocol": "Protocol / Port 22",
     "description": "PROTOCOL | Secure Copy Protocol. Secure Copy method of transferring files between hosts using SSH."
   },
   {
+    "id": "sec_acronym__scsi",
     "abbreviation": "SCSI",
     "protocol": "Storage Interface",
     "description": "HARDWARE | Small Computer System Interface for connecting peripheral devices and drives."
   },
   {
+    "id": "sec_acronym__sdk",
     "abbreviation": "SDK",
     "protocol": "Software Development",
     "description": "APPLICATION | Software Development Kit providing tools for building applications."
   },
   {
+    "id": "sec_acronym__sdlc",
     "abbreviation": "SDLC",
     "protocol": "Software Development",
     "description": "APPLICATION | Software Development Life Cycle defining phases of software creation."
   },
   {
+    "id": "sec_acronym__sdlm",
     "abbreviation": "SDLM",
     "protocol": "Software Development",
     "description": "APPLICATION | Software Development Life Cycle Methodology."
   },
   {
+    "id": "sec_acronym__sdn",
     "abbreviation": "SDN",
     "protocol": "Networking",
     "description": "NETWORKING | Software Defined Network separating control plane from data plane."
   },
   {
+    "id": "sec_acronym__sed",
     "abbreviation": "SED",
     "protocol": "Storage Security",
     "description": "ENCRYPTION | Self-encrypting Drive automatically encrypting all stored data."
   },
   {
+    "id": "sec_acronym__seh",
     "abbreviation": "SEH",
     "protocol": "Operating System Security",
     "description": "OS SECURITY | Structured Exception Handler in Windows operating systems."
   },
   {
+    "id": "sec_acronym__sftp",
     "abbreviation": "SFTP",
     "protocol": "Protocol / Port 22",
     "description": "PROTOCOL | SSH File Transfer Protocol. Secure File Transfer Protocol providing file access and management over SSH."
   },
   {
+    "id": "sec_acronym__sha",
     "abbreviation": "SHA",
     "protocol": "Hashing Algorithm",
     "description": "HASHING | Secure Hashing Algorithm (SHA-1 DEPRECATED, SHA-2/3 recommended)."
   },
   {
+    "id": "sec_acronym__shttp",
     "abbreviation": "SHTTP",
     "protocol": "Protocol",
     "description": "PROTOCOL | Secure Hypertext Transfer Protocol. DEPRECATED."
   },
   {
+    "id": "sec_acronym__siem",
     "abbreviation": "SIEM",
     "protocol": "Security Monitoring",
     "description": "MONITORING | Security Information and Event Management. Software solution providing real-time analysis of security alerts."
   },
   {
+    "id": "sec_acronym__sim",
     "abbreviation": "SIM",
     "protocol": "Mobile Hardware",
     "description": "MOBILE | Subscriber Identity Module card used in mobile devices."
   },
   {
+    "id": "sec_acronym__sla",
     "abbreviation": "SLA",
     "protocol": "Management / Contract",
     "description": "POLICY | Service Level Agreement. Contract between a service provider and customer defining expected service standards."
   },
   {
+    "id": "sec_acronym__sow",
     "abbreviation": "SOW",
     "protocol": "Management / Contract",
     "description": "POLICY | Statement of Work details the scope of a project or engagement, the deliverables, timelines, and responsibilities. It clarifies the vendor's tasks, the client's expectations, and the agreed-upon deliverables."
   },
   {
+    "id": "sec_acronym__sle",
     "abbreviation": "SLE",
     "protocol": "Risk Management",
     "description": "RISK | Single Loss Expectancy monetary value expected from a single adverse event."
   },
   {
+    "id": "sec_acronym__smb",
     "abbreviation": "SMB",
     "protocol": "Protocol / Port 445",
     "description": "PROTOCOL | Server Message Block network file sharing protocol."
   },
   {
+    "id": "sec_acronym__sms",
     "abbreviation": "SMS",
     "protocol": "Communication",
     "description": "APPLICATION | Short Message Service text messaging protocol."
   },
   {
+    "id": "sec_acronym__smtp",
     "abbreviation": "SMTP",
     "protocol": "Protocol / Port 25",
     "description": "PROTOCOL | Simple Mail Transfer Protocol. Internet standard protocol for transmitting email messages."
   },
   {
+    "id": "sec_acronym__smtps",
     "abbreviation": "SMTPS",
     "protocol": "Protocol / Port 465, 587",
     "description": "PROTOCOL | Simple Mail Transfer Protocol Secure encrypted over TLS."
   },
   {
+    "id": "sec_acronym__snmp",
     "abbreviation": "SNMP",
     "protocol": "Protocol / Port 161, 162",
     "description": "PROTOCOL | Simple Network Management Protocol. Protocol for monitoring and managing network devices."
   },
   {
+    "id": "sec_acronym__soap",
     "abbreviation": "SOAP",
     "protocol": "Web Services",
     "description": "APPLICATION | Simple Object Access Protocol for exchanging structured information."
   },
   {
+    "id": "sec_acronym__soc",
     "abbreviation": "SoC",
     "protocol": "Hardware",
     "description": "HARDWARE | System on Chip integrating computer components onto a single IC."
   },
   {
+    "id": "sec_acronym__spf",
     "abbreviation": "SPF",
     "protocol": "Email Security",
     "description": "SECURITY | Sender Policy Framework preventing email spoofing via DNS records."
   },
   {
+    "id": "sec_acronym__spim",
     "abbreviation": "SPIM",
     "protocol": "Threat / Messaging",
     "description": "THREAT | Spam over Internet Messaging unsolicited instant messages."
   },
   {
+    "id": "sec_acronym__spof",
     "abbreviation": "SPoF",
     "protocol": "Architecture / Availability",
     "description": "ARCHITECTURE | Single Point of Failure whose breakdown halts entire system operations."
   },
   {
+    "id": "sec_acronym__sql",
     "abbreviation": "SQL",
     "protocol": "Database Language",
     "description": "APPLICATION | Structured Query Language used for managing relational databases."
   },
   {
+    "id": "sec_acronym__srtp",
     "abbreviation": "SRTP",
     "protocol": "Protocol / Security",
     "description": "PROTOCOL | Secure Real-Time Transport Protocol. Secure Real-Time Protocol providing encryption and integrity for VoIP."
   },
   {
+    "id": "sec_acronym__ssd",
     "abbreviation": "SSD",
     "protocol": "Storage Hardware",
     "description": "HARDWARE | Solid State Drive flash memory based data storage device."
   },
   {
+    "id": "sec_acronym__ssh",
     "abbreviation": "SSH",
     "protocol": "Protocol / Port 22",
     "description": "PROTOCOL | Secure Shell. Cryptographic network protocol for operating network services securely."
   },
   {
+    "id": "sec_acronym__ssid",
     "abbreviation": "SSID",
     "protocol": "Wireless",
     "description": "WIRELESS | Service Set Identifier name identifying a wireless local area network."
   },
   {
+    "id": "sec_acronym__ssl",
     "abbreviation": "SSL",
     "protocol": "Encryption Protocol",
     "description": "PROTOCOL | Secure Sockets Layer. Deprecated cryptographic protocol providing communications security over Internet. DEPRECATED."
   },
   {
+    "id": "sec_acronym__sso",
     "abbreviation": "SSO",
     "protocol": "Authentication",
     "description": "AUTHENTICATION | Single Sign-On. Session and user authentication permitting one credential set to access multiple applications."
   },
   {
+    "id": "sec_acronym__stp",
     "abbreviation": "STP",
     "protocol": "Networking / Cabling",
     "description": "NETWORKING | Shielded Twisted Pair / Spanning Tree Protocol. Shielded Twisted Pair cable or Spanning Tree Protocol."
   },
   {
+    "id": "sec_acronym__tacacs",
     "abbreviation": "TACACS+",
     "protocol": "Authentication Protocol / Port 49",
     "description": "AUTHENTICATION | Terminal Access Controller Access-Control System Plus. Protocol providing separate AAA services, often used for router administration."
   },
   {
+    "id": "sec_acronym__tcp_ip",
     "abbreviation": "TCP/IP",
     "protocol": "Networking Protocol",
     "description": "PROTOCOL | Transmission Control Protocol/Internet Protocol foundational communication suite."
   },
   {
+    "id": "sec_acronym__tgt",
     "abbreviation": "TGT",
     "protocol": "Authentication",
     "description": "AUTHENTICATION | Ticket Granting Ticket used in Kerberos authentication."
   },
   {
+    "id": "sec_acronym__tkip",
     "abbreviation": "TKIP",
     "protocol": "Wireless Security",
     "description": "WIRELESS | Temporal Key Integrity Protocol. Encryption protocol used in WPA to replace WEP. DEPRECATED."
   },
   {
+    "id": "sec_acronym__tls",
     "abbreviation": "TLS",
     "protocol": "Encryption Protocol / Port 443",
     "description": "PROTOCOL | Transport Layer Security. Cryptographic protocol designed to provide communications security (successor to SSL)."
   },
   {
+    "id": "sec_acronym__totp",
     "abbreviation": "TOTP",
     "protocol": "Authentication",
     "description": "AUTHENTICATION | Time-based One-Time Password. Algorithm computing a one-time password from a shared secret key and current time."
   },
   {
+    "id": "sec_acronym__tpm",
     "abbreviation": "TPM",
     "protocol": "Hardware Security",
     "description": "HARDWARE | Trusted Platform Module. Specialized cryptographic microcontroller designed to secure hardware through integrated keys."
   },
   {
+    "id": "sec_acronym__tsig",
     "abbreviation": "TSIG",
     "protocol": "Networking / DNS",
     "description": "PROTOCOL | Transaction Signature for authenticating DNS messages."
   },
   {
+    "id": "sec_acronym__uat",
     "abbreviation": "UAT",
     "protocol": "Software Testing",
     "description": "APPLICATION | User Acceptance Testing phase before production deployment."
   },
   {
+    "id": "sec_acronym__uav",
     "abbreviation": "UAV",
     "protocol": "Hardware / Aviation",
     "description": "HARDWARE | Unmanned Aerial Vehicle drone systems."
   },
   {
+    "id": "sec_acronym__udp",
     "abbreviation": "UDP",
     "protocol": "Networking Protocol",
     "description": "PROTOCOL | User Datagram Protocol. Connectionless transport layer protocol focused on speed without delivery guarantees."
   },
   {
+    "id": "sec_acronym__uefi",
     "abbreviation": "UEFI",
     "protocol": "Hardware / Firmware",
     "description": "FIRMWARE | Unified Extensible Firmware Interface modern replacement for BIOS."
   },
   {
+    "id": "sec_acronym__ups",
     "abbreviation": "UPS",
     "protocol": "Hardware / Power",
     "description": "HARDWARE | Uninterruptible Power Supply. Uninterruptable Power Supply providing emergency power during outages."
   },
   {
+    "id": "sec_acronym__uri",
     "abbreviation": "URI",
     "protocol": "Networking",
     "description": "PROTOCOL | Uniform Resource Identifier identifying a resource."
   },
   {
+    "id": "sec_acronym__url",
     "abbreviation": "URL",
     "protocol": "Networking",
     "description": "PROTOCOL | Uniform Resource Locator. Universal Resource Locator web address reference."
   },
   {
+    "id": "sec_acronym__usb",
     "abbreviation": "USB",
     "protocol": "Hardware Interface",
     "description": "HARDWARE | Universal Serial Bus industry standard for cables and peripherals."
   },
   {
+    "id": "sec_acronym__usb_otg",
     "abbreviation": "USB OTG",
     "protocol": "Hardware Interface",
     "description": "HARDWARE | USB On-The-Go. USB On The Go allowing devices to act as hosts."
   },
   {
+    "id": "sec_acronym__utm",
     "abbreviation": "UTM",
     "protocol": "Security Appliance",
     "description": "SECURITY | Unified Threat Management product providing multiple security functions in a single appliance."
   },
   {
+    "id": "sec_acronym__utp",
     "abbreviation": "UTP",
     "protocol": "Networking / Cabling",
     "description": "NETWORKING | Unshielded Twisted Pair network cabling."
   },
   {
+    "id": "sec_acronym__vde",
     "abbreviation": "VDE",
     "protocol": "Virtualization",
     "description": "VIRTUALIZATION | Virtual Desktop Environment."
   },
   {
+    "id": "sec_acronym__vdi",
     "abbreviation": "VDI",
     "protocol": "Virtualization",
     "description": "VIRTUALIZATION | Virtual Desktop Infrastructure hosting desktop environments on central servers."
   },
   {
+    "id": "sec_acronym__vlan",
     "abbreviation": "VLAN",
     "protocol": "Networking",
     "description": "NETWORKING | Virtual Local Area Network. Partitioned network logically grouping devices regardless of physical location."
   },
   {
+    "id": "sec_acronym__vlsm",
     "abbreviation": "VLSM",
     "protocol": "Networking",
     "description": "NETWORKING | Variable Length Subnet Masking for efficient IP address allocation."
   },
   {
+    "id": "sec_acronym__vm",
     "abbreviation": "VM",
     "protocol": "Virtualization",
     "description": "VIRTUALIZATION | Virtual Machine emulation of a computer system."
   },
   {
+    "id": "sec_acronym__voip",
     "abbreviation": "VoIP",
     "protocol": "Networking / Communication",
     "description": "PROTOCOL | Voice over IP. Delivery of voice communications and multimedia sessions over IP networks."
   },
   {
+    "id": "sec_acronym__vpn",
     "abbreviation": "VPN",
     "protocol": "Security Protocol / Networking",
     "description": "PROTOCOL | Virtual Private Network. Extends a private network across a public network securely using tunneling and encryption."
   },
   {
+    "id": "sec_acronym__vtc",
     "abbreviation": "VTC",
     "protocol": "Communication",
     "description": "APPLICATION | Video Teleconferencing systems."
   },
   {
+    "id": "sec_acronym__waf",
     "abbreviation": "WAF",
     "protocol": "Web Security",
     "description": "SECURITY | Web Application Firewall. Filters, monitors, and blocks HTTP traffic to and from a web application."
   },
   {
+    "id": "sec_acronym__wap",
     "abbreviation": "WAP",
     "protocol": "Wireless",
     "description": "WIRELESS | Wireless Access Point connecting wireless devices to a network."
   },
   {
+    "id": "sec_acronym__wep",
     "abbreviation": "WEP",
     "protocol": "Wireless Security",
     "description": "WIRELESS | Wired Equivalent Privacy. Insecure and legacy wireless encryption protocol. DEPRECATED."
   },
   {
+    "id": "sec_acronym__wids",
     "abbreviation": "WIDS",
     "protocol": "Wireless Monitoring",
     "description": "MONITORING | Wireless Intrusion Detection System monitoring radio spectrum for threats."
   },
   {
+    "id": "sec_acronym__wips",
     "abbreviation": "WIPS",
     "protocol": "Wireless Monitoring",
     "description": "MONITORING | Wireless Intrusion Prevention System monitoring radio spectrum and blocking attacks."
   },
   {
+    "id": "sec_acronym__worm",
     "abbreviation": "WORM",
     "protocol": "Storage",
     "description": "STORAGE | Write Once Read Many data storage medium preventing modification."
   },
   {
+    "id": "sec_acronym__wpa",
     "abbreviation": "WPA",
     "protocol": "Wireless Security",
     "description": "WIRELESS | Wi-Fi Protected Access security standard using TKIP. DEPRECATED."
   },
   {
+    "id": "sec_acronym__wpa2",
     "abbreviation": "WPA2",
     "protocol": "Wireless Security",
     "description": "WIRELESS | Wi-Fi Protected Access 2. Secure wireless encryption standard using AES and CCMP."
   },
   {
+    "id": "sec_acronym__wps",
     "abbreviation": "WPS",
     "protocol": "Wireless Configuration",
     "description": "WIRELESS | Wi-Fi Protected Setup. Network security standard to create secure wireless home networks, vulnerable via PIN brute-forcing. DEPRECATED."
   },
   {
+    "id": "sec_acronym__wtls",
     "abbreviation": "WTLS",
     "protocol": "Wireless Security",
     "description": "WIRELESS | Wireless Transport Layer Security for WAP devices. DEPRECATED."
   },
   {
+    "id": "sec_acronym__xml",
     "abbreviation": "XML",
     "protocol": "Data Format",
     "description": "APPLICATION | Extensible Markup Language. Markup language that defines rules for encoding documents readable by humans and machines."
   },
   {
+    "id": "sec_acronym__xor",
     "abbreviation": "XOR",
     "protocol": "Logic Operation",
     "description": "ENCRYPTION | Exclusive OR. Exclusive Or logical operation frequently used in cryptography."
   },
   {
+    "id": "sec_acronym__xsrf",
     "abbreviation": "XSRF",
     "protocol": "Web Vulnerability",
     "description": "ATTACK | Cross-site Request Forgery forcing authenticated users to execute unwanted actions."
   },
   {
+    "id": "sec_acronym__xss",
     "abbreviation": "XSS",
     "protocol": "Web Vulnerability",
     "description": "ATTACK | Cross-site Scripting attack injecting malicious scripts into trusted websites."
   },
   {
+    "id": "sec_acronym__casb",
     "abbreviation": "CASB",
     "protocol": "Cloud Security / Architecture",
     "description": "CLOUD | Cloud Access Security Broker. Software tool placed between enterprise users and cloud applications to enforce security policies."
   },
   {
+    "id": "sec_acronym__cve",
     "abbreviation": "CVE",
     "protocol": "Vulnerability Management",
     "description": "VULNERABILITY | Common Vulnerabilities and Exposures. Dictionary of publicly known cybersecurity vulnerabilities and exposures."
   },
   {
+    "id": "sec_acronym__cvss",
     "abbreviation": "CVSS",
     "protocol": "Vulnerability Management",
     "description": "METRICS | Common Vulnerability Scoring System. Numerical scoring system for rating the severity of computer system security vulnerabilities."
   },
   {
+    "id": "sec_acronym__edr",
     "abbreviation": "EDR",
     "protocol": "Endpoint Security / Monitoring",
     "description": "MONITORING | Endpoint Detection and Response. Software that continuously monitors endpoints to detect and respond to malicious activity."
   },
   {
+    "id": "sec_acronym__iam",
     "abbreviation": "IAM",
     "protocol": "Access Control / Identity",
     "description": "ACCESS CONTROL | Identity and Access Management. Framework of policies and technologies ensuring proper user digital identities and access rights."
   },
   {
+    "id": "sec_acronym__iac",
     "abbreviation": "IaC",
     "protocol": "Software Development / Infrastructure",
     "description": "DEVOPS | Infrastructure as Code. Managing and provisioning computing infrastructure through machine-readable definition files."
   },
   {
+    "id": "sec_acronym__mdr",
     "abbreviation": "MDR",
     "protocol": "Managed Security Services",
     "description": "MONITORING | Managed Detection and Response. Outsourced cybersecurity service providing continuous threat monitoring and incident response."
   },
   {
+    "id": "sec_acronym__sase",
     "abbreviation": "SASE",
     "protocol": "Cloud Security / Networking",
     "description": "ARCHITECTURE | Secure Access Service Edge. Combines WAN security and networking services into a single cloud-delivered service model."
   },
   {
+    "id": "sec_acronym__sbom",
     "abbreviation": "SBOM",
     "protocol": "Software Supply Chain",
     "description": "MANAGEMENT | Software Bill of Materials. Nested inventory of ingredients and components used to build software applications."
   },
   {
+    "id": "sec_acronym__scim",
     "abbreviation": "SCIM",
     "protocol": "Identity Management / Port 443",
     "description": "PROTOCOL | System for Cross-domain Identity Management automating user provisioning across apps."
   },
   {
+    "id": "sec_acronym__soar",
     "abbreviation": "SOAR",
     "protocol": "Security Automation / Incident Response",
     "description": "AUTOMATION | Security Orchestration, Automation, and Response. Tools combining security orchestration, automated workflows, and incident response capabilities."
   },
   {
+    "id": "sec_acronym__stix",
     "abbreviation": "STIX",
     "protocol": "Threat Intelligence",
     "description": "THREAT | Structured Threat Information eXpression. Standardized language for describing cyber threat information."
   },
   {
+    "id": "sec_acronym__taxii",
     "abbreviation": "TAXII",
     "protocol": "Threat Intelligence",
     "description": "PROTOCOL | Trusted Automated Exchange of Intelligence Information. Application protocol for exchanging cyber threat intelligence over HTTPS."
   },
   {
+    "id": "sec_acronym__xdr",
     "abbreviation": "XDR",
     "protocol": "Extended Security Monitoring",
     "description": "MONITORING | Extended Detection and Response. Security technology that unifies threat detection and response across multiple vectors."
   },
   {
+    "id": "sec_acronym__ztna",
     "abbreviation": "ZTNA",
     "protocol": "Network Security / Architecture",
     "description": "ARCHITECTURE | Zero Trust Network Access. Zero Trust Network Architecture enforcing strict identity verification for every access request."
   },
   {
+    "id": "sec_acronym__mtd",
     "abbreviation": "MTD",
     "protocol": "Risk Management / Business Continuity",
     "description": "MANAGEMENT | Maximum Tolerable Downtime (or Maximum Tolerable Delay); total time a business process can be disrupted before irreparable damage occurs."
   },
   {
+    "id": "sec_acronym__mttd",
     "abbreviation": "MTTD",
     "protocol": "Metrics / Incident Response",
     "description": "METRICS | Mean Time to Detect; average time elapsed between when a security issue occurs and when it is discovered."
   },
   {
+    "id": "sec_acronym__cia",
     "abbreviation": "CIA",
     "protocol": "Security Principles",
     "description": "GOVERNANCE | Confidentiality, Integrity, and Availability triad; core foundational model for security policy design."
   },
   {
+    "id": "sec_acronym__ioc",
     "abbreviation": "IoC",
     "protocol": "Threat Intelligence",
     "description": "THREAT | Indicator of Compromise; forensic data serving as evidence of a potential cyber attack or system breach."
   },
   {
+    "id": "sec_acronym__uem",
     "abbreviation": "UEM",
     "protocol": "Endpoint Management",
     "description": "MOBILE | Unified Endpoint Management; comprehensive solution to provision, manage, and secure desktop and mobile endpoints from a single console."
   },
   {
+    "id": "sec_acronym__ueba",
     "abbreviation": "UEBA",
     "protocol": "Security Analytics / Monitoring",
     "description": "MONITORING | User and Entity Behavior Analytics; uses machine learning to establish baselines and spot anomalous behavioral threats."
   },
   {
+    "id": "sec_acronym__fim",
     "abbreviation": "FIM",
     "protocol": "Integrity Monitoring",
     "description": "MONITORING | File Integrity Monitoring. File Integrity Management; validates operating system and application files against a cryptographic baseline to detect unauthorized changes."
   },
   {
+    "id": "sec_acronym__swg",
     "abbreviation": "SWG",
     "protocol": "Network Security / Web Filtering",
     "description": "SECURITY | Secure Web Gateway; inspects and filters web traffic to enforce company policies and prevent malware infections."
   },
   {
+    "id": "sec_acronym__ngfw",
     "abbreviation": "NGFW",
     "protocol": "Network Security",
     "description": "SECURITY | Next-Generation Firewall; deep packet inspection firewall adding application awareness, IDS/IPS, and threat intelligence."
   },
   {
+    "id": "sec_acronym__osint",
     "abbreviation": "OSINT",
     "protocol": "Reconnaissance / Threat Intelligence",
     "description": "THREAT | Open-Source Intelligence; gathering security intelligence legally from publicly available sources."
   },
   {
+    "id": "sec_acronym__ttp",
     "abbreviation": "TTP",
     "protocol": "Threat Intelligence",
     "description": "THREAT | Tactics, Techniques, and Procedures; pattern of behaviors, methods, and strategies used by cyber threat actors."
   },
   {
+    "id": "sec_acronym__dpo",
     "abbreviation": "DPO",
     "protocol": "Governance / Data Privacy",
     "description": "GOVERNANCE | Data Protection Officer; leadership role responsible for overseeing data privacy compliance and regulatory strategies."
   },
   {
+    "id": "sec_acronym__gdpr",
     "abbreviation": "GDPR",
     "protocol": "Governance / Privacy Regulation",
     "description": "GOVERNANCE | General Data Protection Regulation; strict European Union regulation governing personal data protection and user privacy rights."
   },
   {
+    "id": "sec_acronym__dkim",
     "abbreviation": "DKIM",
     "protocol": "Email Security",
     "description": "PROTOCOL | DomainKeys Identified Mail; uses cryptographic signatures to verify that emails were sent by the domain owner."
   },
   {
+    "id": "sec_acronym__dmarc",
     "abbreviation": "DMARC",
     "protocol": "Email Security",
     "description": "PROTOCOL | Domain-based Message Authentication, Reporting, and Conformance. Domain Message Authentication Reporting and Conformance; email validation protocol leveraging SPF and DKIM to prevent domain spoofing."
   },
   {
+    "id": "sec_acronym__ais",
     "abbreviation": "AIS",
     "protocol": "Threat Intelligence",
     "description": "THREAT | Automated Indicator Sharing; CISA public-private ecosystem for exchanging cyber threat indicators."
   },
   {
+    "id": "sec_acronym__att_ck",
     "abbreviation": "ATT&CK",
     "protocol": "Threat Intelligence Framework",
     "description": "THREAT | Adversarial Tactics, Techniques, and Common Knowledge. MITRE framework cataloging adversary tactics, techniques, and common knowledge."
   },
   {
+    "id": "sec_acronym__bgp",
     "abbreviation": "BGP",
     "protocol": "Networking Protocol / Port 179",
     "description": "PROTOCOL | Border Gateway Protocol; core routing protocol exchanging routing information between autonomous systems."
   },
   {
+    "id": "sec_acronym__cspm",
     "abbreviation": "CSPM",
     "protocol": "Cloud Security",
     "description": "CLOUD | Cloud Security Posture Management; automates security compliance and risk identification in cloud infrastructure."
   },
   {
+    "id": "sec_acronym__cwpp",
     "abbreviation": "CWPP",
     "protocol": "Cloud Security",
     "description": "CLOUD | Cloud Workload Protection Platform; workload-centric security protection for VMs, containers, and serverless functions."
   },
   {
+    "id": "sec_acronym__dad",
     "abbreviation": "DAD",
     "protocol": "Security Concepts",
     "description": "THREAT | Disclosure, Alteration, and Destruction; opposite threat dimensions matching the CIA triad."
   },
   {
+    "id": "sec_acronym__hipaa",
     "abbreviation": "HIPAA",
     "protocol": "Governance / Privacy Regulation",
     "description": "GOVERNANCE | Health Insurance Portability and Accountability Act. US law providing data privacy and security provisions for safeguarding medical information."
   },
   {
+    "id": "sec_acronym__ot",
     "abbreviation": "OT",
     "protocol": "Industrial Systems",
     "description": "ICS | Operational Technology; hardware/software detecting or causing changes through direct monitoring of physical devices."
   },
   {
+    "id": "sec_acronym__pci_dss",
     "abbreviation": "PCI DSS",
     "protocol": "Governance / Compliance Standard",
     "description": "GOVERNANCE | Payment Card Industry Data Security Standard. Security standard for organizations handling branded credit cards from major card schemes."
   },
   {
+    "id": "sec_acronym__pup",
     "abbreviation": "PUP",
     "protocol": "Threat / Malware",
     "description": "THREAT | Potentially Unwanted Program; software installed without explicit user consent (e.g., adware)."
   },
   {
+    "id": "sec_acronym__sd_wan",
     "abbreviation": "SD-WAN",
     "protocol": "Networking Architecture",
     "description": "NETWORKING | Software-Defined Wide Area Network; manages WAN connections dynamically via decoupled control software."
   },
   {
+    "id": "sec_acronym__soc_2",
     "abbreviation": "SOC",
     "protocol": "Security Operations / Auditing",
     "description": "OPERATIONS | Security Operations Center or Service Organization Control compliance report."
   },
   {
+    "id": "sec_acronym__sqli",
     "abbreviation": "SQLi",
     "protocol": "Web Vulnerability",
     "description": "ATTACK | SQL Injection; malicious code insertion technique manipulating relational database queries."
   },
   {
+    "id": "sec_acronym__wpa3",
     "abbreviation": "WPA3",
     "protocol": "Wireless Security",
     "description": "WIRELESS | Wi-Fi Protected Access 3. Latest Wi-Fi Protected Access standard using SAE (Simultaneous Authentication of Equals) encryption."

@@ -1,30 +1,142 @@
 [
-  { "abbreviation": "TCP", "description": "Transmission Control Protocol - Reliable, connection-oriented OSI Layer 4 protocol using three-way handshakes." },
-  { "abbreviation": "UDP", "description": "User Datagram Protocol - Lightweight, connectionless OSI Layer 4 transport protocol prioritizing speed over reliability." },
-  { "abbreviation": "IP", "description": "Internet Protocol - Principal Layer 3 network protocol responsible for routing packets across network boundaries." },
-  { "abbreviation": "IPv4", "description": "Internet Protocol version 4 - 32-bit connectionless IP addressing scheme yielding ~4.3 billion addresses." },
-  { "abbreviation": "IPv6", "description": "Internet Protocol version 6 - 128-bit hexadecimal addressing format designed to replace exhausted IPv4 space." },
-  { "abbreviation": "ICMP", "description": "Internet Control Message Protocol - Network Layer diagnostic protocol used for network utility commands like PING." },
-  { "abbreviation": "ARP", "description": "Address Resolution Protocol - Protocol resolving Layer 3 IP addresses to Layer 2 physical MAC hardware addresses." },
-  { "abbreviation": "DNS", "description": "Domain Name System - Hierarchical protocol resolving human-friendly domain names to numeric IP addresses." },
-  { "abbreviation": "DHCP", "description": "Dynamic Host Configuration Protocol - Network service automatically assigning IP addresses and subnet parameters." },
-  { "abbreviation": "NAT", "description": "Network Address Translation - Process remapping private internal IP addresses to a public IP address." },
-  { "abbreviation": "PAT", "description": "Port Address Translation - Variant of NAT mapping multiple private IPs to a single public IP via unique port numbers." },
-  { "abbreviation": "VLAN", "description": "Virtual Local Area Network - Logical grouping of network devices isolated into separate broadcast domains on switches." },
-  { "abbreviation": "VPN", "description": "Virtual Private Network - Encrypted tunnel extending a private network securely across a public network." },
-  { "abbreviation": "LAN", "description": "Local Area Network - Network interconnecting computers within a limited geographic area like an office building." },
-  { "abbreviation": "WAN", "description": "Wide Area Network - Telecommunications network spanning large geographical distances between sites." },
-  { "abbreviation": "WLAN", "description": "Wireless Local Area Network - Local area network using high-frequency radio waves to communicate." },
-  { "abbreviation": "MAN", "description": "Metropolitan Area Network - Interconnected computer network spanning an entire city or campus geography." },
-  { "abbreviation": "NIC", "description": "Network Interface Card - Hardware component connecting a computer host to a computer network." },
-  { "abbreviation": "MAC", "description": "Media Access Control - Unique 48-bit physical hardware address assigned to a NIC for Layer 2 communications." },
-  { "abbreviation": "MTU", "description": "Maximum Transmission Unit - Largest protocol data unit size in bytes that can be transmitted across a network layer." },
-  { "abbreviation": "CIDR", "description": "Classless Inter-Domain Routing - Standardized method for allocating IP addresses and routing packets using network prefixes." },
-  { "abbreviation": "BGP", "description": "Border Gateway Protocol - Core routing protocol of the internet exchanging routing information between Autonomous Systems." },
-  { "abbreviation": "OSPF", "description": "Open Shortest Path First - Interior gateway link-state routing protocol finding the shortest path for IP packets." },
-  { "abbreviation": "RIP", "description": "Routing Information Protocol - Distance-vector routing protocol using hop count as a routing metric." },
-  { "abbreviation": "STP", "description": "Spanning Tree Protocol - Layer 2 network protocol preventing bridge loops in redundant network topologies." },
-  { "abbreviation": "QoS", "description": "Quality of Service - Control features prioritizing specific critical network traffic over less urgent data queues." },
-  { "abbreviation": "SDN", "description": "Software-Defined Networking - Architecture decoupling network control logic from physical data forwarding hardware." },
-  { "abbreviation": "SD-WAN", "description": "Software-Defined Wide Area Network - Architecture managing WAN connections dynamically using software control logic." }
+  {
+    "id": "archive_networking_abr__tcp",
+    "abbreviation": "TCP",
+    "description": "Transmission Control Protocol - Reliable, connection-oriented OSI Layer 4 protocol using three-way handshakes."
+  },
+  {
+    "id": "archive_networking_abr__udp",
+    "abbreviation": "UDP",
+    "description": "User Datagram Protocol - Lightweight, connectionless OSI Layer 4 transport protocol prioritizing speed over reliability."
+  },
+  {
+    "id": "archive_networking_abr__ip",
+    "abbreviation": "IP",
+    "description": "Internet Protocol - Principal Layer 3 network protocol responsible for routing packets across network boundaries."
+  },
+  {
+    "id": "archive_networking_abr__ipv4",
+    "abbreviation": "IPv4",
+    "description": "Internet Protocol version 4 - 32-bit connectionless IP addressing scheme yielding ~4.3 billion addresses."
+  },
+  {
+    "id": "archive_networking_abr__ipv6",
+    "abbreviation": "IPv6",
+    "description": "Internet Protocol version 6 - 128-bit hexadecimal addressing format designed to replace exhausted IPv4 space."
+  },
+  {
+    "id": "archive_networking_abr__icmp",
+    "abbreviation": "ICMP",
+    "description": "Internet Control Message Protocol - Network Layer diagnostic protocol used for network utility commands like PING."
+  },
+  {
+    "id": "archive_networking_abr__arp",
+    "abbreviation": "ARP",
+    "description": "Address Resolution Protocol - Protocol resolving Layer 3 IP addresses to Layer 2 physical MAC hardware addresses."
+  },
+  {
+    "id": "archive_networking_abr__dns",
+    "abbreviation": "DNS",
+    "description": "Domain Name System - Hierarchical protocol resolving human-friendly domain names to numeric IP addresses."
+  },
+  {
+    "id": "archive_networking_abr__dhcp",
+    "abbreviation": "DHCP",
+    "description": "Dynamic Host Configuration Protocol - Network service automatically assigning IP addresses and subnet parameters."
+  },
+  {
+    "id": "archive_networking_abr__nat",
+    "abbreviation": "NAT",
+    "description": "Network Address Translation - Process remapping private internal IP addresses to a public IP address."
+  },
+  {
+    "id": "archive_networking_abr__pat",
+    "abbreviation": "PAT",
+    "description": "Port Address Translation - Variant of NAT mapping multiple private IPs to a single public IP via unique port numbers."
+  },
+  {
+    "id": "archive_networking_abr__vlan",
+    "abbreviation": "VLAN",
+    "description": "Virtual Local Area Network - Logical grouping of network devices isolated into separate broadcast domains on switches."
+  },
+  {
+    "id": "archive_networking_abr__vpn",
+    "abbreviation": "VPN",
+    "description": "Virtual Private Network - Encrypted tunnel extending a private network securely across a public network."
+  },
+  {
+    "id": "archive_networking_abr__lan",
+    "abbreviation": "LAN",
+    "description": "Local Area Network - Network interconnecting computers within a limited geographic area like an office building."
+  },
+  {
+    "id": "archive_networking_abr__wan",
+    "abbreviation": "WAN",
+    "description": "Wide Area Network - Telecommunications network spanning large geographical distances between sites."
+  },
+  {
+    "id": "archive_networking_abr__wlan",
+    "abbreviation": "WLAN",
+    "description": "Wireless Local Area Network - Local area network using high-frequency radio waves to communicate."
+  },
+  {
+    "id": "archive_networking_abr__man",
+    "abbreviation": "MAN",
+    "description": "Metropolitan Area Network - Interconnected computer network spanning an entire city or campus geography."
+  },
+  {
+    "id": "archive_networking_abr__nic",
+    "abbreviation": "NIC",
+    "description": "Network Interface Card - Hardware component connecting a computer host to a computer network."
+  },
+  {
+    "id": "archive_networking_abr__mac",
+    "abbreviation": "MAC",
+    "description": "Media Access Control - Unique 48-bit physical hardware address assigned to a NIC for Layer 2 communications."
+  },
+  {
+    "id": "archive_networking_abr__mtu",
+    "abbreviation": "MTU",
+    "description": "Maximum Transmission Unit - Largest protocol data unit size in bytes that can be transmitted across a network layer."
+  },
+  {
+    "id": "archive_networking_abr__cidr",
+    "abbreviation": "CIDR",
+    "description": "Classless Inter-Domain Routing - Standardized method for allocating IP addresses and routing packets using network prefixes."
+  },
+  {
+    "id": "archive_networking_abr__bgp",
+    "abbreviation": "BGP",
+    "description": "Border Gateway Protocol - Core routing protocol of the internet exchanging routing information between Autonomous Systems."
+  },
+  {
+    "id": "archive_networking_abr__ospf",
+    "abbreviation": "OSPF",
+    "description": "Open Shortest Path First - Interior gateway link-state routing protocol finding the shortest path for IP packets."
+  },
+  {
+    "id": "archive_networking_abr__rip",
+    "abbreviation": "RIP",
+    "description": "Routing Information Protocol - Distance-vector routing protocol using hop count as a routing metric."
+  },
+  {
+    "id": "archive_networking_abr__stp",
+    "abbreviation": "STP",
+    "description": "Spanning Tree Protocol - Layer 2 network protocol preventing bridge loops in redundant network topologies."
+  },
+  {
+    "id": "archive_networking_abr__qos",
+    "abbreviation": "QoS",
+    "description": "Quality of Service - Control features prioritizing specific critical network traffic over less urgent data queues."
+  },
+  {
+    "id": "archive_networking_abr__sdn",
+    "abbreviation": "SDN",
+    "description": "Software-Defined Networking - Architecture decoupling network control logic from physical data forwarding hardware."
+  },
+  {
+    "id": "archive_networking_abr__sd_wan",
+    "abbreviation": "SD-WAN",
+    "description": "Software-Defined Wide Area Network - Architecture managing WAN connections dynamically using software control logic."
+  }
 ]

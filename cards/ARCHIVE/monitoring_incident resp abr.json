@@ -1,17 +1,77 @@
 [
-  { "abbreviation": "SIEM", "description": "Security Information and Event Management - Centralized platform aggregating and analyzing event logs across IT assets." },
-  { "abbreviation": "SOAR", "description": "Security Orchestration, Automation, and Response - Platform automating incident response workflows and threat playbooks." },
-  { "abbreviation": "SOC", "description": "Security Operations Center - Dedicated facility monitoring, detecting, and analyzing security incidents across an organization." },
-  { "abbreviation": "CSIRT", "description": "Computer Security Incident Response Team - Designated operational group responding to security breaches." },
-  { "abbreviation": "CIRT", "description": "Computer Incident Response Team - Specialized team responsible for coordinating technical response to active incidents." },
-  { "abbreviation": "CERT", "description": "Computer Emergency Response Team - Expert organization providing incident mitigation guidance during cyber emergencies." },
-  { "abbreviation": "IR", "description": "Incident Response - Structured approach to managing the aftermath of a security breach or cyberattack." },
-  { "abbreviation": "DFIR", "description": "Digital Forensics and Incident Response - Combined discipline of investigating digital evidence and containing security threats." },
-  { "abbreviation": "EDR", "description": "Endpoint Detection and Response - Software continuously monitoring endpoint activity to detect and contain malicious actions." },
-  { "abbreviation": "XDR", "description": "Extended Detection and Response - Threat detection integrating telemetry across endpoint, network, cloud, and mail vectors." },
-  { "abbreviation": "NDR", "description": "Network Detection and Response - Security tools monitoring network traffic baselines to detect anomalous behavior." },
-  { "abbreviation": "MDR", "description": "Managed Detection and Response - Outsourced 24/7 cybersecurity service delivering threat hunting and incident management." },
-  { "abbreviation": "UEBA", "description": "User and Entity Behavior Analytics - Security process monitoring baseline user behavior to flag compromised accounts." },
-  { "abbreviation": "SNMP", "description": "Simple Network Management Protocol - Layer 7 protocol monitoring and managing network device status and metrics." },
-  { "abbreviation": "Syslog", "description": "System Logging Protocol - Standardized system logging format used for sending event metrics to centralized servers." }
+  {
+    "id": "archive_monitoring_incident_resp_abr__siem",
+    "abbreviation": "SIEM",
+    "description": "Security Information and Event Management - Centralized platform aggregating and analyzing event logs across IT assets."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__soar",
+    "abbreviation": "SOAR",
+    "description": "Security Orchestration, Automation, and Response - Platform automating incident response workflows and threat playbooks."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__soc",
+    "abbreviation": "SOC",
+    "description": "Security Operations Center - Dedicated facility monitoring, detecting, and analyzing security incidents across an organization."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__csirt",
+    "abbreviation": "CSIRT",
+    "description": "Computer Security Incident Response Team - Designated operational group responding to security breaches."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__cirt",
+    "abbreviation": "CIRT",
+    "description": "Computer Incident Response Team - Specialized team responsible for coordinating technical response to active incidents."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__cert",
+    "abbreviation": "CERT",
+    "description": "Computer Emergency Response Team - Expert organization providing incident mitigation guidance during cyber emergencies."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__ir",
+    "abbreviation": "IR",
+    "description": "Incident Response - Structured approach to managing the aftermath of a security breach or cyberattack."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__dfir",
+    "abbreviation": "DFIR",
+    "description": "Digital Forensics and Incident Response - Combined discipline of investigating digital evidence and containing security threats."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__edr",
+    "abbreviation": "EDR",
+    "description": "Endpoint Detection and Response - Software continuously monitoring endpoint activity to detect and contain malicious actions."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__xdr",
+    "abbreviation": "XDR",
+    "description": "Extended Detection and Response - Threat detection integrating telemetry across endpoint, network, cloud, and mail vectors."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__ndr",
+    "abbreviation": "NDR",
+    "description": "Network Detection and Response - Security tools monitoring network traffic baselines to detect anomalous behavior."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__mdr",
+    "abbreviation": "MDR",
+    "description": "Managed Detection and Response - Outsourced 24/7 cybersecurity service delivering threat hunting and incident management."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__ueba",
+    "abbreviation": "UEBA",
+    "description": "User and Entity Behavior Analytics - Security process monitoring baseline user behavior to flag compromised accounts."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__snmp",
+    "abbreviation": "SNMP",
+    "description": "Simple Network Management Protocol - Layer 7 protocol monitoring and managing network device status and metrics."
+  },
+  {
+    "id": "archive_monitoring_incident_resp_abr__syslog",
+    "abbreviation": "Syslog",
+    "description": "System Logging Protocol - Standardized system logging format used for sending event metrics to centralized servers."
+  }
 ]

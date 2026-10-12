@@ -1,37 +1,177 @@
 [
-  { "abbreviation": "AES", "description": "Advanced Encryption Standard - High-speed symmetric block cipher utilizing 128, 192, or 256-bit key sizes." },
-  { "abbreviation": "DES", "description": "Data Encryption Standard - Legacy 56-bit symmetric block cipher now deemed insecure due to short key length." },
-  { "abbreviation": "3DES", "description": "Triple Data Encryption Standard - Legacy symmetric encryption applying DES algorithm three times per data block." },
-  { "abbreviation": "RSA", "description": "Rivest-Shamir-Adleman - Asymmetric encryption algorithm based on the mathematical difficulty of factoring large prime numbers." },
-  { "abbreviation": "ECC", "description": "Elliptic Curve Cryptography - Efficient asymmetric cryptography providing high security using small key lengths." },
-  { "abbreviation": "DH", "description": "Diffie-Hellman - Key exchange algorithm allowing two parties to establish a shared secret key over an insecure channel." },
-  { "abbreviation": "ECDH", "description": "Elliptic Curve Diffie-Hellman - Key exchange algorithm combining Diffie-Hellman logic with elliptic curve cryptography." },
-  { "abbreviation": "ECDSA", "description": "Elliptic Curve Digital Signature Algorithm - Asymmetric algorithm utilizing ECC mathematics to create digital signatures." },
-  { "abbreviation": "SHA", "description": "Secure Hash Algorithm - Family of cryptographic hash functions generating fixed-size mathematical digests." },
-  { "abbreviation": "SHA-1", "description": "Secure Hash Algorithm 1 - Deprecated 160-bit hash function susceptible to collision attacks." },
-  { "abbreviation": "SHA-256", "description": "Secure Hash Algorithm 256-bit - Secure hash function producing a 256-bit digest value." },
-  { "abbreviation": "SHA-384", "description": "Secure Hash Algorithm 384-bit - Strong variant of SHA-2 generating 384-bit output digests." },
-  { "abbreviation": "SHA-512", "description": "Secure Hash Algorithm 512-bit - High-security hash function producing 512-bit digest outputs." },
-  { "abbreviation": "MD5", "description": "Message Digest 5 - Legacy 128-bit hashing algorithm vulnerable to collision attacks; unfit for modern security." },
-  { "abbreviation": "HMAC", "description": "Hash-Based Message Authentication Code - Integrity checksum combining a hash function with a secret key." },
-  { "abbreviation": "PKI", "description": "Public Key Infrastructure - Complete ecosystem managing digital certificates and asymmetric key pairs." },
-  { "abbreviation": "CA", "description": "Certificate Authority - Trusted third-party entity issuing and verifying digital X.509 identity certificates." },
-  { "abbreviation": "CRL", "description": "Certificate Revocation List - Published list of revoked digital certificates updated periodically by a CA." },
-  { "abbreviation": "OCSP", "description": "Online Certificate Status Protocol - Real-time query mechanism for validating digital certificate revocation status." },
-  { "abbreviation": "CSR", "description": "Certificate Signing Request - Encrypted message sent to a Certificate Authority requesting a new digital certificate." },
-  { "abbreviation": "DER", "description": "Distinguished Encoding Rules - Binary encoding format used for X.509 digital certificates and key files." },
-  { "abbreviation": "PEM", "description": "Privacy-Enhanced Mail - ASCII Base64 encoded file format used for storing certificates and private keys." },
-  { "abbreviation": "PGP", "description": "Pretty Good Privacy - Encryption program providing cryptographic privacy and data authentication for email files." },
-  { "abbreviation": "GPG", "description": "GNU Privacy Guard - Free open-source implementation of the OpenPGP encryption standard." },
-  { "abbreviation": "TLS", "description": "Transport Layer Security - Modern cryptographic protocol securing data in transit over computer networks." },
-  { "abbreviation": "SSL", "description": "Secure Sockets Layer - Deprecated predecessor to TLS; vulnerable to fallback attacks." },
-  { "abbreviation": "DTLS", "description": "Datagram Transport Layer Security - Protocol adapting TLS capabilities for UDP connectionless communications." },
-  { "abbreviation": "IKE", "description": "Internet Key Exchange - Protocol used to set up Security Associations and shared keys in IPsec VPN tunnels." },
-  { "abbreviation": "IPsec", "description": "Internet Protocol Security - Protocol suite securing IP layer data using authentication and encryption features." },
-  { "abbreviation": "AH", "description": "Authentication Header - IPsec protocol providing data integrity and authentication without data encryption." },
-  { "abbreviation": "ESP", "description": "Encapsulating Security Payload - IPsec protocol providing data confidentiality, authentication, and integrity." },
-  { "abbreviation": "PSK", "description": "Pre-Shared Key - Secret cryptographic key shared out-of-band between communicating parties prior to session setup." },
-  { "abbreviation": "KMS", "description": "Key Management System - System managing creation, storage, distribution, and destruction of cryptographic keys." },
-  { "abbreviation": "TKIP", "description": "Temporal Key Integrity Protocol - Legacy WPA encryption protocol developed to temporarily fix WEP weaknesses." },
-  { "abbreviation": "CCMP", "description": "Counter Mode/CBC-MAC Protocol - AES-based encryption protocol implemented in WPA2 wireless security." }
+  {
+    "id": "archive_cryptography_abr__aes",
+    "abbreviation": "AES",
+    "description": "Advanced Encryption Standard - High-speed symmetric block cipher utilizing 128, 192, or 256-bit key sizes."
+  },
+  {
+    "id": "archive_cryptography_abr__des",
+    "abbreviation": "DES",
+    "description": "Data Encryption Standard - Legacy 56-bit symmetric block cipher now deemed insecure due to short key length."
+  },
+  {
+    "id": "archive_cryptography_abr__3des",
+    "abbreviation": "3DES",
+    "description": "Triple Data Encryption Standard - Legacy symmetric encryption applying DES algorithm three times per data block."
+  },
+  {
+    "id": "archive_cryptography_abr__rsa",
+    "abbreviation": "RSA",
+    "description": "Rivest-Shamir-Adleman - Asymmetric encryption algorithm based on the mathematical difficulty of factoring large prime numbers."
+  },
+  {
+    "id": "archive_cryptography_abr__ecc",
+    "abbreviation": "ECC",
+    "description": "Elliptic Curve Cryptography - Efficient asymmetric cryptography providing high security using small key lengths."
+  },
+  {
+    "id": "archive_cryptography_abr__dh",
+    "abbreviation": "DH",
+    "description": "Diffie-Hellman - Key exchange algorithm allowing two parties to establish a shared secret key over an insecure channel."
+  },
+  {
+    "id": "archive_cryptography_abr__ecdh",
+    "abbreviation": "ECDH",
+    "description": "Elliptic Curve Diffie-Hellman - Key exchange algorithm combining Diffie-Hellman logic with elliptic curve cryptography."
+  },
+  {
+    "id": "archive_cryptography_abr__ecdsa",
+    "abbreviation": "ECDSA",
+    "description": "Elliptic Curve Digital Signature Algorithm - Asymmetric algorithm utilizing ECC mathematics to create digital signatures."
+  },
+  {
+    "id": "archive_cryptography_abr__sha",
+    "abbreviation": "SHA",
+    "description": "Secure Hash Algorithm - Family of cryptographic hash functions generating fixed-size mathematical digests."
+  },
+  {
+    "id": "archive_cryptography_abr__sha_1",
+    "abbreviation": "SHA-1",
+    "description": "Secure Hash Algorithm 1 - Deprecated 160-bit hash function susceptible to collision attacks."
+  },
+  {
+    "id": "archive_cryptography_abr__sha_256",
+    "abbreviation": "SHA-256",
+    "description": "Secure Hash Algorithm 256-bit - Secure hash function producing a 256-bit digest value."
+  },
+  {
+    "id": "archive_cryptography_abr__sha_384",
+    "abbreviation": "SHA-384",
+    "description": "Secure Hash Algorithm 384-bit - Strong variant of SHA-2 generating 384-bit output digests."
+  },
+  {
+    "id": "archive_cryptography_abr__sha_512",
+    "abbreviation": "SHA-512",
+    "description": "Secure Hash Algorithm 512-bit - High-security hash function producing 512-bit digest outputs."
+  },
+  {
+    "id": "archive_cryptography_abr__md5",
+    "abbreviation": "MD5",
+    "description": "Message Digest 5 - Legacy 128-bit hashing algorithm vulnerable to collision attacks; unfit for modern security."
+  },
+  {
+    "id": "archive_cryptography_abr__hmac",
+    "abbreviation": "HMAC",
+    "description": "Hash-Based Message Authentication Code - Integrity checksum combining a hash function with a secret key."
+  },
+  {
+    "id": "archive_cryptography_abr__pki",
+    "abbreviation": "PKI",
+    "description": "Public Key Infrastructure - Complete ecosystem managing digital certificates and asymmetric key pairs."
+  },
+  {
+    "id": "archive_cryptography_abr__ca",
+    "abbreviation": "CA",
+    "description": "Certificate Authority - Trusted third-party entity issuing and verifying digital X.509 identity certificates."
+  },
+  {
+    "id": "archive_cryptography_abr__crl",
+    "abbreviation": "CRL",
+    "description": "Certificate Revocation List - Published list of revoked digital certificates updated periodically by a CA."
+  },
+  {
+    "id": "archive_cryptography_abr__ocsp",
+    "abbreviation": "OCSP",
+    "description": "Online Certificate Status Protocol - Real-time query mechanism for validating digital certificate revocation status."
+  },
+  {
+    "id": "archive_cryptography_abr__csr",
+    "abbreviation": "CSR",
+    "description": "Certificate Signing Request - Encrypted message sent to a Certificate Authority requesting a new digital certificate."
+  },
+  {
+    "id": "archive_cryptography_abr__der",
+    "abbreviation": "DER",
+    "description": "Distinguished Encoding Rules - Binary encoding format used for X.509 digital certificates and key files."
+  },
+  {
+    "id": "archive_cryptography_abr__pem",
+    "abbreviation": "PEM",
+    "description": "Privacy-Enhanced Mail - ASCII Base64 encoded file format used for storing certificates and private keys."
+  },
+  {
+    "id": "archive_cryptography_abr__pgp",
+    "abbreviation": "PGP",
+    "description": "Pretty Good Privacy - Encryption program providing cryptographic privacy and data authentication for email files."
+  },
+  {
+    "id": "archive_cryptography_abr__gpg",
+    "abbreviation": "GPG",
+    "description": "GNU Privacy Guard - Free open-source implementation of the OpenPGP encryption standard."
+  },
+  {
+    "id": "archive_cryptography_abr__tls",
+    "abbreviation": "TLS",
+    "description": "Transport Layer Security - Modern cryptographic protocol securing data in transit over computer networks."
+  },
+  {
+    "id": "archive_cryptography_abr__ssl",
+    "abbreviation": "SSL",
+    "description": "Secure Sockets Layer - Deprecated predecessor to TLS; vulnerable to fallback attacks."
+  },
+  {
+    "id": "archive_cryptography_abr__dtls",
+    "abbreviation": "DTLS",
+    "description": "Datagram Transport Layer Security - Protocol adapting TLS capabilities for UDP connectionless communications."
+  },
+  {
+    "id": "archive_cryptography_abr__ike",
+    "abbreviation": "IKE",
+    "description": "Internet Key Exchange - Protocol used to set up Security Associations and shared keys in IPsec VPN tunnels."
+  },
+  {
+    "id": "archive_cryptography_abr__ipsec",
+    "abbreviation": "IPsec",
+    "description": "Internet Protocol Security - Protocol suite securing IP layer data using authentication and encryption features."
+  },
+  {
+    "id": "archive_cryptography_abr__ah",
+    "abbreviation": "AH",
+    "description": "Authentication Header - IPsec protocol providing data integrity and authentication without data encryption."
+  },
+  {
+    "id": "archive_cryptography_abr__esp",
+    "abbreviation": "ESP",
+    "description": "Encapsulating Security Payload - IPsec protocol providing data confidentiality, authentication, and integrity."
+  },
+  {
+    "id": "archive_cryptography_abr__psk",
+    "abbreviation": "PSK",
+    "description": "Pre-Shared Key - Secret cryptographic key shared out-of-band between communicating parties prior to session setup."
+  },
+  {
+    "id": "archive_cryptography_abr__kms",
+    "abbreviation": "KMS",
+    "description": "Key Management System - System managing creation, storage, distribution, and destruction of cryptographic keys."
+  },
+  {
+    "id": "archive_cryptography_abr__tkip",
+    "abbreviation": "TKIP",
+    "description": "Temporal Key Integrity Protocol - Legacy WPA encryption protocol developed to temporarily fix WEP weaknesses."
+  },
+  {
+    "id": "archive_cryptography_abr__ccmp",
+    "abbreviation": "CCMP",
+    "description": "Counter Mode/CBC-MAC Protocol - AES-based encryption protocol implemented in WPA2 wireless security."
+  }
 ]

@@ -1,27 +1,152 @@
 [
-  { "abbreviation": "Port 20", "protocol": "FTP Data", "description": "FTP data transfer" },
-  { "abbreviation": "Port 21", "protocol": "FTP Control", "description": "FTP command control" },
-  { "abbreviation": "Port 22", "protocol": "SSH", "description": "Secure remote administration" },
-  { "abbreviation": "Port 23", "protocol": "Telnet", "description": "Unencrypted remote administration" },
-  { "abbreviation": "Port 25", "protocol": "SMTP", "description": "Sending email" },
-  { "abbreviation": "Port 53", "protocol": "DNS", "description": "Domain/name resolution" },
-  { "abbreviation": "Port 67", "protocol": "DHCP", "description": "DHCP server" },
-  { "abbreviation": "Port 68", "protocol": "DHCP", "description": "DHCP client" },
-  { "abbreviation": "Port 69", "protocol": "TFTP", "description": "Trivial File Transfer Protocol" },
-  { "abbreviation": "Port 80", "protocol": "HTTP", "description": "Unencrypted web traffic" },
-  { "abbreviation": "Port 110", "protocol": "POP3", "description": "Email retrieval" },
-  { "abbreviation": "Port 123", "protocol": "NTP", "description": "Network time synchronization" },
-  { "abbreviation": "Port 143", "protocol": "IMAP", "description": "Email retrieval" },
-  { "abbreviation": "Port 161", "protocol": "SNMP", "description": "Network monitoring/polling" },
-  { "abbreviation": "Port 162", "protocol": "SNMP", "description": "SNMP traps" },
-  { "abbreviation": "Port 389", "protocol": "LDAP", "description": "Directory services" },
-  { "abbreviation": "Port 443", "protocol": "HTTPS", "description": "Secure web traffic" },
-  { "abbreviation": "Port 445", "protocol": "SMB", "description": "Windows file/printer sharing" },
-  { "abbreviation": "Port 514", "protocol": "Syslog", "description": "System logging" },
-  { "abbreviation": "Port 636", "protocol": "LDAPS", "description": "Secure LDAP" },
-  { "abbreviation": "Port 993", "protocol": "IMAPS", "description": "Secure IMAP" },
-  { "abbreviation": "Port 995", "protocol": "POP3S", "description": "Secure POP3" },
-  { "abbreviation": "Port 1433", "protocol": "MS SQL", "description": "Microsoft SQL Server database" },
-  { "abbreviation": "Port 3306", "protocol": "MySQL", "description": "MySQL database" },
-  { "abbreviation": "Port 3389", "protocol": "RDP", "description": "Windows Remote Desktop" }
+  {
+    "id": "archive_ports__port_20",
+    "abbreviation": "Port 20",
+    "protocol": "FTP Data",
+    "description": "FTP data transfer"
+  },
+  {
+    "id": "archive_ports__port_21",
+    "abbreviation": "Port 21",
+    "protocol": "FTP Control",
+    "description": "FTP command control"
+  },
+  {
+    "id": "archive_ports__port_22",
+    "abbreviation": "Port 22",
+    "protocol": "SSH",
+    "description": "Secure remote administration"
+  },
+  {
+    "id": "archive_ports__port_23",
+    "abbreviation": "Port 23",
+    "protocol": "Telnet",
+    "description": "Unencrypted remote administration"
+  },
+  {
+    "id": "archive_ports__port_25",
+    "abbreviation": "Port 25",
+    "protocol": "SMTP",
+    "description": "Sending email"
+  },
+  {
+    "id": "archive_ports__port_53",
+    "abbreviation": "Port 53",
+    "protocol": "DNS",
+    "description": "Domain/name resolution"
+  },
+  {
+    "id": "archive_ports__port_67",
+    "abbreviation": "Port 67",
+    "protocol": "DHCP",
+    "description": "DHCP server"
+  },
+  {
+    "id": "archive_ports__port_68",
+    "abbreviation": "Port 68",
+    "protocol": "DHCP",
+    "description": "DHCP client"
+  },
+  {
+    "id": "archive_ports__port_69",
+    "abbreviation": "Port 69",
+    "protocol": "TFTP",
+    "description": "Trivial File Transfer Protocol"
+  },
+  {
+    "id": "archive_ports__port_80",
+    "abbreviation": "Port 80",
+    "protocol": "HTTP",
+    "description": "Unencrypted web traffic"
+  },
+  {
+    "id": "archive_ports__port_110",
+    "abbreviation": "Port 110",
+    "protocol": "POP3",
+    "description": "Email retrieval"
+  },
+  {
+    "id": "archive_ports__port_123",
+    "abbreviation": "Port 123",
+    "protocol": "NTP",
+    "description": "Network time synchronization"
+  },
+  {
+    "id": "archive_ports__port_143",
+    "abbreviation": "Port 143",
+    "protocol": "IMAP",
+    "description": "Email retrieval"
+  },
+  {
+    "id": "archive_ports__port_161",
+    "abbreviation": "Port 161",
+    "protocol": "SNMP",
+    "description": "Network monitoring/polling"
+  },
+  {
+    "id": "archive_ports__port_162",
+    "abbreviation": "Port 162",
+    "protocol": "SNMP",
+    "description": "SNMP traps"
+  },
+  {
+    "id": "archive_ports__port_389",
+    "abbreviation": "Port 389",
+    "protocol": "LDAP",
+    "description": "Directory services"
+  },
+  {
+    "id": "archive_ports__port_443",
+    "abbreviation": "Port 443",
+    "protocol": "HTTPS",
+    "description": "Secure web traffic"
+  },
+  {
+    "id": "archive_ports__port_445",
+    "abbreviation": "Port 445",
+    "protocol": "SMB",
+    "description": "Windows file/printer sharing"
+  },
+  {
+    "id": "archive_ports__port_514",
+    "abbreviation": "Port 514",
+    "protocol": "Syslog",
+    "description": "System logging"
+  },
+  {
+    "id": "archive_ports__port_636",
+    "abbreviation": "Port 636",
+    "protocol": "LDAPS",
+    "description": "Secure LDAP"
+  },
+  {
+    "id": "archive_ports__port_993",
+    "abbreviation": "Port 993",
+    "protocol": "IMAPS",
+    "description": "Secure IMAP"
+  },
+  {
+    "id": "archive_ports__port_995",
+    "abbreviation": "Port 995",
+    "protocol": "POP3S",
+    "description": "Secure POP3"
+  },
+  {
+    "id": "archive_ports__port_1433",
+    "abbreviation": "Port 1433",
+    "protocol": "MS SQL",
+    "description": "Microsoft SQL Server database"
+  },
+  {
+    "id": "archive_ports__port_3306",
+    "abbreviation": "Port 3306",
+    "protocol": "MySQL",
+    "description": "MySQL database"
+  },
+  {
+    "id": "archive_ports__port_3389",
+    "abbreviation": "Port 3389",
+    "protocol": "RDP",
+    "description": "Windows Remote Desktop"
+  }
 ]
