@@ -1,0 +1,8 @@
+[
+  {
+    "id": "extra_acronyms__nas",
+    "abbreviation": "NAS",
+    "protocol": "Storage / Networking",
+    "description": "STORAGE | Network Attached Storage. Dedicated file storage device connected to a network, allowing multiple users and client devices to retrieve data from centralized disk capacity."
+  }
+]

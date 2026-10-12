@@ -82,5 +82,11 @@
     "abbreviation": "Threat-Scope Reduction",
     "protocol": "Zero Trust Architecture / Control Plane",
     "description": "ZERO TRUST | Control Plane principle that minimizes the attack surface and \"blast radius\" via micro-segmentation, least-privilege access, and the assumption that a breach has already occurred (assume breach)."
+  },
+  {
+    "id": "definitions__secure_enclave",
+    "abbreviation": "Secure Enclave",
+    "protocol": "Hardware Security",
+    "description": "HARDWARE SECURITY | An isolated, hardware-based secure processor/subsystem separate from the main CPU that generates, stores, and protects sensitive data (encryption keys, biometric data, credentials) so it remains protected even if the main operating system is compromised."
   }
 ]
