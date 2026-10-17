@@ -1,0 +1,620 @@
+[
+  {
+    "id": "tier1__cia",
+    "abbreviation": "CIA",
+    "protocol": "CORE SECURITY",
+    "description": "SECURITY TAG | Confidentiality prevents unauthorized disclosure, integrity prevents unauthorized modification, and availability ensures systems and data remain accessible."
+  },
+  {
+    "id": "tier1__aaa",
+    "abbreviation": "AAA",
+    "protocol": "ACCESS CONTROL",
+    "description": "SECURITY TAG | Authentication verifies identity, authorization determines permissions, and accounting records user activity and resource access."
+  },
+  {
+    "id": "tier1__iam",
+    "abbreviation": "IAM",
+    "protocol": "IDENTITY MANAGEMENT",
+    "description": "SECURITY TAG | Identity and Access Management manages digital identities, authentication, authorization, and permissions across organizational systems."
+  },
+  {
+    "id": "tier1__mfa",
+    "abbreviation": "MFA",
+    "protocol": "AUTHENTICATION",
+    "description": "SECURITY TAG | Multifactor Authentication requires two or more different authentication factor types, such as something you know, have, or are."
+  },
+  {
+    "id": "tier1__2fa",
+    "abbreviation": "2FA",
+    "protocol": "AUTHENTICATION",
+    "description": "SECURITY TAG | Two-Factor Authentication requires exactly two different authentication factor types to verify a user's identity."
+  },
+  {
+    "id": "tier1__sso",
+    "abbreviation": "SSO",
+    "protocol": "AUTHENTICATION",
+    "description": "SECURITY TAG | Single Sign-On allows users to authenticate once and access multiple authorized applications without independently signing into each application."
+  },
+  {
+    "id": "tier1__rbac",
+    "abbreviation": "RBAC",
+    "protocol": "ACCESS CONTROL",
+    "description": "SECURITY TAG | Role-Based Access Control assigns permissions according to organizational roles, simplifying access management and enforcing least privilege."
+  },
+  {
+    "id": "tier1__abac",
+    "abbreviation": "ABAC",
+    "protocol": "ACCESS CONTROL",
+    "description": "SECURITY TAG | Attribute-Based Access Control makes access decisions using attributes such as user identity, department, device security, resource, and location."
+  },
+  {
+    "id": "tier1__dac",
+    "abbreviation": "DAC",
+    "protocol": "ACCESS CONTROL",
+    "description": "SECURITY TAG | Discretionary Access Control allows resource owners to determine which users receive access and what permissions they receive."
+  },
+  {
+    "id": "tier1__mac",
+    "abbreviation": "MAC",
+    "protocol": "ACCESS CONTROL",
+    "description": "SECURITY TAG | Mandatory Access Control enforces centrally defined access policies using security labels and clearances; individual resource owners cannot override them."
+  },
+  {
+    "id": "tier1__acl",
+    "abbreviation": "ACL",
+    "protocol": "ACCESS CONTROL",
+    "description": "SECURITY TAG | Access Control List specifies which users, groups, or systems can access a resource and which actions they may perform."
+  },
+  {
+    "id": "tier1__pam",
+    "abbreviation": "PAM",
+    "protocol": "ACCESS CONTROL",
+    "description": "SECURITY TAG | Privileged Access Management secures, controls, and monitors privileged accounts to reduce misuse of administrative permissions."
+  },
+  {
+    "id": "tier1__pki",
+    "abbreviation": "PKI",
+    "protocol": "CRYPTOGRAPHY",
+    "description": "SECURITY TAG | Public Key Infrastructure manages digital certificates, public-key cryptography, certificate authorities, and trust relationships."
+  },
+  {
+    "id": "tier1__ca",
+    "abbreviation": "CA",
+    "protocol": "CRYPTOGRAPHY",
+    "description": "SECURITY TAG | Certificate Authority issues and digitally signs certificates to establish trust between entities and validate public-key ownership."
+  },
+  {
+    "id": "tier1__csr",
+    "abbreviation": "CSR",
+    "protocol": "CRYPTOGRAPHY",
+    "description": "SECURITY TAG | Certificate Signing Request contains certificate applicant information and a public key, submitted to a Certificate Authority for certificate issuance."
+  },
+  {
+    "id": "tier1__crl",
+    "abbreviation": "CRL",
+    "protocol": "CRYPTOGRAPHY",
+    "description": "SECURITY TAG | Certificate Revocation List identifies digital certificates revoked before expiration; relying systems check it to determine certificate validity."
+  },
+  {
+    "id": "tier1__dos",
+    "abbreviation": "DoS",
+    "protocol": "ATTACKS",
+    "description": "SECURITY TAG | Denial of Service disrupts system or network availability by exhausting resources or exploiting weaknesses, preventing legitimate users from accessing services."
+  },
+  {
+    "id": "tier1__ddos",
+    "abbreviation": "DDoS",
+    "protocol": "ATTACKS",
+    "description": "SECURITY TAG | Distributed Denial of Service uses multiple attacking systems, often a botnet, to overwhelm a target and disrupt service availability."
+  },
+  {
+    "id": "tier1__mitm",
+    "abbreviation": "MITM",
+    "protocol": "ATTACKS",
+    "description": "SECURITY TAG | Man-in-the-Middle attack intercepts communications between parties, potentially allowing an attacker to eavesdrop, steal information, or modify transmitted data."
+  },
+  {
+    "id": "tier1__apt",
+    "abbreviation": "APT",
+    "protocol": "THREAT ACTORS",
+    "description": "SECURITY TAG | Advanced Persistent Threat describes a sophisticated, persistent threat actor or campaign that maintains access to targeted systems over an extended period."
+  },
+  {
+    "id": "tier1__xss",
+    "abbreviation": "XSS",
+    "protocol": "WEB ATTACKS",
+    "description": "SECURITY TAG | Cross-Site Scripting injects malicious scripts into web content, potentially executing in victims' browsers to steal session data or perform unauthorized actions."
+  },
+  {
+    "id": "tier1__csrf",
+    "abbreviation": "CSRF",
+    "protocol": "WEB ATTACKS",
+    "description": "SECURITY TAG | Cross-Site Request Forgery tricks an authenticated user's browser into submitting unwanted requests to a website where the user has an active session."
+  },
+  {
+    "id": "tier1__sqli",
+    "abbreviation": "SQLi",
+    "protocol": "WEB ATTACKS",
+    "description": "SECURITY TAG | SQL Injection inserts malicious SQL into application inputs, potentially exposing, modifying, or deleting database information or bypassing authentication."
+  },
+  {
+    "id": "tier1__rce",
+    "abbreviation": "RCE",
+    "protocol": "ATTACKS",
+    "description": "SECURITY TAG | Remote Code Execution allows an attacker to execute commands or code on a remote system, potentially enabling system compromise."
+  },
+  {
+    "id": "tier1__lfi",
+    "abbreviation": "LFI",
+    "protocol": "WEB ATTACKS",
+    "description": "SECURITY TAG | Local File Inclusion exploits application file-handling behavior to access or include unintended files stored on the local server."
+  },
+  {
+    "id": "tier1__ssrf",
+    "abbreviation": "SSRF",
+    "protocol": "WEB ATTACKS",
+    "description": "SECURITY TAG | Server-Side Request Forgery tricks a server into making unintended requests, potentially exposing internal services or restricted resources."
+  },
+  {
+    "id": "tier1__bec",
+    "abbreviation": "BEC",
+    "protocol": "SOCIAL ENGINEERING",
+    "description": "SECURITY TAG | Business Email Compromise impersonates trusted executives, vendors, or employees to deceive victims into transferring money or disclosing sensitive information."
+  },
+  {
+    "id": "tier1__dlp",
+    "abbreviation": "DLP",
+    "protocol": "DATA SECURITY",
+    "description": "SECURITY TAG | Data Loss Prevention monitors and controls sensitive information to prevent unauthorized disclosure, copying, transfer, or exfiltration."
+  },
+  {
+    "id": "tier1__ioc",
+    "abbreviation": "IoC",
+    "protocol": "THREAT DETECTION",
+    "description": "SECURITY TAG | Indicator of Compromise is evidence suggesting a system may have been breached, such as malicious file hashes, suspicious IP addresses, or unusual processes."
+  },
+  {
+    "id": "tier1__cve",
+    "abbreviation": "CVE",
+    "protocol": "VULNERABILITY MANAGEMENT",
+    "description": "SECURITY TAG | Common Vulnerabilities and Exposures provides standardized identifiers for publicly disclosed cybersecurity vulnerabilities."
+  },
+  {
+    "id": "tier1__cvss",
+    "abbreviation": "CVSS",
+    "protocol": "VULNERABILITY MANAGEMENT",
+    "description": "SECURITY TAG | Common Vulnerability Scoring System assigns severity scores to vulnerabilities using factors such as exploitability and potential impact."
+  },
+  {
+    "id": "tier1__mitre_att_ck",
+    "abbreviation": "MITRE ATT&CK",
+    "protocol": "THREAT INTELLIGENCE",
+    "description": "SECURITY TAG | Knowledge base documenting adversary tactics and techniques used to understand attacks, analyze threats, and improve detection and defense."
+  },
+  {
+    "id": "tier1__siem",
+    "abbreviation": "SIEM",
+    "protocol": "SECURITY MONITORING",
+    "description": "SECURITY TAG | Security Information and Event Management collects and correlates logs from multiple sources to detect suspicious activity and support investigations."
+  },
+  {
+    "id": "tier1__soar",
+    "abbreviation": "SOAR",
+    "protocol": "SECURITY AUTOMATION",
+    "description": "SECURITY TAG | Security Orchestration, Automation, and Response integrates security tools and automates workflows such as alert triage, investigation, and incident response."
+  },
+  {
+    "id": "tier1__ids",
+    "abbreviation": "IDS",
+    "protocol": "NETWORK SECURITY",
+    "description": "SECURITY TAG | Intrusion Detection System monitors systems or networks for suspicious activity and generates alerts without necessarily blocking the activity."
+  },
+  {
+    "id": "tier1__ips",
+    "abbreviation": "IPS",
+    "protocol": "NETWORK SECURITY",
+    "description": "SECURITY TAG | Intrusion Prevention System detects suspicious activity and can automatically block malicious traffic or prevent detected attacks."
+  },
+  {
+    "id": "tier1__edr",
+    "abbreviation": "EDR",
+    "protocol": "ENDPOINT SECURITY",
+    "description": "SECURITY TAG | Endpoint Detection and Response monitors endpoint activity to detect threats, investigate incidents, and support containment and remediation."
+  },
+  {
+    "id": "tier1__xdr",
+    "abbreviation": "XDR",
+    "protocol": "SECURITY MONITORING",
+    "description": "SECURITY TAG | Extended Detection and Response correlates security telemetry across endpoints, networks, cloud environments, and other sources to detect and investigate threats."
+  },
+  {
+    "id": "tier1__mdr",
+    "abbreviation": "MDR",
+    "protocol": "MANAGED SECURITY",
+    "description": "SECURITY TAG | Managed Detection and Response provides outsourced security monitoring, threat investigation, and incident response by a specialized security provider."
+  },
+  {
+    "id": "tier1__nids",
+    "abbreviation": "NIDS",
+    "protocol": "NETWORK SECURITY",
+    "description": "SECURITY TAG | Network Intrusion Detection System monitors network traffic for suspicious patterns, attacks, or policy violations and generates alerts."
+  },
+  {
+    "id": "tier1__hids",
+    "abbreviation": "HIDS",
+    "protocol": "ENDPOINT SECURITY",
+    "description": "SECURITY TAG | Host-Based Intrusion Detection System monitors an individual host for suspicious activity, unauthorized changes, and potential security violations."
+  },
+  {
+    "id": "tier1__ir",
+    "abbreviation": "IR",
+    "protocol": "INCIDENT RESPONSE",
+    "description": "SECURITY TAG | Incident Response is the structured process of detecting, analyzing, containing, eradicating, and recovering from security incidents."
+  },
+  {
+    "id": "tier1__bcp",
+    "abbreviation": "BCP",
+    "protocol": "BUSINESS CONTINUITY",
+    "description": "SECURITY TAG | Business Continuity Plan establishes procedures for maintaining critical business operations during disruptions, emergencies, or disasters."
+  },
+  {
+    "id": "tier1__drp",
+    "abbreviation": "DRP",
+    "protocol": "DISASTER RECOVERY",
+    "description": "SECURITY TAG | Disaster Recovery Plan defines procedures for restoring IT systems, applications, and data after a disruption or disaster."
+  },
+  {
+    "id": "tier1__rto",
+    "abbreviation": "RTO",
+    "protocol": "DISASTER RECOVERY",
+    "description": "SECURITY TAG | Recovery Time Objective defines the target maximum time for restoring a system or service after a disruption."
+  },
+  {
+    "id": "tier1__rpo",
+    "abbreviation": "RPO",
+    "protocol": "DISASTER RECOVERY",
+    "description": "SECURITY TAG | Recovery Point Objective defines the maximum acceptable amount of data loss, measured as time between the disruption and the latest recoverable data."
+  },
+  {
+    "id": "tier1__mttr",
+    "abbreviation": "MTTR",
+    "protocol": "AVAILABILITY",
+    "description": "SECURITY TAG | Mean Time to Repair or Recover measures average time required to repair a failed system or restore service; the exact meaning depends on context."
+  },
+  {
+    "id": "tier1__mtbf",
+    "abbreviation": "MTBF",
+    "protocol": "AVAILABILITY",
+    "description": "SECURITY TAG | Mean Time Between Failures measures the average operating time between failures of a repairable system."
+  },
+  {
+    "id": "tier1__bia",
+    "abbreviation": "BIA",
+    "protocol": "RISK MANAGEMENT",
+    "description": "SECURITY TAG | Business Impact Analysis identifies critical business functions and evaluates the operational and financial consequences of disruptions."
+  },
+  {
+    "id": "tier1__aes",
+    "abbreviation": "AES",
+    "protocol": "SYMMETRIC ENCRYPTION",
+    "description": "SECURITY TAG | Advanced Encryption Standard is a widely used symmetric encryption algorithm supporting 128-bit, 192-bit, and 256-bit keys."
+  },
+  {
+    "id": "tier1__des",
+    "abbreviation": "DES",
+    "protocol": "DEPRECATED ENCRYPTION",
+    "description": "SECURITY TAG | DEPRECATED: Data Encryption Standard uses a 56-bit effective key, making it vulnerable to brute-force attacks; do not use for modern security."
+  },
+  {
+    "id": "tier1__3des",
+    "abbreviation": "3DES",
+    "protocol": "DEPRECATED ENCRYPTION",
+    "description": "SECURITY TAG | DEPRECATED: Triple Data Encryption Standard applies DES three times but is obsolete and should not be used for modern encryption."
+  },
+  {
+    "id": "tier1__rsa",
+    "abbreviation": "RSA",
+    "protocol": "ASYMMETRIC CRYPTOGRAPHY",
+    "description": "SECURITY TAG | Rivest-Shamir-Adleman is an asymmetric cryptographic algorithm used for digital signatures and, in supported schemes, encryption or key establishment."
+  },
+  {
+    "id": "tier1__ecc",
+    "abbreviation": "ECC",
+    "protocol": "ASYMMETRIC CRYPTOGRAPHY",
+    "description": "SECURITY TAG | Elliptic Curve Cryptography uses elliptic-curve mathematics to provide cryptographic functions with smaller keys than many traditional asymmetric algorithms."
+  },
+  {
+    "id": "tier1__dh",
+    "abbreviation": "DH",
+    "protocol": "KEY EXCHANGE",
+    "description": "SECURITY TAG | Diffie-Hellman allows two parties to establish a shared secret over an insecure channel; basic Diffie-Hellman does not authenticate the parties by itself."
+  },
+  {
+    "id": "tier1__ecdhe",
+    "abbreviation": "ECDHE",
+    "protocol": "KEY EXCHANGE",
+    "description": "SECURITY TAG | Elliptic Curve Diffie-Hellman Ephemeral establishes session secrets using temporary keys and supports forward secrecy when properly implemented."
+  },
+  {
+    "id": "tier1__sha",
+    "abbreviation": "SHA",
+    "protocol": "HASHING",
+    "description": "SECURITY TAG | Secure Hash Algorithm is a family of cryptographic hash functions used to produce fixed-length digests for integrity verification and other security functions."
+  },
+  {
+    "id": "tier1__sha_256",
+    "abbreviation": "SHA-256",
+    "protocol": "HASHING",
+    "description": "SECURITY TAG | Secure Hash Algorithm 256 produces a 256-bit digest and is widely used for integrity verification and cryptographic applications."
+  },
+  {
+    "id": "tier1__md5",
+    "abbreviation": "MD5",
+    "protocol": "DEPRECATED HASHING",
+    "description": "SECURITY TAG | DEPRECATED: Message Digest 5 produces a 128-bit hash but is vulnerable to collision attacks and should not be used for security-sensitive integrity or signature applications."
+  },
+  {
+    "id": "tier1__hmac",
+    "abbreviation": "HMAC",
+    "protocol": "MESSAGE AUTHENTICATION",
+    "description": "SECURITY TAG | Hash-Based Message Authentication Code combines a cryptographic hash function with a secret key to verify message integrity and authenticity."
+  },
+  {
+    "id": "tier1__tls",
+    "abbreviation": "TLS",
+    "protocol": "TRANSPORT SECURITY",
+    "description": "SECURITY TAG | Transport Layer Security protects data in transit through encryption and integrity protection and can authenticate communicating servers using certificates."
+  },
+  {
+    "id": "tier1__ssl",
+    "abbreviation": "SSL",
+    "protocol": "DEPRECATED TRANSPORT SECURITY",
+    "description": "SECURITY TAG | DEPRECATED: Secure Sockets Layer is an obsolete predecessor to TLS; use modern TLS instead to protect network communications."
+  },
+  {
+    "id": "tier1__pfs",
+    "abbreviation": "PFS",
+    "protocol": "KEY MANAGEMENT",
+    "description": "SECURITY TAG | Perfect Forward Secrecy helps protect previously established session data from compromise of a long-term private key when ephemeral key exchange is used."
+  },
+  {
+    "id": "tier1__fde",
+    "abbreviation": "FDE",
+    "protocol": "DATA AT REST",
+    "description": "SECURITY TAG | Full-Disk Encryption encrypts an entire storage device or volume to protect data if the device is lost or stolen."
+  },
+  {
+    "id": "tier1__tde",
+    "abbreviation": "TDE",
+    "protocol": "DATABASE SECURITY",
+    "description": "SECURITY TAG | Transparent Data Encryption encrypts database files and stored data, helping protect data at rest without requiring application-level encryption changes."
+  },
+  {
+    "id": "tier1__sed",
+    "abbreviation": "SED",
+    "protocol": "STORAGE SECURITY",
+    "description": "SECURITY TAG | Self-Encrypting Drive performs encryption internally using drive hardware, helping protect stored data when supported access controls and key management are properly configured."
+  },
+  {
+    "id": "tier1__kms",
+    "abbreviation": "KMS",
+    "protocol": "KEY MANAGEMENT",
+    "description": "SECURITY TAG | Key Management System or Service manages cryptographic keys throughout their lifecycle, including creation, storage, rotation, access, and destruction."
+  },
+  {
+    "id": "tier1__hsm",
+    "abbreviation": "HSM",
+    "protocol": "KEY MANAGEMENT",
+    "description": "SECURITY TAG | Hardware Security Module is a dedicated physical device that securely generates, stores, and uses cryptographic keys."
+  },
+  {
+    "id": "tier1__ip",
+    "abbreviation": "IP",
+    "protocol": "NETWORKING",
+    "description": "SECURITY TAG | Internet Protocol provides addressing and routing for packets across interconnected networks."
+  },
+  {
+    "id": "tier1__tcp",
+    "abbreviation": "TCP",
+    "protocol": "TRANSPORT PROTOCOL",
+    "description": "SECURITY TAG | Transmission Control Protocol is connection-oriented and provides reliable, ordered delivery of data between applications."
+  },
+  {
+    "id": "tier1__udp",
+    "abbreviation": "UDP",
+    "protocol": "TRANSPORT PROTOCOL",
+    "description": "SECURITY TAG | User Datagram Protocol is connectionless and provides low-overhead data delivery without guaranteeing delivery, ordering, or retransmission."
+  },
+  {
+    "id": "tier1__dns",
+    "abbreviation": "DNS",
+    "protocol": "PORT 53",
+    "description": "SECURITY TAG | Domain Name System resolves domain names to records such as IP addresses. It commonly uses UDP port 53 and TCP port 53."
+  },
+  {
+    "id": "tier1__dhcp",
+    "abbreviation": "DHCP",
+    "protocol": "PORTS 67/68",
+    "description": "SECURITY TAG | Dynamic Host Configuration Protocol automatically assigns IP addresses and network settings; IPv4 servers use UDP port 67 and clients use UDP port 68."
+  },
+  {
+    "id": "tier1__arp",
+    "abbreviation": "ARP",
+    "protocol": "NETWORKING",
+    "description": "SECURITY TAG | Address Resolution Protocol maps IPv4 addresses to MAC addresses on a local network; ARP spoofing can enable traffic interception."
+  },
+  {
+    "id": "tier1__icmp",
+    "abbreviation": "ICMP",
+    "protocol": "NETWORKING",
+    "description": "SECURITY TAG | Internet Control Message Protocol carries network diagnostics and error messages; tools such as ping commonly use ICMP echo requests and replies."
+  },
+  {
+    "id": "tier1__nat",
+    "abbreviation": "NAT",
+    "protocol": "NETWORKING",
+    "description": "SECURITY TAG | Network Address Translation modifies IP address information as traffic passes between networks, commonly allowing private IPv4 addresses to share a public address."
+  },
+  {
+    "id": "tier1__vpn",
+    "abbreviation": "VPN",
+    "protocol": "NETWORK SECURITY",
+    "description": "SECURITY TAG | Virtual Private Network creates a protected connection over an untrusted network, commonly encrypting traffic between remote users or network gateways."
+  },
+  {
+    "id": "tier1__ipsec",
+    "abbreviation": "IPsec",
+    "protocol": "NETWORK SECURITY",
+    "description": "SECURITY TAG | Internet Protocol Security protects IP communications using security mechanisms for authentication, integrity, and encryption; it is commonly used in VPNs."
+  },
+  {
+    "id": "tier1__ssh",
+    "abbreviation": "SSH",
+    "protocol": "PORT 22",
+    "description": "SECURITY TAG | Secure Shell provides encrypted remote administration and secure command execution over TCP port 22."
+  },
+  {
+    "id": "tier1__rdp",
+    "abbreviation": "RDP",
+    "protocol": "PORT 3389",
+    "description": "SECURITY TAG | Remote Desktop Protocol enables remote graphical access to computers, commonly using TCP port 3389; exposed services should be strongly secured."
+  },
+  {
+    "id": "tier1__snmp",
+    "abbreviation": "SNMP",
+    "protocol": "PORTS 161/162",
+    "description": "SECURITY TAG | Simple Network Management Protocol monitors and manages network devices; UDP port 161 handles queries and UDP port 162 commonly receives traps."
+  },
+  {
+    "id": "tier1__ntp",
+    "abbreviation": "NTP",
+    "protocol": "PORT 123",
+    "description": "SECURITY TAG | Network Time Protocol synchronizes system clocks, commonly using UDP port 123; accurate time supports reliable logs and incident investigation."
+  },
+  {
+    "id": "tier1__ldap",
+    "abbreviation": "LDAP",
+    "protocol": "PORT 389",
+    "description": "SECURITY TAG | Lightweight Directory Access Protocol accesses and manages directory information, such as user accounts and groups; standard LDAP commonly uses TCP port 389."
+  },
+  {
+    "id": "tier1__radius",
+    "abbreviation": "RADIUS",
+    "protocol": "PORTS 1812/1813",
+    "description": "SECURITY TAG | Remote Authentication Dial-In User Service centralizes network access authentication, authorization, and accounting; commonly uses UDP ports 1812 and 1813."
+  },
+  {
+    "id": "tier1__tacacs",
+    "abbreviation": "TACACS+",
+    "protocol": "PORT 49",
+    "description": "SECURITY TAG | Terminal Access Controller Access-Control System Plus provides centralized authentication, authorization, and accounting, commonly for network device administration, over TCP port 49."
+  },
+  {
+    "id": "tier1__sftp",
+    "abbreviation": "SFTP",
+    "protocol": "PORT 22",
+    "description": "SECURITY TAG | SSH File Transfer Protocol securely transfers and manages files over SSH, commonly using TCP port 22."
+  },
+  {
+    "id": "tier1__ftp",
+    "abbreviation": "FTP",
+    "protocol": "PORTS 20/21",
+    "description": "SECURITY TAG | File Transfer Protocol transfers files; traditional active-mode FTP uses TCP port 21 for control and TCP port 20 for data, without built-in encryption."
+  },
+  {
+    "id": "tier1__ftps",
+    "abbreviation": "FTPS",
+    "protocol": "PORTS 21/990",
+    "description": "SECURITY TAG | File Transfer Protocol Secure adds TLS protection to FTP; explicit FTPS commonly starts on TCP port 21, while implicit FTPS commonly uses TCP port 990."
+  },
+  {
+    "id": "tier1__http",
+    "abbreviation": "HTTP",
+    "protocol": "PORT 80",
+    "description": "SECURITY TAG | Hypertext Transfer Protocol transfers web content and commonly uses TCP port 80; HTTP does not provide transport encryption by itself."
+  },
+  {
+    "id": "tier1__https",
+    "abbreviation": "HTTPS",
+    "protocol": "PORT 443",
+    "description": "SECURITY TAG | Hypertext Transfer Protocol Secure protects HTTP traffic using TLS, providing transport encryption and server authentication when certificates are properly validated."
+  },
+  {
+    "id": "tier1__smtp",
+    "abbreviation": "SMTP",
+    "protocol": "PORTS 25/587",
+    "description": "SECURITY TAG | Simple Mail Transfer Protocol sends email; TCP port 25 commonly handles server-to-server transfer, while port 587 commonly handles client email submission."
+  },
+  {
+    "id": "tier1__imap",
+    "abbreviation": "IMAP",
+    "protocol": "PORT 143",
+    "description": "SECURITY TAG | Internet Message Access Protocol retrieves and synchronizes email while typically keeping messages on the server; standard IMAP uses TCP port 143."
+  },
+  {
+    "id": "tier1__pop3",
+    "abbreviation": "POP3",
+    "protocol": "PORT 110",
+    "description": "SECURITY TAG | Post Office Protocol version 3 retrieves email from a server, often downloading messages to a client; standard POP3 uses TCP port 110."
+  },
+  {
+    "id": "tier1__wep",
+    "abbreviation": "WEP",
+    "protocol": "DEPRECATED WIRELESS SECURITY",
+    "description": "SECURITY TAG | DEPRECATED: Wired Equivalent Privacy uses weak wireless encryption that can be broken; replace it with modern WPA2 or WPA3 security."
+  },
+  {
+    "id": "tier1__wpa",
+    "abbreviation": "WPA",
+    "protocol": "WIRELESS SECURITY",
+    "description": "SECURITY TAG | Wi-Fi Protected Access was introduced to improve upon WEP; original WPA is outdated, so use modern WPA2 or WPA3 configurations."
+  },
+  {
+    "id": "tier1__wpa2",
+    "abbreviation": "WPA2",
+    "protocol": "WIRELESS SECURITY",
+    "description": "SECURITY TAG | Wi-Fi Protected Access 2 commonly uses AES-based CCMP for wireless encryption; configure strong authentication and avoid obsolete TKIP."
+  },
+  {
+    "id": "tier1__wpa3",
+    "abbreviation": "WPA3",
+    "protocol": "RECOMMENDED WIRELESS SECURITY",
+    "description": "SECURITY TAG | Wi-Fi Protected Access 3 improves wireless security, including stronger password-based authentication through SAE in Personal mode."
+  },
+  {
+    "id": "tier1__wps",
+    "abbreviation": "WPS",
+    "protocol": "WIRELESS SECURITY",
+    "description": "SECURITY TAG | Wi-Fi Protected Setup simplifies connecting devices to wireless networks but can introduce security risks, especially with vulnerable PIN-based implementations. Replaced by DPP (Device Provisioning Protocol)."
+  },
+  {
+    "id": "tier1__ssid",
+    "abbreviation": "SSID",
+    "protocol": "WIRELESS NETWORKING",
+    "description": "SECURITY TAG | Service Set Identifier is the name identifying a Wi-Fi network; hiding the SSID does not provide meaningful security by itself."
+  },
+  {
+    "id": "tier1__bssid",
+    "abbreviation": "BSSID",
+    "protocol": "WIRELESS NETWORKING",
+    "description": "SECURITY TAG | Basic Service Set Identifier identifies a specific wireless access point or basic service set, commonly using the access point radio's MAC address."
+  },
+  {
+    "id": "tier1__eap",
+    "abbreviation": "EAP",
+    "protocol": "AUTHENTICATION",
+    "description": "SECURITY TAG | Extensible Authentication Protocol provides a framework for authentication methods commonly used with enterprise Wi-Fi and network access control."
+  },
+  {
+    "id": "tier1__peap",
+    "abbreviation": "PEAP",
+    "protocol": "AUTHENTICATION",
+    "description": "SECURITY TAG | Protected Extensible Authentication Protocol encapsulates EAP inside a TLS-protected tunnel, commonly supporting enterprise wireless authentication."
+  },
+  {
+    "id": "tier1__psk",
+    "abbreviation": "PSK",
+    "protocol": "AUTHENTICATION",
+    "description": "SECURITY TAG | Pre-Shared Key is a secret shared in advance by authorized users or devices, commonly used for personal Wi-Fi authentication."
+  }
+]

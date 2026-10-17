@@ -1,0 +1,374 @@
+[
+  {
+    "id": "tier2__iaas",
+    "abbreviation": "IaaS",
+    "protocol": "CLOUD COMPUTING",
+    "description": "SECURITY TAG | Infrastructure as a Service provides virtualized computing resources, including servers, storage, and networking. Customers manage operating systems, applications, and configurations."
+  },
+  {
+    "id": "tier2__paas",
+    "abbreviation": "PaaS",
+    "protocol": "CLOUD COMPUTING",
+    "description": "SECURITY TAG | Platform as a Service provides a managed environment for developing and deploying applications while the provider manages underlying infrastructure and platform components."
+  },
+  {
+    "id": "tier2__saas",
+    "abbreviation": "SaaS",
+    "protocol": "CLOUD COMPUTING",
+    "description": "SECURITY TAG | Software as a Service delivers applications over the internet. The provider manages the application and underlying infrastructure."
+  },
+  {
+    "id": "tier2__faas",
+    "abbreviation": "FaaS",
+    "protocol": "CLOUD COMPUTING",
+    "description": "SECURITY TAG | Function as a Service runs individual functions in a managed, event-driven environment without requiring customers to manage the underlying servers."
+  },
+  {
+    "id": "tier2__csp",
+    "abbreviation": "CSP",
+    "protocol": "CLOUD SECURITY",
+    "description": "SECURITY TAG | Cloud Service Provider delivers cloud computing services, such as storage, networking, platforms, and hosted applications."
+  },
+  {
+    "id": "tier2__casb",
+    "abbreviation": "CASB",
+    "protocol": "CLOUD SECURITY",
+    "description": "SECURITY TAG | Cloud Access Security Broker enforces organizational security policies between users and cloud services, helping monitor usage and protect sensitive data."
+  },
+  {
+    "id": "tier2__sase",
+    "abbreviation": "SASE",
+    "protocol": "NETWORK SECURITY",
+    "description": "SECURITY TAG | Secure Access Service Edge combines networking and security capabilities, such as SD-WAN, secure web gateways, and zero-trust access, through a cloud-oriented architecture."
+  },
+  {
+    "id": "tier2__ztna",
+    "abbreviation": "ZTNA",
+    "protocol": "ZERO TRUST",
+    "description": "SECURITY TAG | Zero Trust Network Access grants access to specific resources based on identity, device posture, and policy rather than trusting users based solely on network location."
+  },
+  {
+    "id": "tier2__iac",
+    "abbreviation": "IaC",
+    "protocol": "CLOUD SECURITY",
+    "description": "SECURITY TAG | Infrastructure as Code defines and provisions infrastructure through machine-readable configuration files, enabling repeatable deployments and automated security checks."
+  },
+  {
+    "id": "tier2__ci_cd",
+    "abbreviation": "CI/CD",
+    "protocol": "SOFTWARE SECURITY",
+    "description": "SECURITY TAG | Continuous Integration and Continuous Delivery or Deployment automate code integration, testing, and release workflows; security checks can identify vulnerabilities before deployment."
+  },
+  {
+    "id": "tier2__vpc",
+    "abbreviation": "VPC",
+    "protocol": "CLOUD NETWORKING",
+    "description": "SECURITY TAG | Virtual Private Cloud provides a logically isolated network environment within a public cloud, with configurable subnets, routing, and access controls."
+  },
+  {
+    "id": "tier2__sdn",
+    "abbreviation": "SDN",
+    "protocol": "NETWORKING",
+    "description": "SECURITY TAG | Software-Defined Networking separates network control from data forwarding, allowing centralized, programmable management of network behavior."
+  },
+  {
+    "id": "tier2__vlan",
+    "abbreviation": "VLAN",
+    "protocol": "NETWORK SEGMENTATION",
+    "description": "SECURITY TAG | Virtual Local Area Network logically separates devices into distinct Layer 2 broadcast domains, helping isolate traffic and enforce network security boundaries."
+  },
+  {
+    "id": "tier2__vxlan",
+    "abbreviation": "VXLAN",
+    "protocol": "NETWORK SEGMENTATION",
+    "description": "SECURITY TAG | Virtual Extensible LAN encapsulates Layer 2 Ethernet frames over a Layer 3 network, enabling scalable logical network segmentation across infrastructure."
+  },
+  {
+    "id": "tier2__waf",
+    "abbreviation": "WAF",
+    "protocol": "WEB SECURITY",
+    "description": "SECURITY TAG | Web Application Firewall filters HTTP and HTTPS traffic to help protect web applications from attacks such as SQL injection and cross-site scripting."
+  },
+  {
+    "id": "tier2__ngfw",
+    "abbreviation": "NGFW",
+    "protocol": "NETWORK SECURITY",
+    "description": "SECURITY TAG | Next-Generation Firewall combines traditional traffic filtering with advanced capabilities such as application awareness, intrusion prevention, and deep packet inspection."
+  },
+  {
+    "id": "tier2__cdn",
+    "abbreviation": "CDN",
+    "protocol": "NETWORK SECURITY",
+    "description": "SECURITY TAG | Content Delivery Network distributes content across geographically dispersed servers to improve performance and availability; some CDNs also provide DDoS protection."
+  },
+  {
+    "id": "tier2__api",
+    "abbreviation": "API",
+    "protocol": "APPLICATION SECURITY",
+    "description": "SECURITY TAG | Application Programming Interface defines how software components communicate. APIs require appropriate authentication, authorization, input validation, and rate limiting."
+  },
+  {
+    "id": "tier2__saml",
+    "abbreviation": "SAML",
+    "protocol": "IDENTITY MANAGEMENT",
+    "description": "SECURITY TAG | Security Assertion Markup Language exchanges authentication and authorization information between identity providers and applications, commonly enabling enterprise single sign-on."
+  },
+  {
+    "id": "tier2__oauth",
+    "abbreviation": "OAuth",
+    "protocol": "IDENTITY MANAGEMENT",
+    "description": "SECURITY TAG | OAuth 2.0 is an authorization framework that allows applications to obtain limited access to resources without receiving the user's password."
+  },
+  {
+    "id": "tier2__oidc",
+    "abbreviation": "OIDC",
+    "protocol": "IDENTITY MANAGEMENT",
+    "description": "SECURITY TAG | OpenID Connect adds an authentication and identity layer to OAuth 2.0, allowing applications to verify users and obtain identity information."
+  },
+  {
+    "id": "tier2__kerberos",
+    "abbreviation": "Kerberos",
+    "protocol": "AUTHENTICATION",
+    "description": "SECURITY TAG | Kerberos is a ticket-based network authentication protocol that uses a trusted Key Distribution Center to authenticate users and services."
+  },
+  {
+    "id": "tier2__idp",
+    "abbreviation": "IdP",
+    "protocol": "IDENTITY MANAGEMENT",
+    "description": "SECURITY TAG | Identity Provider authenticates users and supplies identity information or authentication assertions to applications and services."
+  },
+  {
+    "id": "tier2__fido2",
+    "abbreviation": "FIDO2",
+    "protocol": "AUTHENTICATION",
+    "description": "SECURITY TAG | Fast Identity Online 2 supports phishing-resistant passwordless authentication using public-key cryptography, including compatible security keys and passkeys."
+  },
+  {
+    "id": "tier2__totp",
+    "abbreviation": "TOTP",
+    "protocol": "MULTIFACTOR AUTHENTICATION",
+    "description": "SECURITY TAG | Time-Based One-Time Password generates temporary authentication codes using a shared secret and the current time, commonly for multifactor authentication."
+  },
+  {
+    "id": "tier2__hotp",
+    "abbreviation": "HOTP",
+    "protocol": "MULTIFACTOR AUTHENTICATION",
+    "description": "SECURITY TAG | HMAC-Based One-Time Password generates authentication codes using a shared secret and counter, advancing the counter as new codes are generated."
+  },
+  {
+    "id": "tier2__chap",
+    "abbreviation": "CHAP",
+    "protocol": "AUTHENTICATION",
+    "description": "SECURITY TAG | Challenge-Handshake Authentication Protocol uses a challenge-response exchange to authenticate a client without transmitting the password directly during the exchange."
+  },
+  {
+    "id": "tier2__eap_tls",
+    "abbreviation": "EAP-TLS",
+    "protocol": "AUTHENTICATION",
+    "description": "SECURITY TAG | Extensible Authentication Protocol with Transport Layer Security uses certificates for strong authentication and can provide mutual authentication in enterprise network access."
+  },
+  {
+    "id": "tier2__spf",
+    "abbreviation": "SPF",
+    "protocol": "EMAIL SECURITY",
+    "description": "SECURITY TAG | Sender Policy Framework allows domain owners to publish DNS records identifying mail servers authorized to send email for their domain."
+  },
+  {
+    "id": "tier2__dkim",
+    "abbreviation": "DKIM",
+    "protocol": "EMAIL SECURITY",
+    "description": "SECURITY TAG | DomainKeys Identified Mail uses cryptographic signatures to help receivers verify email domain association and detect changes to signed message content."
+  },
+  {
+    "id": "tier2__dmarc",
+    "abbreviation": "DMARC",
+    "protocol": "EMAIL SECURITY",
+    "description": "SECURITY TAG | Domain-based Message Authentication, Reporting, and Conformance defines email authentication policies using SPF and DKIM alignment, including instructions for handling failures and reporting."
+  },
+  {
+    "id": "tier2__av",
+    "abbreviation": "AV",
+    "protocol": "ENDPOINT SECURITY",
+    "description": "SECURITY TAG | Antivirus detects, quarantines, or removes malicious software using signatures, heuristics, and behavioral analysis."
+  },
+  {
+    "id": "tier2__epp",
+    "abbreviation": "EPP",
+    "protocol": "ENDPOINT SECURITY",
+    "description": "SECURITY TAG | Endpoint Protection Platform provides preventive security capabilities, such as antivirus, exploit prevention, and device protection, for endpoint systems."
+  },
+  {
+    "id": "tier2__tpm",
+    "abbreviation": "TPM",
+    "protocol": "HARDWARE SECURITY",
+    "description": "SECURITY TAG | Trusted Platform Module is a hardware-based security component that supports protected cryptographic key storage, platform integrity measurements, and trusted boot features."
+  },
+  {
+    "id": "tier2__fim",
+    "abbreviation": "FIM",
+    "protocol": "INTEGRITY MONITORING",
+    "description": "SECURITY TAG | File Integrity Monitoring detects unauthorized changes to files, configurations, and system objects by comparing their current state with a trusted baseline."
+  },
+  {
+    "id": "tier2__utm",
+    "abbreviation": "UTM",
+    "protocol": "NETWORK SECURITY",
+    "description": "SECURITY TAG | Unified Threat Management combines multiple security functions, such as firewalling, intrusion prevention, antivirus, and content filtering, into one platform."
+  },
+  {
+    "id": "tier2__nac",
+    "abbreviation": "NAC",
+    "protocol": "NETWORK ACCESS CONTROL",
+    "description": "SECURITY TAG | Network Access Control evaluates users and devices before or during network access, enforcing policies based on identity, authorization, and device security posture."
+  },
+  {
+    "id": "tier2__grc",
+    "abbreviation": "GRC",
+    "protocol": "RISK MANAGEMENT",
+    "description": "SECURITY TAG | Governance, Risk, and Compliance aligns organizational policies, risk management, and regulatory obligations to support effective security oversight."
+  },
+  {
+    "id": "tier2__sle",
+    "abbreviation": "SLE",
+    "protocol": "RISK MANAGEMENT",
+    "description": "SECURITY TAG | Single Loss Expectancy estimates the financial loss from one occurrence of a risk. Calculate SLE by multiplying asset value by exposure factor."
+  },
+  {
+    "id": "tier2__aro",
+    "abbreviation": "ARO",
+    "protocol": "RISK MANAGEMENT",
+    "description": "SECURITY TAG | Annualized Rate of Occurrence estimates how many times a specific loss event is expected to occur per year."
+  },
+  {
+    "id": "tier2__ale",
+    "abbreviation": "ALE",
+    "protocol": "RISK MANAGEMENT",
+    "description": "SECURITY TAG | Annualized Loss Expectancy estimates yearly financial loss from a risk. Calculate ALE by multiplying Single Loss Expectancy by Annualized Rate of Occurrence."
+  },
+  {
+    "id": "tier2__sla",
+    "abbreviation": "SLA",
+    "protocol": "GOVERNANCE",
+    "description": "SECURITY TAG | Service-Level Agreement defines expected service performance, availability targets, responsibilities, and remedies between a service provider and customer."
+  },
+  {
+    "id": "tier2__mou",
+    "abbreviation": "MOU",
+    "protocol": "GOVERNANCE",
+    "description": "SECURITY TAG | Memorandum of Understanding documents a shared understanding, intentions, or planned cooperation between parties; its legal enforceability depends on its terms and applicable law."
+  },
+  {
+    "id": "tier2__moa",
+    "abbreviation": "MOA",
+    "protocol": "GOVERNANCE",
+    "description": "SECURITY TAG | Memorandum of Agreement documents agreed-upon responsibilities, arrangements, or commitments between parties."
+  },
+  {
+    "id": "tier2__nda",
+    "abbreviation": "NDA",
+    "protocol": "GOVERNANCE",
+    "description": "SECURITY TAG | Non-Disclosure Agreement establishes obligations to protect confidential information shared between parties."
+  },
+  {
+    "id": "tier2__aup",
+    "abbreviation": "AUP",
+    "protocol": "SECURITY POLICY",
+    "description": "SECURITY TAG | Acceptable Use Policy defines permitted and prohibited uses of organizational systems, networks, devices, and information resources."
+  },
+  {
+    "id": "tier2__pii",
+    "abbreviation": "PII",
+    "protocol": "DATA PRIVACY",
+    "description": "SECURITY TAG | Personally Identifiable Information includes information that identifies or can reasonably be linked to an individual, requiring appropriate protection against unauthorized disclosure."
+  },
+  {
+    "id": "tier2__phi",
+    "abbreviation": "PHI",
+    "protocol": "DATA PRIVACY",
+    "description": "SECURITY TAG | Protected Health Information is individually identifiable health information protected under applicable laws, including HIPAA when its requirements apply."
+  },
+  {
+    "id": "tier2__gdpr",
+    "abbreviation": "GDPR",
+    "protocol": "DATA PRIVACY",
+    "description": "SECURITY TAG | General Data Protection Regulation is a European Union data protection law governing personal data processing and individuals' privacy rights."
+  },
+  {
+    "id": "tier2__pci_dss",
+    "abbreviation": "PCI DSS",
+    "protocol": "COMPLIANCE",
+    "description": "SECURITY TAG | Payment Card Industry Data Security Standard establishes security requirements for organizations that store, process, or transmit payment card account data."
+  },
+  {
+    "id": "tier2__nist",
+    "abbreviation": "NIST",
+    "protocol": "SECURITY STANDARDS",
+    "description": "SECURITY TAG | National Institute of Standards and Technology publishes cybersecurity standards, frameworks, and guidance used to manage security risks and protect information systems."
+  },
+  {
+    "id": "tier2__iso",
+    "abbreviation": "ISO",
+    "protocol": "SECURITY STANDARDS",
+    "description": "SECURITY TAG | International Organization for Standardization develops international standards, including ISO/IEC 27001 for information security management systems."
+  },
+  {
+    "id": "tier2__oov",
+    "abbreviation": "OoV",
+    "protocol": "DIGITAL FORENSICS",
+    "description": "SECURITY TAG | Order of Volatility defines the sequence for collecting evidence from most to least volatile: CPU cache/registers, RAM, swap files, storage drives, network logs, and archived backups."
+  },
+  {
+    "id": "tier2__legal_hold",
+    "abbreviation": "Legal Hold",
+    "protocol": "DIGITAL FORENSICS",
+    "description": "SECURITY TAG | Legal Hold or Preservation Order requires an organization to pause routine data destruction and preserve relevant records and digital evidence for litigation or investigations."
+  },
+  {
+    "id": "tier2__auth_scan",
+    "abbreviation": "Auth Scan",
+    "protocol": "VULNERABILITY MANAGEMENT",
+    "description": "SECURITY TAG | Credentialed Vulnerability Scan uses logged-in administrative access to inspect system configurations, installed patches, and local files for hidden vulnerabilities."
+  },
+  {
+    "id": "tier2__unauth_scan",
+    "abbreviation": "Unauth Scan",
+    "protocol": "VULNERABILITY MANAGEMENT",
+    "description": "SECURITY TAG | Non-Credentialed Vulnerability Scan probes target systems without access credentials, viewing the network from an external attacker's perspective to find open ports and exposed services."
+  },
+  {
+    "id": "tier2__active_recon",
+    "abbreviation": "Active Recon",
+    "protocol": "RECONNAISSANCE",
+    "description": "SECURITY TAG | Active Reconnaissance directly interacts with target systems using tools like port scanners and vulnerability tools, leaving log entries and risking detection."
+  },
+  {
+    "id": "tier2__passive_recon",
+    "abbreviation": "Passive Recon",
+    "protocol": "RECONNAISSANCE",
+    "description": "SECURITY TAG | Passive Reconnaissance gathers intelligence without directly interacting with the target, utilizing open-source intelligence (OSINT), public DNS records, and social media."
+  },
+  {
+    "id": "tier2__false_positive",
+    "abbreviation": "False Positive",
+    "protocol": "VULNERABILITY MANAGEMENT",
+    "description": "SECURITY TAG | False Positive occurs when a security scanner incorrectly identifies a benign configuration or nonexistent issue as an active threat or vulnerability."
+  },
+  {
+    "id": "tier2__mantrap",
+    "abbreviation": "Mantrap",
+    "protocol": "PHYSICAL SECURITY",
+    "description": "SECURITY TAG | Access Control Vestibule or Mantrap uses interlocking physical doors that allow only one door to open at a time, preventing unauthorized entry and tailgating."
+  },
+  {
+    "id": "tier2__bollard",
+    "abbreviation": "Bollard",
+    "protocol": "PHYSICAL SECURITY",
+    "description": "SECURITY TAG | Security Bollards are heavy physical posts or barriers designed to prevent vehicle ramming and unauthorized vehicular access to sensitive buildings or perimeters."
+  },
+  {
+    "id": "tier2__faraday_cage",
+    "abbreviation": "Faraday Cage",
+    "protocol": "PHYSICAL SECURITY",
+    "description": "SECURITY TAG | Faraday Shielding or Cage blocks external electromagnetic signals and radio frequencies, preventing remote wiping or tampering of seized digital devices during evidence collection."
+  }
+]

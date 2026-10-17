@@ -1,0 +1,170 @@
+[
+  {
+    "id": "tier3__sast",
+    "abbreviation": "SAST",
+    "protocol": "APPLICATION SECURITY",
+    "description": "SECURITY TAG | Static Application Security Testing analyzes source code or compiled representations without executing the application to identify potential vulnerabilities early in development."
+  },
+  {
+    "id": "tier3__dast",
+    "abbreviation": "DAST",
+    "protocol": "APPLICATION SECURITY",
+    "description": "SECURITY TAG | Dynamic Application Security Testing examines a running application from the outside to identify vulnerabilities such as injection flaws and configuration weaknesses."
+  },
+  {
+    "id": "tier3__iast",
+    "abbreviation": "IAST",
+    "protocol": "APPLICATION SECURITY",
+    "description": "SECURITY TAG | Interactive Application Security Testing analyzes application behavior during execution, often using instrumentation to identify vulnerabilities."
+  },
+  {
+    "id": "tier3__sca",
+    "abbreviation": "SCA",
+    "protocol": "APPLICATION SECURITY",
+    "description": "SECURITY TAG | Software Composition Analysis identifies third-party software components, vulnerable dependencies, and potential open-source license compliance issues."
+  },
+  {
+    "id": "tier3__sbom",
+    "abbreviation": "SBOM",
+    "protocol": "SOFTWARE SECURITY",
+    "description": "SECURITY TAG | Software Bill of Materials inventories software components and dependencies, helping organizations identify vulnerable libraries and manage supply chain risks."
+  },
+  {
+    "id": "tier3__cwe",
+    "abbreviation": "CWE",
+    "protocol": "VULNERABILITY MANAGEMENT",
+    "description": "SECURITY TAG | Common Weakness Enumeration categorizes software and hardware weakness types, helping security professionals identify recurring vulnerability patterns."
+  },
+  {
+    "id": "tier3__ioc",
+    "abbreviation": "IOC",
+    "protocol": "THREAT DETECTION",
+    "description": "SECURITY TAG | Indicator of Compromise is evidence suggesting a system may be compromised, such as malicious file hashes, suspicious IP addresses, or unexpected processes."
+  },
+  {
+    "id": "tier3__ioa",
+    "abbreviation": "IOA",
+    "protocol": "THREAT DETECTION",
+    "description": "SECURITY TAG | Indicator of Attack identifies suspicious behaviors or activities associated with an ongoing or attempted attack rather than relying only on known compromise artifacts."
+  },
+  {
+    "id": "tier3__bas",
+    "abbreviation": "BAS",
+    "protocol": "SECURITY TESTING",
+    "description": "SECURITY TAG | Breach and Attack Simulation safely simulates adversarial techniques to evaluate security controls and identify defensive gaps."
+  },
+  {
+    "id": "tier3__pt",
+    "abbreviation": "PT",
+    "protocol": "SECURITY TESTING",
+    "description": "SECURITY TAG | Penetration Testing is authorized security testing that attempts to exploit vulnerabilities to demonstrate potential impact and validate defenses."
+  },
+  {
+    "id": "tier3__aslr",
+    "abbreviation": "ASLR",
+    "protocol": "SYSTEM SECURITY",
+    "description": "SECURITY TAG | Address Space Layout Randomization randomizes memory locations used by programs, making exploitation more difficult by reducing predictability."
+  },
+  {
+    "id": "tier3__dep",
+    "abbreviation": "DEP",
+    "protocol": "SYSTEM SECURITY",
+    "description": "SECURITY TAG | Data Execution Prevention marks certain memory regions as non-executable, helping prevent attackers from executing malicious code in data-only memory areas."
+  },
+  {
+    "id": "tier3__rasp",
+    "abbreviation": "RASP",
+    "protocol": "APPLICATION SECURITY",
+    "description": "SECURITY TAG | Runtime Application Self-Protection monitors an application during execution and can detect or block attacks from within the running application."
+  },
+  {
+    "id": "tier3__rat",
+    "abbreviation": "RAT",
+    "protocol": "MALWARE",
+    "description": "SECURITY TAG | Remote Access Trojan is malware that provides an attacker with unauthorized remote access to a compromised system."
+  },
+  {
+    "id": "tier3__c2",
+    "abbreviation": "C2",
+    "protocol": "MALWARE",
+    "description": "SECURITY TAG | Command and Control refers to infrastructure or communication channels attackers use to remotely control compromised systems and issue malicious instructions."
+  },
+  {
+    "id": "tier3__c_c",
+    "abbreviation": "C&C",
+    "protocol": "MALWARE",
+    "description": "SECURITY TAG | Command and Control is attacker infrastructure used to communicate with compromised devices, coordinate malicious activity, and distribute commands."
+  },
+  {
+    "id": "tier3__pup",
+    "abbreviation": "PUP",
+    "protocol": "MALWARE",
+    "description": "SECURITY TAG | Potentially Unwanted Program is software that may be undesirable because of intrusive behavior, bundled installations, privacy concerns, or unwanted system changes."
+  },
+  {
+    "id": "tier3__byod",
+    "abbreviation": "BYOD",
+    "protocol": "MOBILE SECURITY",
+    "description": "SECURITY TAG | Bring Your Own Device allows employees to use personal devices for work, introducing security concerns involving data separation, access control, and device management."
+  },
+  {
+    "id": "tier3__cope",
+    "abbreviation": "COPE",
+    "protocol": "MOBILE SECURITY",
+    "description": "SECURITY TAG | Corporate-Owned, Personally Enabled describes organization-owned devices that employees may also use for approved personal activities."
+  },
+  {
+    "id": "tier3__cyod",
+    "abbreviation": "CYOD",
+    "protocol": "MOBILE SECURITY",
+    "description": "SECURITY TAG | Choose Your Own Device allows employees to select work devices from an organization-approved list, balancing user preference with security requirements."
+  },
+  {
+    "id": "tier3__mdm",
+    "abbreviation": "MDM",
+    "protocol": "MOBILE SECURITY",
+    "description": "SECURITY TAG | Mobile Device Management centrally configures, monitors, and enforces security policies on mobile devices, including screen locks, encryption, and remote wiping."
+  },
+  {
+    "id": "tier3__mam",
+    "abbreviation": "MAM",
+    "protocol": "MOBILE SECURITY",
+    "description": "SECURITY TAG | Mobile Application Management controls and secures applications and their data on mobile devices, potentially without managing the entire device."
+  },
+  {
+    "id": "tier3__iot",
+    "abbreviation": "IoT",
+    "protocol": "EMERGING TECHNOLOGY",
+    "description": "SECURITY TAG | Internet of Things describes connected physical devices that collect, exchange, or act on data, often introducing risks from weak credentials and limited patching."
+  },
+  {
+    "id": "tier3__ot",
+    "abbreviation": "OT",
+    "protocol": "OPERATIONAL SECURITY",
+    "description": "SECURITY TAG | Operational Technology includes hardware and software that monitors or controls physical processes, where safety and availability are often critical."
+  },
+  {
+    "id": "tier3__ics",
+    "abbreviation": "ICS",
+    "protocol": "OPERATIONAL SECURITY",
+    "description": "SECURITY TAG | Industrial Control Systems monitor or control industrial processes and may include programmable logic controllers, supervisory systems, and operator interfaces."
+  },
+  {
+    "id": "tier3__scada",
+    "abbreviation": "SCADA",
+    "protocol": "OPERATIONAL SECURITY",
+    "description": "SECURITY TAG | Supervisory Control and Data Acquisition systems remotely monitor and control industrial processes, collecting field data and supporting centralized supervisory operations."
+  },
+  {
+    "id": "tier3__plc",
+    "abbreviation": "PLC",
+    "protocol": "OPERATIONAL SECURITY",
+    "description": "SECURITY TAG | Programmable Logic Controller is an industrial computer that executes control logic to operate machinery, equipment, and automated physical processes."
+  },
+  {
+    "id": "tier3__hmi",
+    "abbreviation": "HMI",
+    "protocol": "OPERATIONAL SECURITY",
+    "description": "SECURITY TAG | Human-Machine Interface allows operators to monitor industrial processes, view system status, and issue commands to control equipment."
+  }
+]
